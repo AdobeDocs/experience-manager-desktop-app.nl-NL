@@ -1,92 +1,86 @@
 ---
-source-git-commit: 2c846fb9cd82691f6439e93429dffcca8127ba68
+source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 4%
+source-wordcount: '642'
+ht-degree: 0%
 
 ---
-# Richtlijnen voor het bijdragen aan de documentatie van [!DNL Adobe Experience Manager]
+# Richtsnoeren voor Contribute bij de documentatie
 
 ## Documentatiefilosofie
 
-We weten dat [!DNL Adobe Experience Manager]-gebruikers in zeer competitieve omgevingen werken en ernaar streven om digitale ervaringen te creëren die hen onderscheiden van hun concurrenten. Daarom is het van essentieel belang dat wanneer Adobe geavanceerde nieuwe hulpmiddelen in [!DNL Experience Manager] levert, deze hulpmiddelen met nauwkeurige en duidelijke documentatie worden aangevuld zodat de klant onmiddellijk zijn [!DNL Experience Manager]-investering kan benutten en zijn investeringsrendement kan maximaliseren.
+De gebruikers werken in een hoogst concurrerende milieu&#39;s, die streven om digitale ervaringen tot stand te brengen die hen van hun concurrenten scheiden. Daarom is het van essentieel belang dat, wanneer Adobe geavanceerde nieuwe instrumenten biedt, deze instrumenten worden aangevuld met nauwkeurige en duidelijke documentatie. Documentatie die klanten hun investering laat onmiddellijk gebruiken en ROI maximaliseren.
 
-Het doel van de [!DNL Experience Manager] documentatie is documentatie in de handen van [!DNL Experience Manager] gebruikers te zetten zo spoedig mogelijk. Daarom geven wij prioriteit aan nauwkeurige, bruikbare documentatie en streven wij ernaar deze voortdurend bij te werken en te verbeteren.
+Het doel is de documentatie zo snel mogelijk in de handen van de gebruikers te krijgen. Daarom geeft de Adobe prioriteit aan nauwkeurige, bruikbare documentatie en wordt ernaar gestreefd deze voortdurend bij te werken en te verbeteren.
 
 ## Documentatiebijdragen
 
-Om de [!DNL Experience Manager]-documentatie voortdurend te verbeteren, is de hele community van [!DNL Experience Manager]-gebruikers welkom als bijdrage aan de documentatie. Of het door trekkingsverzoeken of kwesties, de verbeteringen van de documentatie kunnen correcties, verduidelijkingen, uitbreidingen, en extra voorbeelden zijn.
+Om de documentatie voortdurend te verbeteren, is de hele gebruikersgemeenschap welkom om aan de documentatie bij te dragen. Of het door trekkingsverzoeken of kwesties, de verbeteringen van de documentatie kunnen correcties, verduidelijkingen, uitbreidingen, en extra voorbeelden zijn.
 
 ## Documentatienormen
 
-Hoewel wij de bijdragen aan onze documentatie toejuichen, zouden alle bijdragen aan de [!DNL Experience Manager] documentatie, hetzij in de vorm van een trekkingsverzoek of een kwestie, aan onze bijdrage en documentatienormen moeten voldoen.
+Elke bijdrage aan de documentatie, hetzij in de vorm van een pull-verzoek, hetzij in de vorm van een kwestie, moet in overeenstemming zijn met de bijdrage- en documentatienormen van de Adobe.
 
-Bijdragen die niet aan deze normen voldoen, kunnen worden afgewezen.
+### Standaard gebruiksgevallen worden bij de Adobe gedocumenteerd
 
-### We documenteren standaardgebruikskwesties
+De documentatie heeft betrekking op gevallen van standaardgebruik. Gebruiksgevallen die buiten het bereik van de standaard vallen en de ondersteunde installatie en het gebruik van het product maken geen deel uit van de documentatie.
 
-[!DNL Experience Manager] de documentatie heeft betrekking op standaardgebruikstoepassingen. Gebruiksgevallen die buiten het bereik van de standaardinstallatie en het standaardgebruik van het product vallen, maken geen deel uit van de [!DNL Experience Manager]-documentatie.
+De uitzonderingen op deze regel zijn versienota&#39;s waar de bekende kwesties met mogelijke alternerende actie kunnen worden vermeld die de Adobe goedkeurt.
 
-### We documenteren doorgaans geen bugs of de bijbehorende aanraakpunten
+### De bijdragen van de documentatie zijn niet om klantenvragen te beantwoorden
 
-[!DNL Experience Manager] de documentatie heeft betrekking op standaardgebruikstoepassingen. Daarom worden bugs, effecten die door bugs worden veroorzaakt en tijdelijke oorzaken voor bugs over het algemeen niet gedocumenteerd.
+Alle ideeën die u eventueel nodig hebt om de documentatie te verbeteren, zijn welkom als bijdragen. Opmerkingen, problemen en intrekkingsverzoeken zijn echter bedoeld voor *bijdragen* alleen. Zij moeten uw vragen over hoe te om het product te gebruiken, projecten uit te voeren, of technische kwesties op te lossen niet beantwoorden.
 
-De uitzonderingen op deze regel zijn op de versienota&#39;s van toepassing waar de bekende kwesties met mogelijke oplossingen kunnen worden vermeld die door [!DNL Experience Manager] Productbeheer zijn goedgekeurd.
+Eventuele vragen over het gebruik of technische fouten moeten via het normale supportproces via het [[!DNL Experience Manager] Klantenondersteuningsportal](https://experienceleague.adobe.com/?support-solution=Experience+Manager#home) of in de [[!DNL Experience Manager] gemeenschap](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
 
-### De bijdragen van de documentatie zijn niet voor het beantwoorden van technische vragen
-
-Eventuele ideeën die u nodig hebt om de [!DNL Experience Manager]-documentatie te verbeteren, zijn welkom als bijdragen. Opmerkingen, problemen en pull-aanvragen zijn echter alleen bedoeld voor *bijdragen*. Ze zijn niet bedoeld om te worden gebruikt om uw vragen over het gebruik van [!DNL Experience Manager], het implementeren van uw [!DNL Experience Manager]-project of het oplossen van technische problemen te beantwoorden.
-
-Vragen over het gebruik van [!DNL Experience Manager] of technische fouten die u mogelijk hebt gemaakt, moeten via het normale ondersteuningsproces worden gerapporteerd via het [[!DNL Experience Cloud] ondersteuningsportal](https://experienceleague.adobe.com/?support-solution=Experience+Manager#support) of worden besproken in de [Experience Manager community](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
-
-***[!DNL Experience Manager]Documentatiebijdragen zijn geen vervanging voor*** klantenondersteuning van Adobe en dergelijke bijdragen die antwoorden op supportgerelateerde vragen zoeken, worden afgewezen.
+***Documentatiebijdragen zijn geen vervanging voor de Adobe van de klantenservice*** en dergelijke bijdragen die vragen om antwoorden op ondersteunende vragen worden afgewezen.
 
 ### Bijdragen moeten duidelijk verwijzen naar betrokken documentatiepagina&#39;s.
 
-Als u een probleem maakt om verbeteringen in de documentatie voor te stellen, moet u koppelingen naar de betrokken pagina&#39;s opnemen. Als u een probleemmelding maakt met de koppeling **Deze pagina bewerken** op een documentatiepagina, wordt de probleemmelding automatisch gemaakt met een koppeling naar de pagina.
+Als u een probleem maakt om verbeteringen in de documentatie voor te stellen, moet u koppelingen naar de betrokken pagina&#39;s opnemen. Als u een uitgave maakt met de **Deze pagina bewerken** op een documentatiepagina wordt de uitgave automatisch gemaakt met een koppeling naar de pagina.
 
-Dit is niet van toepassing op terugtrekkingsverzoeken aangezien trekkingsverzoeken door hun aard verwijzen naar de betrokken pagina&#39;s.
+Dit proces is niet van toepassing op terugtrekkingsverzoeken aangezien trekkingsverzoeken door hun aard verwijzen naar de betrokken pagina&#39;s.
 
 ## Documentatierichtlijnen
 
-Wij vragen dat bij alle bijdragen aan onze documentatie bepaalde stijlrichtlijnen worden gevolgd.
+Adobe vraagt dat bijdragen aan haar documentatie bepaalde stijlrichtlijnen volgen.
 
-Door deze richtlijnen te volgen wordt de revisie van uw bijdrage gemakkelijker en daarom is integratie in onze documentatie sneller.
+Met deze richtlijnen wordt de revisie van uw bijdrage eenvoudiger en wordt uw bijdrage sneller opgenomen in de documentatie van de Adobe.
 
 ### Taal en stijl
 
 #### Taal
 
-* [!DNL Experience Manager] De documentatie wordt ontworpen en gehandhaafd in het Engels van de V.S..
+* De documentatie is geschreven en wordt onderhouden in het Engels van de V.S.
 * Zin zo eenvoudig mogelijk houden.
 * Houd de taal duidelijk en beknopt.
 
-Lezers van [!DNL Experience Manager]-documentatie zijn wereldwijd en kunnen niet verwachten dat ze native of vloeiende Engelstalige luidsprekers zijn. Vermijd colloquialisme en houd de taal zo duidelijk en eenvoudig mogelijk.
+Alle lezers van de documentatie zijn over de hele wereld beschikbaar en kunnen niet verwachten dat ze native of vloeiende Engelstalige luidsprekers zijn. Vermijd colloquialisme en houd de taal zo duidelijk en eenvoudig mogelijk.
 
-#### Handleiding Microsoft volgen
+#### Volg de Microsoft-handleiding met stijlen
 
-[De Microsoft Manual of ](https://docs.microsoft.com/en-us/style-guide/welcome/) Style is een vrij beschikbare documentatiestijlgids die zich richt op softwaredocumentatie en - [!DNL Experience Manager] documentatie en deze gids waar mogelijk volgt.
+[De Microsoft-stijlhandleiding](https://learn.microsoft.com/en-us/style-guide/welcome/) is een vrij beschikbare gids van de documentatiestijl die zich op softwaredocumentatie concentreert.
 
 ### Opmaak
 
 | Item | Stijl |
-|---|---|
+| -------------------------------------------- | ---------------- |
 | UI-element of -optie | **vet** |
 | Bestandsnaam, pad, gebruikersinvoer, parameterwaarden | `monospaced` |
 | Code, opdrachtregel | ```Code Block``` |
 
-### Schermpresentaties
+### Screenshots
 
-Schermopnamen moeten met de nodige voorzichtigheid worden gebruikt en alleen wanneer een tekstbeschrijving niet volstaat.
+Schermafbeeldingen moeten met de nodige voorzichtigheid worden gebruikt en alleen wanneer een tekstbeschrijving niet volstaat.
 
-Markeertekens of andere annotaties in schermafbeeldingen (zoals rode kaders, pijlen of tekst) mogen niet worden gebruikt. Op deze manier zijn de schermafbeeldingen gemakkelijker te hergebruiken of te repliceren in gelokaliseerde versies van de documentatie.
+Gebruik geen markeringen of andere annotaties, zoals rode kaders, pijlen of tekst op de schermafbeeldingen. Op deze manier zijn de schermafbeeldingen gemakkelijker te hergebruiken en te repliceren in gelokaliseerde versies van de documentatie.
 
 ### Versiespecifieke verwijzingen
 
-Probeer zo veel mogelijk directe verwijzingen naar een specifieke versie in de documentatie te voorkomen. Dit maakt de documentatie flexibeler en verlengbaar voor toekomstige versies.
+Probeer zo veel mogelijk directe verwijzingen naar een specifieke versie in de documentatie te voorkomen. Deze aanbeveling maakt de documentatie flexibeler en uitbreidbaar voor toekomstige versies.
 
-### Gebruik van Dag, [!DNL Experience Manager], CQ, CRX
+### Gebruik van de dag, [!DNL Experience Manager], CQ, CRX
 
-Verwijs het product door zijn volledige naam **Adobe Experience Manager** voor het eerste gebruik in een artikel en verwijs dan naar het als **Experience Manager**.
+Voor het eerste gebruik in een artikel, raadpleegt u het product met de volledige naam **Adobe Experience Manager**. Hierna kunt u het als **Experience Manager**.
 
 Gebruik de termen Dag, Dag Software, CQ en CRX niet, tenzij dit onvermijdelijk is, zoals in klassennamen of verwijzingen naar de geschiedenis van [!DNL Experience Manager].

@@ -1,18 +1,18 @@
 ---
-title: Desktop-app installeren en configureren
-description: Installeren en configureren [!DNL Adobe Experience Manager] desktop-app om mee te werken [!DNL Adobe Experience Manager Assets] en downloadt u de middelen op uw lokale bestandssysteem.
+title: De bureaubladtoepassing installeren en configureren
+description: Installeren en configureren [!DNL Adobe Experience Manager] desktop-app om mee te werken [!DNL Adobe Experience Manager Assets] en download de middelen op uw lokale bestandssysteem.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 2382f615ae3a8b9c076d4037e1644233a2363677
+source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
 
 # Installeren [!DNL Adobe Experience Manager] bureaubladtoepassing {#install-app-v2}
 
-Met de [!DNL Adobe Experience Manager] bureaubladtoepassing, de middelen binnen [!DNL Experience Manager] zijn gemakkelijk beschikbaar op uw lokale bureaublad en kunnen in om het even welke inheemse Desktoptoepassingen worden gebruikt. Elementen kunnen worden voorvertoond, geopend in systeemeigen bureaubladtoepassingen, onthuld in Mac Finder of Windows Verkenner voor plaatsing in andere documenten en lokaal worden gewijzigd - de wijzigingen worden opgeslagen in [!DNL Experience Manager] wanneer u uploadt en er een nieuwe versie wordt gemaakt in de repository.
+Met de [!DNL Adobe Experience Manager] bureaubladtoepassing, de middelen binnen [!DNL Experience Manager] zijn gemakkelijk beschikbaar op uw lokale bureaublad en kunnen in om het even welke inheemse Desktoptoepassingen worden gebruikt. Assets kan worden voorvertoond en geopend in bureaubladtoepassingen. Ze kunnen in Finder of Verkenner zichtbaar worden gemaakt voor gebruik in documenten en lokaal worden bewerkt. Wijzigingen worden opgeslagen naar [!DNL Experience Manager], een nieuwe versie maken na het uploaden.
 
 Een dergelijke integratie maakt het mogelijk verschillende rollen in de organisatie te vervullen:
 
@@ -20,9 +20,9 @@ Een dergelijke integratie maakt het mogelijk verschillende rollen in de organisa
 
 * Open de middelen in om het even welke inheemse Desktoptoepassingen, met inbegrip van derdetoepassingen en in Adobe Creative Cloud. De gebruikers kunnen zich daarbij gemakkelijk aan de verschillende normen houden, waaronder branding.
 
-Te gebruiken [!DNL Experience Manager] desktop-app:
+Als u de opdracht [!DNL Experience Manager] desktop-app:
 
-* Zorg ervoor dat uw [!DNL Experience Manager] versie wordt ondersteund door [!DNL Experience Manager] bureaubladtoepassing. Zie de [systeemvereisten](release-notes.md).
+* Zorg ervoor dat uw [!DNL Experience Manager] versie is compatibel met de [!DNL Experience Manager] bureaubladtoepassing.
 
 * Download en installeer de toepassing. Zie [bureaubladtoepassing installeren](#install-v2) hieronder.
 
@@ -34,15 +34,15 @@ Zie voor meer informatie de [[!DNL Experience Manager] Opmerkingen bij de releas
 
 ## Upgrade uitvoeren vanaf een vorige versie {#upgrade-from-previous-version}
 
-Als u een gebruiker bent van v1.x van de bureaubladtoepassing, begrijpt u de verschillen en overeenkomsten tussen de vorige en de laatste versie van de app. Zie [nieuwe functies in bureaubladtoepassing](introduction.md#whats-new-v2) en [hoe de app werkt](release-notes.md#how-app-works).
+Als u een gebruiker bent van v1.x van de bureaubladtoepassing, begrijpt u de verschillen en overeenkomsten tussen de vorige en de laatste versie van de app. Zie [nieuwe functies in de bureaubladtoepassing](introduction.md#whats-new-v2) en [hoe de app werkt](release-notes.md#how-app-works).
 
 >[!NOTE]
 >
->Twee versies van de bureaubladtoepassing kunnen niet naast elkaar bestaan op een computer. Verwijder de andere versie voordat u een versie installeert.
+>Twee versies van een bureaubladtoepassing kunnen niet naast elkaar bestaan op een computer. Verwijder de andere versie voordat u een versie installeert.
 
 Voer de volgende instructies uit om een upgrade uit te voeren van een vorige versie van de app:
 
-1. Voordat u een upgrade uitvoert, moet u al uw middelen synchroniseren en uw wijzigingen uploaden naar [!DNL Experience Manager]. Zo voorkomt u dat bewerkingen verloren gaan wanneer u de app verwijdert.
+1. Voordat u een upgrade uitvoert, moet u al uw middelen synchroniseren en uw wijzigingen uploaden naar [!DNL Experience Manager]. Zo voorkomt u dat u bewerkingen kwijtraakt wanneer u de app verwijdert.
 
 1. Verwijder de vorige versie van de app. Selecteer bij het verwijderen de optie om de cache te wissen.
 
@@ -52,7 +52,7 @@ Voer de volgende instructies uit om een upgrade uit te voeren van een vorige ver
 
 ## Installeren {#install-v2}
 
-Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Bestaande Adobe verwijderen [!DNL Experience Manager] bureaubladtoepassing v1.x voordat de nieuwste app wordt geïnstalleerd. Zie hierboven voor meer informatie.
+Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Bestaande Adoben verwijderen [!DNL Experience Manager] bureaubladtoepassing v1.x voordat de nieuwste app wordt geïnstalleerd. Zie hierboven voor meer informatie.
 
 1. Download het nieuwste installatieprogramma van de [releaseopmerkingen](release-notes.md) pagina.
 
@@ -60,11 +60,11 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Bestaand
 
 1. Als u een upgrade uitvoert vanaf een andere versie van de app, raadpleegt u [upgrade-bureaubladtoepassing](#upgrade-from-previous-version).
 
-1. Deze stap overslaan als u [!DNL Experience Manager] als [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 of hoger, of [!DNL Experience Manager] 6.5.0 of hoger. Zorg ervoor dat uw [!DNL Experience Manager] voldoet aan de compatibiliteitseisen die in de [releaseopmerkingen](release-notes.md). Download indien nodig de toepasselijke [compatibiliteitspakket](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) en installeer het met de [!DNL Experience Manager] Pakketbeheer als een [!DNL Experience Manager] beheerder. Als u een pakket wilt installeren, raadpleegt u [Hoe te met Pakketten werken](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html).
+1. Deze stap overslaan als u [!DNL Experience Manager] als [!DNL Cloud Service], [!DNL Experience Manager] 6.4.4 of hoger, of [!DNL Experience Manager] 6.5.0 of hoger. Zorg ervoor dat uw [!DNL Experience Manager] voldoet aan de compatibiliteitseisen die in de [releaseopmerkingen](release-notes.md). Download indien nodig de toepasselijke [compatibiliteitspakket](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) en installeer het met de [!DNL Experience Manager] Pakketbeheer als een [!DNL Experience Manager] beheerder. Als u een pakket wilt installeren, raadpleegt u [Hoe te met Pakketten werken](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager).
 
-1. Voer binair het installatieprogramma uit en volg de instructies op het scherm om te installeren.
+1. Voer het installatieprogramma binair uit en volg de instructies op het scherm om te installeren.
 
-1. In Windows wordt mogelijk gevraagd het installatieprogramma te installeren `Visual Studio C++ Redistributable 2015`. Volg de aanwijzingen op het scherm om de installatie uit te voeren. Als de installatie mislukt, wordt deze handmatig geïnstalleerd. Download het installatieprogramma van [hier](https://www.microsoft.com/en-us/download/details.aspx?id=52685) en installeer beide `vc_redist.x64.exe` en `vc_redist.x86.exe` bestanden. Voer de [!DNL Experience Manager] bureaubladtoepassing.
+1. In Windows wordt mogelijk gevraagd het installatieprogramma te installeren `Visual Studio C++ Redistributable 2015`. Volg de aanwijzingen op het scherm om de installatie uit te voeren. Als de installatie mislukt, installeert u deze handmatig. Download het installatieprogramma van [hier](https://www.microsoft.com/en-us/download/details.aspx?id=52685) en installeer beide `vc_redist.x64.exe` en `vc_redist.x86.exe` bestanden. Voer de [!DNL Experience Manager] bureaubladtoepassing.
 
 1. Start de computer opnieuw naar wens. Start en configureer de bureaubladtoepassing.
 
@@ -74,63 +74,63 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Bestaand
 
    ![Verbindingsscherm van bureaubladtoepassing met invoerserveradres](assets/connect_da2.png)
 
-   *Afbeelding: Verbindingsscherm met invoerserveradres.*
+   *Afbeelding: Verbindingsscherm naar adres invoerserver.*
 
-   Selecteren **[!UICONTROL Remember Connection]** om te voorkomen dat u de verbindingsgegevens steeds opgeeft wanneer u zich aanmeldt bij de bureaubladtoepassing.
+   Selecteren **[!UICONTROL Remember Connection]** om te voorkomen dat u de verbindingsgegevens opgeeft wanneer u zich aanmeldt bij de bureaubladtoepassing.
 
    >[!CAUTION]
    >
    >Zorg ervoor dat er geen voorloopspaties of navolgende spaties zijn voor of na het adres van de [!DNL Experience Manager] server. Anders kan de toepassing geen verbinding maken met de [!DNL Experience Manager] server.
 
-1. [Optioneel] Klikken **[!UICONTROL I want to connect a different way]** en klik op **[!UICONTROL Adobe login]** om u aan te melden bij de Experience Manager Assets-server met behulp van Adobe Identity Management Service (IMS). Met de IMS-aanmelding kan de bureaubladtoepassing de toegangstoken automatisch vernieuwen, zodat de gebruiker zich maximaal 14 dagen kan aanmelden. Klikken **[!UICONTROL Direct login]** om het standaardlogin aan uit te voeren [!DNL Experience Manager] server met gebruikersgegevens.
+1. [Optioneel] Klikken **[!UICONTROL I want to connect a different way]** en klik op **[!UICONTROL Adobe login]** om u met Adobe Identity Management Service (IMS) aan te melden bij de Experience Manager Assets-server. Met de IMS-aanmelding kan de bureaubladtoepassing de toegangstoken automatisch vernieuwen, zodat de gebruiker zich maximaal 14 dagen kan aanmelden. Klikken **[!UICONTROL Direct login]** om de standaardopening van een sessie aan uit te voeren [!DNL Experience Manager] met de gebruikersgegevens.
 
-   ![Aanmelden Adobe](assets/adobe-login.png)
+   ![Aanmelding Adobe](assets/adobe-login.png)
 
 1. Als de verbinding is gelukt, kunt u de lijst met mappen en middelen weergeven die beschikbaar zijn in de hoofdmap van het dialoogvenster [!DNL Experience Manager] DAM. U kunt vanuit de app door de mappen bladeren.
 
    ![Bij aanmelding wordt de DAM-inhoud weergegeven in de toepassing](assets/firstview_da2.png)
 
-   *Afbeelding: De toepassing geeft de DAM-inhoud weer na de aanmelding*
+   *Afbeelding: De DAM-inhoud wordt in de toepassing weergegeven na de aanmelding*
 
-1. ([!DNL Experience Manager] 6.5.1 of hoger) Als u een bureaubladtoepassing gebruikt met [!DNL Experience Manager] 6.5.1 of hoger, upgrade S3- of Azure-connector naar versie 1.10.4 of hoger. Zie [Azure-connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#azure-data-store) of [S3-connector](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/data-store-config.html#amazon-s-data-store).
+1. ([!DNL Experience Manager] 6.5.1 of hoger) Als u de bureaubladtoepassing gebruikt met [!DNL Experience Manager] 6.5.1 of hoger, upgrade S3- of Azure-connector naar versie 1.10.4 of hoger. Zie [Azure-connector](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) of [S3-connector](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
 
-   Neem contact op met de Klantenondersteuning van Adobe als u een klant van Adobe Managed Services (AMS) bent.
+   Neem contact op met de klantenondersteuning van de Adobe Managed Services (AMS).
 
 ## Voorkeuren instellen {#set-preferences}
 
 Als u voorkeuren wilt wijzigen, klikt u op ![Pictogram Meer opties](assets/do-not-localize/more_options_da2.png) en **[!UICONTROL Preference]** ![Pictogram Voorkeuren](assets/do-not-localize/preferences_icon_da2.png). In de **[!UICONTROL Preferences]** past u de waarden van het volgende aan:
 
-* [!UICONTROL Launch application on login].
+* [!UICONTROL Launch the application on logon].
 
-* [!UICONTROL Show window when application starts].
+* [!UICONTROL Show a window when the application starts].
 
 * **[!UICONTROL Cache Directory]**: Locatie van de lokale cache van de app (deze bevat de lokaal gedownloade elementen).
 
-* **[!UICONTROL Network Drive Letter]**: De stationsletter die wordt gebruikt om aan de [!DNL Experience Manager] DAM. Wijzig dit niet als u het niet zeker weet. De app kan aan elke stationsletter in Windows worden toegewezen. Als twee gebruikers elementen van verschillende stationsletters plaatsen, kunnen ze de elementen die door elkaar zijn geplaatst niet zien. Het pad van de elementen wordt gewijzigd. De elementen blijven in het binaire bestand (bijvoorbeeld INDD) staan en worden niet verwijderd. In de app worden alle beschikbare stationsletters vermeld en wordt standaard de laatst beschikbare letter gebruikt die doorgaans `Z`.
+* **[!UICONTROL Network Drive Letter]**: De stationsletter die wordt gebruikt om aan de [!DNL Experience Manager] DAM. Wijzig deze stationsletter van het netwerk niet als u niet zeker bent. De app kan aan elke stationsletter in Windows worden toegewezen. Als twee gebruikers elementen van verschillende stationsletters plaatsen, kunnen ze de elementen die door elkaar zijn geplaatst niet zien. Het pad van de elementen wordt gewijzigd. De elementen blijven in het binaire bestand (bijvoorbeeld INDD) staan en worden niet verwijderd. In de app worden alle beschikbare stationsletters vermeld en wordt standaard de laatst beschikbare letter gebruikt die doorgaans `Z`.
 
 * **[!UICONTROL Maximum Cache Size]**: Toegestane cache op de vaste schijf in GB die wordt gebruikt voor het opslaan van lokaal gedownloade elementen.
 
 * **[!UICONTROL Current cache size]**: Opslaggrootte van de lokaal gedownloade elementen. De informatie wordt alleen weergegeven nadat middelen zijn gedownload met de app.
 
-* **[!UICONTROL Automatically download linked assets]**: De elementen die in de ondersteunde native Creative Cloud-apps worden geplaatst, worden automatisch opgehaald wanneer u het oorspronkelijke bestand downloadt.
+* **[!UICONTROL Automatically download linked assets]**: Wanneer u het oorspronkelijke bestand downloadt, worden elementen die in ondersteunde apps voor native Creatives Cloud zijn geplaatst, automatisch opgehaald.
 
-* **[!UICONTROL Maximum number of downloads]**: ![waarschuwingspictogram](assets/do-not-localize/caution-icon.png) Wissel voorzichtig. Wanneer voor het eerst elementen worden gedownload (via de optie Tonen, Openen, Bewerken, Downloaden of een vergelijkbare optie), worden de elementen alleen gedownload als de batch minder dan dit nummer bevat. De standaardwaarde is 50. Niet wijzigen als u het niet zeker weet. Als u de waarde verhoogt, kan het langer duren en als u de waarde verlaagt, kunt u de benodigde elementen of mappen mogelijk niet in één keer downloaden.
+* **[!UICONTROL Maximum number of downloads]**: ![waarschuwingspictogram](assets/do-not-localize/caution-icon.png) Wissel voorzichtig. Wanneer voor het eerst elementen worden gedownload (via de optie Tonen, Openen, Bewerken, Downloaden of een vergelijkbare optie), worden de elementen alleen gedownload als de batch minder dan dit nummer bevat. De standaardwaarde is 50. Niet wijzigen als u het niet zeker weet. Als u de waarde verhoogt, kan het langer duren. Als u de waarde verlaagt, kan het zijn dat u niet alle benodigde elementen of mappen in één poging kunt downloaden.
 
-* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**: ![waarschuwingspictogram](assets/do-not-localize/caution-icon.png) Wissel voorzichtig. Met deze instelling kan de toepassing het gedrag van de v1.10-app emuleren tijdens het uploaden van mappen. In v1.10, respecteren de knoopnamen die in de bewaarplaats worden gecreeerd ruimten en het omhulsel van de omslagnamen die door de gebruiker worden verstrekt. In versie 2.1 van de app worden de extra spaties in de mapnamen echter geconverteerd naar streepjes. Bijvoorbeeld uploaden `New Folder` of `new   folder` leidt tot de zelfde knoop in de bewaarplaats als de optie niet wordt geselecteerd en het standaardgedrag in v2.1 wordt behouden. Als deze optie is geselecteerd, worden in de opslagplaats voor de bovenstaande twee mappen verschillende knooppunten gemaakt die overeenkomen met de werking van de v1.10-app.
+* **[!UICONTROL Use legacy conventions when creating nodes for assets and folders]**: ![waarschuwingspictogram](assets/do-not-localize/caution-icon.png) Wissel voorzichtig. Met deze instelling kan de toepassing het gedrag van de v1.10-app emuleren tijdens het uploaden van mappen. In v1.10, respecteren de knoopnamen die in de bewaarplaats worden gecreeerd de ruimten en het omhulsel van de omslagnamen die door de gebruiker worden verstrekt. In versie 2.1 van de app worden de extra spaties in de mapnamen echter geconverteerd naar streepjes. Bijvoorbeeld uploaden `New Folder` of `new   folder` leidt tot de zelfde knoop in de bewaarplaats als de optie niet wordt geselecteerd en het standaardgedrag in v2.1 wordt behouden. Als deze optie is geselecteerd, worden in de opslagplaats voor de bovenstaande twee mappen verschillende knooppunten gemaakt die overeenkomen met de werking van de v1.10-app.
 
-  Het standaardgedrag van v2.1 blijft gelijk, dat wil zeggen, vervangt meerdere spaties in mapnamen door streepjes in de naam van de opslagplaats en zet deze om in namen van kleine letters.
+  Het standaardgedrag van v2.1 blijft ongewijzigd: het vervangt meerdere spaties in mapnamen door streepjes in de naam van de opslagplaats en zet knooppuntnamen om in kleine letters.
 
-* **[!UICONTROL Upload Acceleration]**: ![waarschuwingspictogram](assets/do-not-localize/caution-icon.png) Wissel voorzichtig. Bij het uploaden van elementen kan de toepassing gelijktijdige uploads gebruiken om de uploadsnelheid te verbeteren. U kunt de gelijktijdige uitvoering van het uploaden verhogen door de schuifregelaar naar rechts te verplaatsen. De schuifregelaar aan de linkerkant betekent geen gelijktijdige uitvoering (single-threaded upload), de middelste positie komt overeen met 10 gelijktijdige threads en de maximale limiet aan de rechterkant komt overeen met 20 gelijktijdige threads. Een hogere gelijktijdige limiet is meer hulpbronnenintensief.
+* **[!UICONTROL Upload Acceleration]**: ![waarschuwingspictogram](assets/do-not-localize/caution-icon.png) Wissel voorzichtig. Bij het uploaden van elementen kan de toepassing gelijktijdige uploads gebruiken om de uploadsnelheid te verbeteren. U kunt de gelijktijdige uitvoering van het uploaden verhogen door de schuifregelaar naar rechts te verplaatsen. De schuifregelaar aan de linkerkant betekent geen gelijktijdige uitvoering (single-threaded upload), de middelste positie komt overeen met tien gelijktijdige threads en de maximale limiet aan de rechterkant komt overeen met 20 gelijktijdige threads. Een hogere gelijktijdige limiet is meer hulpbronnenintensief.
 
-Als u de niet-beschikbare voorkeuren wilt bijwerken, meldt u zich af van het dialoogvenster [!DNL Experience Manager] en vervolgens bijwerken. Nadat u de voorkeuren hebt bijgewerkt, klikt u op ![Voorkeuren opslaan](assets/do-not-localize/save_preferences_da2.png).
+Als u de niet-beschikbare voorkeuren wilt bijwerken, meldt u zich af van het dialoogvenster [!DNL Experience Manager] en vervolgens bijwerken. Klik op ![Voorkeuren opslaan](assets/do-not-localize/save_preferences_da2.png).
 
-![Voorkeuren en instellingen voor bureaubladtoepassingen](assets/preferences_da2.png)
+![Voorkeuren en instellingen voor de bureaubladtoepassing](assets/preferences_da2.png)
 
-*Afbeelding: App-voorkeuren voor bureaublad.*
+*Afbeelding: voorkeuren voor de bureaubladtoepassing.*
 
 ### Proxyondersteuning {#proxy-support}
 
-[!DNL Experience Manager] desktop-app gebruikt de vooraf gedefinieerde proxy van het systeem om via HTTPS verbinding te maken met internet. De toepassing kan alleen verbinding maken met een netwerkproxy waarvoor geen extra verificatie is vereist.
+De [!DNL Experience Manager] bureaubladtoepassing gebruikt de vooraf gedefinieerde proxy van het systeem om via HTTPS verbinding te maken met internet. De toepassing kan alleen verbinding maken met een netwerkproxy waarvoor geen extra verificatie is vereist.
 
 Als u de instellingen van de proxyserver voor Windows configureert of wijzigt (Internet Options > LAN Settings), start u de [!DNL Experience Manager] bureaubladtoepassing voor de wijzigingen die van kracht worden. Proxyconfiguratie wordt toegepast wanneer u de bureaubladtoepassing start. Sluit de app en start de app opnieuw om de wijzigingen door te voeren.
 
@@ -148,7 +148,7 @@ Voer de volgende stappen uit om de installatie van de toepassing in Windows onge
 
    ![Dialoogvenster verwijderen om logbestanden en cache te verwijderen](assets/uninstall_da2.png)
 
-1. Volg de aanwijzingen op het scherm. Start de computer opnieuw op als deze klaar is.
+1. Volg de aanwijzingen op het scherm. Start de computer opnieuw op wanneer u klaar bent.
 
 Voer de volgende stappen uit om de installatie van de toepassing op Mac te verwijderen:
 
@@ -156,7 +156,7 @@ Voer de volgende stappen uit om de installatie van de toepassing op Mac te verwi
 
 1. Verwijder de `Adobe Experience Manager Desktop.app` van `/Applications`.
 
-Als u de interne cache van toepassingen op Mac wilt opschonen en de toepassing wilt verwijderen, kunt u de volgende opdracht ook in de terminal uitvoeren:
+Als u de interne cache van toepassingen op de Mac wilt opschonen en de toepassing wilt verwijderen, kunt u de volgende opdracht ook in de terminal uitvoeren:
 
 ```shell
 /Applications/Adobe Experience Manager Desktop/Contents/Resources/uninstall-osx/uninstall.sh

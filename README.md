@@ -1,25 +1,24 @@
 ---
-source-git-commit: a25c1fa13895ae9eb7268e3e01c83a5f0b9d7d1d
+source-git-commit: ba980c1a1bad4a9627fc28ac7f6619b644fb1f04
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '321'
-ht-degree: 8%
+source-wordcount: '325'
+ht-degree: 7%
 
 ---
-# Info over [!DNL Adobe Experience Manager]-bureaubladtoepassing
+# Info [!DNL Adobe Experience Manager] bureaubladtoepassing
 
-De [!DNL Adobe Experience Manager]-bureaubladtoepassing verbindt [!DNL Experience Manager] DAM-opslagruimte met uw bureaublad, zodat u sneller toegang hebt tot bronnen en gestroomlijnde workflows. Deze vermindering van inspanningen verbetert de efficiëntie van gebruikers die met digitale middelen werken in hun desktopworkflows. Met behulp van de app zijn de middelen in [!DNL Experience Manager Assets] gemakkelijk toegankelijk op uw lokale bureaublad en kunnen deze worden gebruikt in alle bureaubladtoepassingen. U kunt de elementen openen en bewerken in desktoptoepassingen van uw keuze. De lokale bewerkingen kunnen beschikbaar worden gesteld in de DAM-opslagruimte. [!DNL Experience Manager] Alle nieuwe elementen die vanuit elke bron aan de opslagplaats worden toegevoegd, kunnen ook op uw bureaublad worden aangeboden.
+De [!DNL Adobe Experience Manager] bureaubladtoepassing verbindt de [!DNL Experience Manager] DAM-opslagplaats voor uw desktop, zodat u sneller toegang hebt tot bronnen en gestroomlijnde workflows. Deze inkrimping verbetert de efficiëntie van gebruikers die met digitale middelen werken in hun desktopworkflows. Met behulp van de app, de middelen binnen [!DNL Experience Manager Assets] zijn gemakkelijk toegankelijk op uw lokale bureaublad en kunnen in om het even welke Desktoptoepassingen worden gebruikt. U kunt de elementen openen en bewerken in een desktoptoepassing van uw keuze. De lokale bewerkingen kunnen beschikbaar worden gesteld in het dialoogvenster [!DNL Experience Manager] DAM-opslagplaats. Alle nieuwe elementen die vanuit elke bron aan de opslagplaats worden toegevoegd, kunnen ook op uw bureaublad worden aangeboden.
 
-Dankzij een dergelijke integratie kunnen verschillende rollen in de organisatie de elementen centraal beheren in [!DNL Experience Manager Assets]. Marktdeelnemers en zakelijke gebruikers kunnen ervoor zorgen dat aan de verschillende standaarden wordt voldaan, waaronder branding en licenties. Creatieve gebruikers hebben ook toegang tot middelen op het bureaublad in [!DNL Creative Cloud] en andere native toepassingen.
+Dankzij een dergelijke integratie kunnen verschillende rollen in de organisatie de elementen centraal beheren in [!DNL Experience Manager Assets]. Marktdeelnemers en zakelijke gebruikers kunnen ervoor zorgen dat aan de verschillende standaarden wordt voldaan, waaronder branding en licenties. Creatieve gebruikers hebben ook toegang tot middelen op het bureaublad in de [!DNL Creative Cloud] en andere native toepassingen.
 
-## Bijdragen aan de documentatie
+## Contribute aan de documentatie
 
-Dit project heeft de [Adobe-gedragscode voor open source](code-of-conduct.md) of de [.NET Foundation-gedragscode](https://dotnetfoundation.org/code-of-conduct) overgenomen. Zie het artikel [Bijdragen](contributing.md) voor meer informatie.
+Dit project heeft de [Adobe-gedragscode voor open source](code-of-conduct.md) of de [.NET Foundation-gedragscode](https://dotnetfoundation.org/about/policies/code-of-conduct) overgenomen. Zie het artikel [Bijdragen](contributing.md) voor meer informatie.
 
-**Kleine wijzigingen**: Klik op Bewerken in de rechtermarge van een artikel om kleine correcties of verduidelijkingen aan te brengen en te verzenden. U kunt ook een uitgave in deze opslagplaats maken waarin de wijzigingen worden beschreven. Dergelijke kleine bijdragen worden gedekt door de gebruiksvoorwaarden van de Adobe.
+**Kleine wijzigingen**: Klik op Bewerken in de rechtermarge van een artikel om kleine correcties of verduidelijkingen aan te brengen en te verzenden. U kunt ook een uitgave in deze opslagplaats maken waarin de wijzigingen worden beschreven. Dergelijke kleine bijdragen vallen onder de gebruiksvoorwaarden van de Adobe.
 
-**Belangrijke wijzigingen**: Klik op Bewerken in een artikel, draag bij en maak een pull-aanvraag of maak een uitgave. Hoe dan ook, een lid van het doc team zal met u in wisselwerking staan om meer informatie te krijgen. U moet de Adobe CLA slechts één keer ondertekenen alvorens tot om het even welk Adobe- documenten, om het even welk aantal tijden bij te dragen. Zie [hoe u een bijdrage levert](contributing.md) artikel.
+**Belangrijke wijzigingen**: Klik op Bewerken in een artikel, draag een bijdrage en maak een pull-aanvraag of maak een uitgave. Of manier, plan op een lid van het documentatieteam dat met u in wisselwerking staat om meer informatie te verzamelen. Onderteken de CLA van de Adobe één keer alvorens tot om het even welk document van de Adobe, voor om het even welk aantal tijden bij te dragen. Zie de [Hoe bijdragen](contributing.md) artikel.
 
-**Voor Adobe-werknemers**: Als u medewerker van Adobe bent, gebruik collectieve Git om bij te dragen. Zie [contribute.md](contributing.md). Als u belangrijke updates wilt toevoegen, opent u een probleem en neemt een lid van het documentteam contact met u op.
+**Voor Adoben**: Als u medewerker van de Adobe bent, gebruikt u Git om bij te dragen. Zie [contribute.md](contributing.md). Als u belangrijke updates wilt toevoegen, opent u een probleem. Neem contact op met een lid van het documentatieteam met u over het probleem.
 
-Zie [gedragscode](code-of-conduct.md) voor de normen voor gedrag die u tijdens de bijdrage verwacht.
+Voor de normen van gedrag die de Adobe verwacht wanneer u bijdraagt, zie [gedragscode](code-of-conduct.md).

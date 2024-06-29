@@ -6,9 +6,9 @@ mini-toc-levels: 1
 git-repo: https://github.com/AdobeDocs/experience-manager-desktop-app.nl-NL
 index: y
 recommendations: noDisplay
-source-git-commit: 55b50485e965a7d94d3f5a1296fec16b0ad1eba9
+source-git-commit: ba980c1a1bad4a9627fc28ac7f6619b644fb1f04
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ Het bestand metadata.md bevat metagegevens op repo-niveau die worden doorgegeven
 |--- |--- |
 | titel oplossing | Wordt gebruikt in de artikelkop als koppeling. |
 | oplossing-hub-url | Hiermee opent u de overzichtspagina van de hub Learn and Support. |
-| oplossingspictogram | Hiermee wordt het oplossingspictogram weergegeven naast de titel van de oplossing. Nog niet geïmplementeerd. |
+| oplossingspictogram | Toont een oplossingspictogram naast de oplossingstitel. Nog niet geïmplementeerd. |
 | aan de slag-url | Koppeling naar de pagina Aan de slag. |
 | zelfstudies-url | Koppeling maken naar de videozelfstudies. |
-| minitoc-niveaus | Hiermee bepaalt u het aantal kopniveaus dat wordt weergegeven in de rechterrails. De standaardwaarde is 2. |
+| minitoc-niveaus | Hiermee bepaalt u het aantal kopniveaus dat in de rechterspoorlijn wordt weergegeven. De standaardwaarde is 2. |
 | git-repo | Hiermee geeft u de locatie op van het hoofdrapport voor intern gebruik. |
 
 In bestand TOC.md

@@ -9,7 +9,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Experience Manager] Opmerkingen bij de release desktop app v1.10 {#aem-desktop-app-release-notes}
+# Opmerkingen bij de release [!DNL Adobe Experience Manager] desktop app v1.10 {#aem-desktop-app-release-notes}
 
 Voor desktop app v1.x release zijn de volgende downloadkoppelingen en AEM compatibiliteitsgegevens beschikbaar.
 
@@ -18,7 +18,7 @@ Voor desktop app v1.x release zijn de volgende downloadkoppelingen en AEM compat
 | Versie | 1.10 (1.10.0.6 voor Mac en 1.10.0.3 voor Windows) |
 | Type | Minder release |
 | Datum | 1.10.0.6 (Mac): 15 april 2020; 1.10.0.3 (Win): 31 augustus 2018 |
-| URL&#39;s downloaden | [macOS X 64-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-1.10.0.6.dmg); [Windows 32-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-1.10.0.3.exe); [Windows 64-bits](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-1.10.0.3.exe) |
+| URL&#39;s downloaden | [ macOS X 64 beetje ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-1.10.0.6.dmg); [ Vensters 32 beetje ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-1.10.0.3.exe); [ Vensters 64 beetje ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-1.10.0.3.exe) |
 | Compatibiliteit | AEM 6.5.x; AEM 6.4.x; AEM 6.3 SP2; AEM 6.2 SP1 GVB2+; AEM 6.1 SP2 GVB7+ |
 
 >[!NOTE]
@@ -27,7 +27,7 @@ Voor desktop app v1.x release zijn de volgende downloadkoppelingen en AEM compat
 
 ## Systeemvereisten en -vereisten {#system-requirements-and-prerequisites}
 
-[!DNL Adobe Experience Manager] bureaubladtoepassing is compatibel met de volgende besturingssystemen:
+[!DNL Adobe Experience Manager] -bureaubladtoepassing is compatibel met de volgende besturingssystemen:
 
 * macOS X 10.10 of hoger, met de meest recente opgeloste problemen.
 
@@ -35,9 +35,10 @@ Voor desktop app v1.x release zijn de volgende downloadkoppelingen en AEM compat
 
 Adobe raadt u aan de nieuwste versie van de AEM-bureaubladtoepassing te gebruiken om ervoor te zorgen dat u de meest recente functionaliteit, de meest recente opgeloste problemen en de best mogelijke prestaties gebruikt.
 
-Voor de versie van AEM bureaubladtoepassing die u op uw lokale computer wilt installeren, is een specifieke AEM serverversie/aanvullende serveronderdelen (servicepakketten, hotfixes of functiepakketten) vereist. Zorg ervoor dat de AEM server correct is geconfigureerd voordat u er voor het eerst verbinding mee maakt. Neem contact op met de AEM als u hulp nodig hebt.
+Voor de versie van AEM bureaubladtoepassing die u op uw lokale computer wilt installeren, is een specifieke AEM vereist
+versie / extra serveronderdelen (servicepacks, hotfixes of functiepakketten). Zorg ervoor dat de AEM server correct is geconfigureerd voordat u er voor het eerst verbinding mee maakt. Neem contact op met de AEM als u hulp nodig hebt.
 
-Zie de [gedetailleerde compatibiliteitsmatrix](#compatibilitymatrix) aan het eind van dit document om de eerste vereisten voor uw opstelling te evalueren.
+Zie de [ gedetailleerde verenigbaarheidsmatrijs ](#compatibilitymatrix) aan het eind van dit document om de eerste vereisten voor uw opstelling te evalueren.
 
 ## Nieuw in desktop app v1.10 {#what-s-new-in-aem-desktop-app}
 
@@ -45,39 +46,39 @@ AEM desktop app 1.10 richt zich op het verbeteren van de gebruikerservaring bij 
 
 >[!NOTE]
 >
->Gebruik minimaal versie 1.10.0.6 van de app als u macOS 10.15.4 of hoger gebruikt. Deze pleisterafgifte voldoet aan de [Apple-notariatievereisten](https://developer.apple.com/news/?id=04102019a).
+>Gebruik minimaal versie 1.10.0.6 van de app als u macOS 10.15.4 of hoger gebruikt. Deze flardversie voldoet aan [ notariseringsvereisten van Apple ](https://developer.apple.com/news/?id=04102019a).
 
-**Lokaal bewerken/Uitchecken**: Automatisch uploaden van wijzigingen die zijn opgeslagen naar elementen kan worden uitgeschakeld in het statusvenster. Op die manier kan de gebruiker aan bestanden blijven werken en wijzigingen opslaan en vervolgens, wanneer deze gereed zijn, besluiten alle wijzigingen te uploaden.
+**Lokale het Uitgeven/Controle**: De automatische uploads van veranderingen die aan activa worden bewaard kunnen in het statusvenster worden onbruikbaar gemaakt. Op die manier kan de gebruiker aan bestanden blijven werken en wijzigingen opslaan en vervolgens, wanneer deze gereed zijn, besluiten alle wijzigingen te uploaden.
 
-**Venster Vereenvoudigd middelenstatus**. Het statusvenster is vereenvoudigd. De [!UICONTROL Uploads] op het tabblad worden nu zowel de afzonderlijke elementen als de mappen of bulkuploads weergegeven. Het vorige tabblad voor bulkuploads is verwijderd.
+**Vereenvoudigd Venster van de Status van Activa**. Het statusvenster is vereenvoudigd. Op het tabblad [!UICONTROL Uploads] worden nu zowel de afzonderlijke elementen als mappen of bulkuploads weergegeven. Het vorige tabblad voor bulkuploads is verwijderd.
 
-**Toepassingspictogram om bulkuploads aan te geven**. Het toepassingspictogram geeft aan dat een bulkupload wordt uitgevoerd door een &quot;transfer&quot;-overlay weer te geven.
+**Pictogram van de Toepassing om Onduidelijke Uploads** te wijzen. Het toepassingspictogram geeft aan dat een bulkupload wordt uitgevoerd door een &quot;transfer&quot;-overlay weer te geven.
 
-**Meldingen voor updateconflicten**. Wanneer de toepassing een conflict tijdens een middelenupdate ontdekt, toont het een bericht, die de gebruiker toestaat om het te herzien zonder het statusvenster te controleren. Bij het opstarten controleert de toepassing op alle conflicten, waardoor de gebruiker deze kan oplossen.
+**Meldingen voor Conflicten van de Update**. Wanneer de toepassing een conflict tijdens een middelenupdate ontdekt, toont het een bericht, die de gebruiker toestaat om het te herzien zonder het statusvenster te controleren. Bij het opstarten controleert de toepassing op alle conflicten, waardoor de gebruiker deze kan oplossen.
 
-**Betere afhandeling van verbindingsverliezen**. Bulkuploads worden gepauzeerd als er een verbindingsverlies is, en de gebruiker kan later hervatten. A [!UICONTROL Retry] is beschikbaar als u een mislukte upload van een afzonderlijk bestand opnieuw wilt proberen.
+**betere behandeling van verbindingsverliezen**. Bulkuploads worden gepauzeerd als er een verbindingsverlies is, en de gebruiker kan later hervatten. Er is een optie [!UICONTROL Retry] beschikbaar om een mislukte upload van een afzonderlijk bestand opnieuw te proberen.
 
 ## Installatie-instructies {#installation-instructions}
 
-Zie voor gedetailleerde instructies [De AEM bureaubladtoepassing installeren en configureren](install-configure-app-v1.md).
+Voor gedetailleerde instructies, zie [ installeer en vorm de AEM Desktop app ](install-configure-app-v1.md).
 
 ## Verbeteringen in de vorige versies {#enhancements-in-the-previous-versions}
 
-Deze release breidt de vorige versies van de [!DNL Experience Manager] desktop app, die de volgende belangrijke verbeteringen biedt:
+Deze release vormt een uitbreiding en vervanging van de vorige versies van de bureaubladtoepassing van [!DNL Experience Manager] , die de volgende belangrijke verbeteringen bevatten:
 
-* **Versie 1.9 / 1.9.1**: herbruikbare uploads, verbeterd statusvenster, toepassingspictogrammen die de status van de toepassing/verbinding aangeven, vooraf opgehaalde gekoppelde elementen voor InDesigns bestanden.
+* **Versie 1.9 / 1.9.1**: herbruikbare uploads, verbeterd statusvenster, toepassingspictogrammen die op status van toepassing/verbinding wijzen, pre-terugwinning van verbonden activa voor de dossiers van het InDesign.
 
-* **Versie 1.8**: betere controle van cachegrootte voor de gebruiker, verbeterde aanmeldervaring voor SAML/SSO in Windows, ondersteuning voor `.pac` netwerk volmacht op Mac, en klant-gemelde kwesties.
+* **Versie 1.8**: betere controle van geheim voorgeheugengrootte voor de gebruiker, betere login ervaring voor SAML/SSO op Vensters, ondersteunend `.pac` netwerkvolmacht op Mac, en klant-gemelde kwesties.
 
-* **Versie 1.7**: verbeteringen in stabiliteit en caching logica, betere steun voor netwerkvolmacht, en capaciteit om interne dossiers na uninstallation schoon te maken.
+* **Versie 1.7**: verbeteringen in stabiliteit en caching logica, betere steun voor netwerkvolmacht, en capaciteit om interne dossiers na uninstallation op te schonen.
 
-* **Versie 1.6**: verbeteringen in het aanmeldingsproces voor verschillende AEM beveiligingsconfiguraties en de stabiliteit en prestaties van de toepassing.
+* **Versie 1.6**: verbeteringen in het login proces voor diverse AEM veiligheidsconfiguraties en toepassingsstabiliteit en prestaties.
 
-* **Versie 1.5**: de stabiliteit van de toepassing en veerkracht tegen diverse voorzien van een netwerkproblemen, betere steunbaarheid.
+* **Versie 1.5**: de stabiliteit en veerkracht van de toepassing tegen diverse voorzien van een netwerkproblemen, betere steunbaarheid.
 
-* **Versie 1.4**: de mogelijkheid om hiërarchische mappen op de achtergrond te uploaden met voortgangscontrole.
+* **Versie 1.4**: de capaciteit om hiërarchische omslagen op de achtergrond met de vooruitgang controle te uploaden.
 
-* **Versie 1.3**: betere prestaties en stabiliteit bij het benaderen van bestanden en het opslaan van wijzigingen in AEM, met name van desktoptoepassingen in Creatives Cloud, zoals InDesign, Illustrator of Photoshop. Het was bedoeld om gebruikers een meer lokale desktop-achtige ervaring te bieden wanneer het werken met dossiers, terwijl tegelijkertijd de verrichtingen van de netwerkgegevensoverdracht op de achtergrond behandelen.
+* **Versie 1.3**: prestatiesverhogingen en stabiliteit van de toegang tot van dossiers en het opslaan van veranderingen in AEM, vooral van de toepassingen van de Desktop van het Creative Cloud, zoals InDesign, Illustrator, of Photoshop. Het was bedoeld om gebruikers een meer lokale desktop-achtige ervaring te bieden wanneer het werken met dossiers, terwijl tegelijkertijd de verrichtingen van de netwerkgegevensoverdracht op de achtergrond behandelen.
 
 ### Verbeteringen beschikbaar sinds AEM desktop app 1.9 {#Enhancements-Available-Since-AEM-Desktop-App-19x}
 
@@ -89,10 +90,10 @@ Deze release breidt de vorige versies van de [!DNL Experience Manager] desktop a
 
 AEM bureaubladtoepassing 1.9 was gericht op het verbeteren van de gebruikerservaring bij grote uploads, informatie over de achtergrondbewerkingen en geoptimaliseerde ervaring bij het openen van elementen met gekoppelde bestanden (zoals InDesign).
 
-**Opnieuw afwerkbare uploads**
+**Resumate uploads**
 Voor uploads, vooral rond grote dossiers, is er een optie om hen in het nieuwe venster van de Status van Activa te pauzeren/te hervatten.
 
-**Verbeterd venster voor middelenstatus**
+**Verbeterd Venster van de Status van Activa**
 Een verbeterd venster Asset Status bevat de volgende informatie over elementen.
 
 [!UICONTROL Changes]
@@ -123,13 +124,13 @@ Een verbeterd venster Asset Status bevat de volgende informatie over elementen.
 
 * In de voettekst ziet u het totale aantal gedownloade bestanden en de gemiddelde overdrachtsnelheid.
 
-* Als een gebruiker ervoor kiest om meerdere bestanden te openen of te bewerken vanuit de [!DNL Experience Manager Assets] De interface van het Web, worden zij gegroepeerd. Bijvoorbeeld mijnelement.jpeg en 4 andere bestanden.
+* Als een gebruiker in de webinterface van [!DNL Experience Manager Assets] meerdere bestanden opent of bewerkt, worden deze samen gegroepeerd. Bijvoorbeeld mijnelement.jpeg en 4 andere bestanden.
 
 * Wanneer u vanuit AEM Assets documenten van InDesigns met gekoppelde elementen downloadt, downloadt de bureaubladtoepassing eerst alle gekoppelde elementen voordat het document wordt geopend en wordt de downloadstatus aangegeven. Bijvoorbeeld 5 van 24.
 
 [!UICONTROL Bulk Uploads]
 
-Grote maphiërarchieën uploaden via [!UICONTROL Create] > [!UICONTROL Upload Folder] in AEM Web UI brengt dit dialoogvakje teweeg. Hetzelfde geldt wanneer u &quot;Assets plakken&quot; kopieert en selecteert in Finder of Explorer in het contextmenu van de bureaubladtoepassing.
+Dit dialoogvenster wordt geactiveerd wanneer u grote maphiërarchieën via [!UICONTROL Create] > [!UICONTROL Upload Folder] in de AEM webinterface uploadt. Hetzelfde geldt wanneer u &quot;Assets plakken&quot; kopieert en selecteert in Finder of Explorer in het contextmenu van de bureaubladtoepassing.
 
 * Hier worden uploads tijdens de uitvoering weergegeven, inclusief een voortgangsbalk en de naam van het bestand dat momenteel wordt overgedragen.
 
@@ -139,11 +140,11 @@ Grote maphiërarchieën uploaden via [!UICONTROL Create] > [!UICONTROL Upload Fo
 
 * Als een afzonderlijk bestand niet kan worden overgedragen, wordt dit als een fout op het tabblad weergegeven. Anders worden afzonderlijke bestanden niet op het tabblad * weergegeven als één item voor de volledige upload.
 
-**Pictogrammen om de status van achtergrondbewerkingen aan te geven**
+**Pictogrammen om Status van de Verrichtingen van de Achtergrond te wijzen**
 
 Het toepassingspictogram geeft de toestand van de achtergrondbewerkingen aan, zodat de gebruikers een beter visueel signaal krijgen. Wanneer de toepassing bijvoorbeeld niet met AEM is verbonden, wordt het pictogram grijs weergegeven. Als er een actieve upload is, wordt er een &quot;sync&quot;-overlay weergegeven, enzovoort.
 
-**Ophalen vooraf van Linked Assets**
+**pre-haalt van Gekoppelde Assets**
 
 Om de gebruikerservaring te verbeteren met documenten van het InDesign die verbonden activa bevatten die in AEM worden opgeslagen, de Desktop app pre-haalt deze verbonden dossiers aan het lokale geheime voorgeheugen. Deze stroom vindt plaats voordat het document van het InDesign wordt gedownload en geopend. Op die manier heeft de gebruiker de gekoppelde bestanden lokaal beschikbaar en hoeft hij niet langer te wachten wanneer hij of zij elementen in het InDesign opent (in het deelvenster Koppelingen).
 Het vooraf ophalen werkt alleen als AEM de koppelingen aan de serverzijde herkent. Voor een element met herkende koppelingen wordt een lijst met &#39;Referenties&#39; weergegeven in de weergave Eigenschappen van het element InDesign.
@@ -168,7 +169,7 @@ AEM desktop app 1.8.1 fast-follow release heeft verbeteringen aangebracht bij he
 
    * wanneer een AEM sessie verloopt, wordt de gebruiker nu op de hoogte gesteld en kan hij op het bericht klikken om zich opnieuw aan te melden (CQ-4202028).
 
-   * (Mac) Voeg ondersteuning toe voor het maken van verbinding met AEM via de `.pac` proxyconfiguratie (CQ-4233430).
+   * (Mac) Voeg ondersteuning toe voor het maken van verbinding met AEM via de proxyconfiguratie van `.pac` (CQ-4233430).
 
    * (Win) los problemen op met het dialoogvenster Geavanceerd - URL voor aanmelding (CQ-4236061).
 
@@ -202,7 +203,7 @@ AEM desktop app 1.8.1 fast-follow release heeft verbeteringen aangebracht bij he
 
    * (Win) Cleaner uninstallation (CQ-4220906).
 
-   * [Windows 32-bits] Het installatieprogramma probeert Microsoft .NET Framework v. 4.5 (CQ-4218084) niet te installeren.
+   * [ Vensters 32bit ] de Installateur probeert om Kader van Microsoft .NET v. 4.5 (CQ-4218084) te installeren.
 
    * (Mac) Handmatig script voor het volledig verwijderen van bureaubladtoepassingsbestanden (CQ-4216489).
 
@@ -212,7 +213,7 @@ AEM desktop app 1.8.1 fast-follow release heeft verbeteringen aangebracht bij he
 
 ### Verbeteringen beschikbaar sinds AEM desktop app 1.6 {#Enhancements-Available-Since-AEM-Desktop-App-16}
 
-* Documentatie: nieuw [Aanbevolen werkwijzen voor v1.x-app](/help/using/best-practices-for-v1.md) documentatie.
+* Documentatie: Nieuwe [ Beste praktijken voor v1.x app ](/help/using/best-practices-for-v1.md) documentatie.
 
 * Verbeterd aanmeldingsproces voor AEM:
 
@@ -256,7 +257,7 @@ AEM desktop app 1.8.1 fast-follow release heeft verbeteringen aangebracht bij he
 
 ### Verbeteringen beschikbaar sinds AEM desktop app 1.5 {#Enhancements-Available-Since-AEM-Desktop-App-15}
 
-**Versie 1.5.1.5 voor macOS X:** De release 1.5.1.5 biedt de volgende voordelen:
+**Versie 1.5.1.5 voor macOS X:** De 1.5.1.5 versie verstrekt de volgende voordelen:
 
 * Nieuwe functies en uitbreiding: voeg de functie Kopiëren/Plakken toe aan de integratie met Finder om rechtstreekse overdracht van desktop naar AEM mogelijk te maken (CQ-4208158).
 
@@ -286,7 +287,7 @@ Dit gedrag is hetzelfde voor elementen op de lokale schijf en elementen in een m
 
 Beide gevallen worden verwacht en zijn neveneffecten van de &quot;vertraagde synchronisatie&quot;-architectuur van AEM desktop.
 
-**Versie 1.5.0.x voor macOS X en Windows:** Deze release van AEM bureaubladtoepassing biedt de volgende voordelen:
+**Versie 1.5.0.x voor macOS X en Vensters:** Deze versie van AEM Desktop app verstrekt de volgende voordelen:
 
 * Betere stabiliteit en veerkracht tegen voorzien van een netwerkkwesties.
 
@@ -347,13 +348,13 @@ Sinds macOS 10.12 (Sierra), heeft Apple de toestemmingen op de /Volumes omslag v
 
 Het koppelingspunt van de AEM-bureaubladtoepassing is gewijzigd in versies 1.4 en 1.5. In macOS is de map gewijzigd in een DAM-submap in de lokale map van de gebruiker, die ondersteuning biedt voor gebruikers die geen beheerder zijn (CQ-104183).
 
-Omdat de `/Volumes` voor de map zijn geen beheerrechten meer vereist. Deze wijziging is in 1.5.1 ongedaan gemaakt. Deze wijziging maakt het ook mogelijk om documenten van het InDesign te delen die activa van AEM tussen gebruikers van macOS hebben geplaatst.
+Omdat de map `/Volumes` geen beheerrechten meer vereist, is deze wijziging ongedaan gemaakt in 1.5.1. Deze wijziging maakt het ook mogelijk om documenten van het InDesign te delen die activa van AEM tussen gebruikers van macOS hebben geplaatst.
 
 ### Protocol wijzigen (sinds v1.3) {#protocol-change-since}
 
 * macOS X:
    * Het lokale protocol van de netwerkaandrijving voor OS X Desktopintegratie veranderde in SMB1 van WebDAV.
-   * De AEM opslagplaats gekoppeld met de desktop-app is zichtbaar als een `smb` netwerkstation in de Finder, in plaats van een WebDAV-station.
+   * De AEM opslagplaats opgezet met de Desktop app is zichtbaar als `smb` netwerkaandrijving in de Vinder, in plaats van een aandrijving WebDAV.
 * Windows:
    * Het lokale protocol van de netwerkaandrijving voor de Desktopintegratie van Vensters blijft; AEM wordt opgezet als aandeel WebDAV.
 * Voor beide platforms (Windows en Mac):
@@ -361,7 +362,7 @@ Omdat de `/Volumes` voor de map zijn geen beheerrechten meer vereist. Deze wijzi
 
 >[!NOTE]
 >
->In macOS X leidt de wijziging van het protocol van de lokale netwerkschijf van WebDAV in SMB1 tot een ander lokaal pad naar hetzelfde middel in de opslagplaats. Deze wijziging kan gevolgen hebben voor koppelingen naar bestanden die via de opdracht Plaatsen in Adobe Creative Cloud-toepassingen zijn geplaatst. Zie de [AEM bureaubladtoepassing gebruiken](use-app-v1.md) voor meer informatie .
+>In macOS X leidt de wijziging van het protocol van de lokale netwerkschijf van WebDAV in SMB1 tot een ander lokaal pad naar hetzelfde middel in de opslagplaats. Deze wijziging kan gevolgen hebben voor koppelingen naar bestanden die via de opdracht Plaatsen in Adobe Creative Cloud-toepassingen zijn geplaatst. Zie het [ Gebruik AEM Desktop app ](use-app-v1.md) voor meer informatie.
 
 ### Bestandsbeheer (sinds 1.3) {#file-handling-since}
 
@@ -369,15 +370,15 @@ Omdat de `/Volumes` voor de map zijn geen beheerrechten meer vereist. Deze wijzi
 * Bestanden die door andere gebruikers zijn uitgecheckt, zijn gemarkeerd als alleen-lezen.
 * Bestanden worden in twee fasen opgeslagen op een locatie op het netwerkstation die via de bureaubladtoepassing wordt gemonteerd.
 * In de eerste fase wordt een bestand lokaal opgeslagen. Op deze manier hoeft de gebruiker die het bestand opslaat, niet te wachten totdat het bestand volledig is overgebracht naar AEM. De gebruiker kan het bestand opnieuw gebruiken zodra het is opgeslagen.
-* In de tweede fase uploadt de bureaubladtoepassing een bijgewerkt bestand naar de AEM server na een vooraf gedefinieerde vertraging (bijvoorbeeld 30 seconden). Deze bewerking vindt plaats op de achtergrond. Gebruik de **Synchronisatiestatus achtergrondbestand tonen** om de status van de uploadbewerking weer te geven.
+* In de tweede fase uploadt de bureaubladtoepassing een bijgewerkt bestand naar de AEM server na een vooraf gedefinieerde vertraging (bijvoorbeeld 30 seconden). Deze bewerking vindt plaats op de achtergrond. Gebruik **tonen de Status van de Synchronisatie van het AchtergrondDossier** optie om het statuut van te bekijken uploadt verrichting.
 
 ## Belangrijke kennisgevingen {#important-notices}
 
-**Map uploaden.** Adobe raadt u aan de nieuwe mogelijkheid voor het uploaden van mappen te gebruiken om grotere hiërarchische mappen naar AEM te uploaden. Deze benadering wordt geadviseerd in tegenstelling tot het gebruiken van een exemplaar/belemmering-en-daling in een opgezette AEM bewaarplaats van het niveau van de Vinder/van de Ontdekkingsreiziger. Wanneer u de functie voor het uploaden van mappen gebruikt, communiceert de bureaubladtoepassing rechtstreeks met AEM en heeft deze dus veel betere controle over het gehele proces.
+**omslag uploadt.** Adobe raadt u aan de nieuwe mogelijkheid voor het uploaden van mappen te gebruiken om grotere, hiërarchische mappen naar AEM te uploaden. Deze benadering wordt geadviseerd in tegenstelling tot het gebruiken van een exemplaar/belemmering-en-daling in een opgezette AEM bewaarplaats van het niveau van de Vinder/van de Ontdekkingsreiziger. Wanneer u de functie voor het uploaden van mappen gebruikt, communiceert de bureaubladtoepassing rechtstreeks met AEM en heeft deze dus veel betere controle over het gehele proces.
 
-**AEM sessie beschikbaar houden.** De AEM bureaubladtoepassing is afhankelijk van een sessie die voor de AEM Assets-server is geopend om de juiste werking te garanderen. Dagelijkse gebruikers dienen de installatie van AEM Assets op het einde van de dag ongedaan te maken en &#39;s ochtends te koppelen om de functionaliteit voor aanmelding en delen van netwerken te garanderen.
+**Houd AEM zitting beschikbaar.** De AEM bureaubladtoepassing is afhankelijk van een sessie die voor de AEM Assets-server is geopend om de juiste werking te garanderen. Dagelijkse gebruikers dienen de installatie van AEM Assets op het einde van de dag ongedaan te maken en &#39;s ochtends te koppelen om de functionaliteit voor aanmelding en delen van netwerken te garanderen.
 
-**Schakel Pictogramvoorvertoning uit in de Finder.** Als u met Finder wilt bladeren door grote mappen, met name door slechte netwerkconnectiviteit, moet u ervoor zorgen dat zowel &quot;Pictogram&quot; als &quot;Voorvertoning pictogram&quot; zijn uitgeschakeld. Anders downloadt Finder elk element in een map om een kleine voorvertoning te genereren, wat kan leiden tot slechte prestaties en een hoog bandbreedtegebruik (CQ-4219779)
+**draai van &quot;Voorproef van het Pictogram&quot;in de Vinder.** Als u met Finder en vooral met een slechte netwerkverbinding door grote mappen wilt bladeren, moet u ervoor zorgen dat zowel &quot;Pictogram&quot; als &quot;Voorvertoning pictogram&quot; zijn uitgeschakeld. Anders downloadt Finder elk element in een map om een kleine voorvertoning te genereren, wat kan leiden tot slechte prestaties en een hoog bandbreedtegebruik (CQ-4219779)
 
 * Ga in Finder naar de gedeelde netwerkmap van AEM Assets
 * Klik met de rechtermuisknop op het DAM-koppelingspunt
@@ -385,17 +386,17 @@ Omdat de `/Volumes` voor de map zijn geen beheerrechten meer vereist. Deze wijzi
 * Selectie van Voorvertoning pictogram tonen opheffen
 * Klik op &quot;Als standaardwaarden gebruiken&quot;
 
-**Reinig de cache wanneer u verbinding maakt met een nieuwe AEM.** Als de bureaubladtoepassing verbinding maakt met een andere AEM server met dezelfde URL, wordt de cache niet automatisch gewist. Wis de cache handmatig om de juiste bewerkingen te garanderen. Dit proces gebeurt doorgaans tijdens het testen, wanneer AEM installaties kunnen worden vervangen terwijl ze op dezelfde URL worden uitgevoerd (CQ-4216982)
+**ontruim het geheime voorgeheugen wanneer het verbinden met een nieuwe AEM server.** Als de bureaubladtoepassing verbinding maakt met een andere AEM server met dezelfde URL, wordt de cache niet automatisch gewist. Wis de cache handmatig om de juiste bewerkingen te garanderen. Dit proces gebeurt doorgaans tijdens het testen, wanneer AEM installaties kunnen worden vervangen terwijl ze op dezelfde URL worden uitgevoerd (CQ-4216982)
 
-**Gebruik CA-ondertekende SSL-certificaten.** De AEM desktop-app ondersteunt geen zelfondertekende SSL-certificaten wanneer verbinding wordt gemaakt met AEM via een beveiligde HTTPS-verbinding. Voor dergelijke verbindingen is op de server een certificaat met CA-handtekening vereist. (CQ-87941)
+**Gebruik CA-Ondertekende SSL certificaten.** De AEM-bureaubladtoepassing ondersteunt geen zelfondertekende SSL-certificaten wanneer verbinding wordt gemaakt met AEM via een beveiligde HTTPS-verbinding. Voor dergelijke verbindingen is op de server een certificaat met CA-handtekening vereist. (CQ-87941)
 
 ## Bekende problemen {#known-issues}
 
 * Algemeen:
-   * Server-URL&#39;s moeten zonder pad naar de server verwijzen (bijvoorbeeld `http://server`, `https://server`, `http://server:port`, of `https://server:port`). Contextpaden en andere submappen dan /content/dam worden niet ondersteund (CQ-89343, CQ-87272)
+   * Server-URL&#39;s moeten naar de server verwijzen zonder een pad (bijvoorbeeld `http://server` , `https://server` , `http://server:port` of `https://server:port` ). Contextpaden en andere submappen dan /content/dam worden niet ondersteund (CQ-89343, CQ-87272)
 * Bestandsnamen/lokalisatie:
    * Bestands- en mapnamen met gereserveerde tekens worden niet correct verwerkt. Zorg ervoor dat u bestands- en mapnamen gebruikt die voldoen aan AEM vereisten. (CQ-93361, CQ-93308, CQ-89276, CQ-4217183)
-   * Sommige toepassingen, zoals Adobe Illustrator, maken mogelijk bestanden met namen die niet worden ondersteund in AEM. Bijvoorbeeld: toevoegen `Converted` nadat u een bestand hebt geconverteerd, zodat het niet meer kan worden geüpload. (CQ-4216985)
+   * Sommige toepassingen, zoals Adobe Illustrator, maken mogelijk bestanden met namen die niet worden ondersteund in AEM. Als u bijvoorbeeld `Converted` toevoegt na het omzetten van een bestand, wordt het bestand niet geüpload. (CQ-4216985)
    * Assets met internationale namen kan verschijnen en elke paar seconden verdwijnen.
 * Inchecken en uitchecken:
    * Een element dat door een gebruiker is uitgecheckt, kan niet door een andere gebruiker worden geopend, door de handeling Openen vanuit de aanraakinterface of rechtstreeks op het bureaublad. Sommige toepassingen melden het als gesloten, maar ook bedorven of zelfs hangen terwijl het proberen te openen. (CQ-4199234)
@@ -403,7 +404,7 @@ Omdat de `/Volumes` voor de map zijn geen beheerrechten meer vereist. Deze wijzi
    * Bepaalde toepassingen ondersteunen de alleen-lezen markering niet correct, waardoor een gebruiker een bestand kan opslaan dat een andere gebruiker heeft uitgecheckt. Het gewijzigde bestand wordt pas overgedragen wanneer de andere gebruiker het bestand incheckt. Beide wijzigingen zijn beschikbaar in AEM als verschillende versies van het element. (CQ-89551, CQ-87572, CQ-89615)
    * De statussen Uitgecheckt en Alleen-lezen worden afzonderlijk gerapporteerd in de Finder. Deze methode resulteert in twee vergrendelingspictogrammen wanneer een gebruiker een element uitcheckt. (CQ-895/07)
 * Integratie van Finder:
-   * Wanneer u grote bestanden sleept en neerzet, kan de Finder de tijd uit nemen terwijl de bestanden op de achtergrond worden overgebracht. Deze vertraging leidt tot een `Error - 36`. U kunt dit probleem omzeilen door het element te slepen en neer te zetten of opnieuw te openen. (CQ-4219628)
+   * Wanneer u grote bestanden sleept en neerzet, kan de Finder de tijd uit nemen terwijl de bestanden op de achtergrond worden overgebracht. Deze vertraging resulteert in een `Error - 36` . U kunt dit probleem omzeilen door het element te slepen en neer te zetten of opnieuw te openen. (CQ-4219628)
    * Het handmatig opnieuw laden van mappen werkt niet altijd. Oplossing: wacht dertig seconden tot de map automatisch wordt bijgewerkt. (CQ-97389)
    * Meer informatie over elementen... is beperkt tot één bestandsselectie. (CQ-89542, CQ-87656)
    * Openen in AEM Assets... is beperkt tot één bestand en één map. (CQ-83382)
@@ -412,11 +413,11 @@ Omdat de `/Volumes` voor de map zijn geen beheerrechten meer vereist. Deze wijzi
 * Windows:
    * Bestanden met alternatieve gegevensstromen (ADS) worden alleen volledig ondersteund op NTFS. Wanneer u bestanden naar de WebDAV-share kopieert via de bureaubladtoepassing, wordt er een waarschuwing weergegeven dat bepaalde bestandseigenschappen niet naar de nieuwe locatie kunnen worden overgebracht. Deze waarschuwing is meestal goed omdat de eigenschappen alleen relevant zijn voor een bepaalde toepassing op het bureaublad van de gebruiker en niets te maken hebben met de feitelijke bestandsinhoud. (CQ-103770) (Win)
    * De gebruiker die de bureaubladtoepassing in Windows gebruikt, moet de gebruiker zijn die de toepassing installeert. (CQ-4216389) (Win)
-   * De toepassing kan vastlopen wanneer u de [!UICONTROL Retry] op een mislukte upload. Deze crash kan onder bepaalde omstandigheden optreden nadat het uploaden van de batch is hervat wanneer de verbinding wordt verbroken. (CQ-4251884) (Win)
+   * De app kan vastlopen wanneer de optie [!UICONTROL Retry] wordt geselecteerd bij een mislukte upload. Deze crash kan onder bepaalde omstandigheden optreden nadat het uploaden van de batch is hervat wanneer de verbinding wordt verbroken. (CQ-4251884) (Win)
 
 ## Nuttige bronnen {#helpful-resources}
 
-* [Documentatie AEM](https://experienceleague.adobe.com/en/docs)
+* [ AEM Documentatie ](https://experienceleague.adobe.com/en/docs)
 * [AEM desktop app v1.x gebruiken](use-app-v1.md)
 * [Aanbevolen werkwijzen voor desktop app v1.x AEM](best-practices-for-v1.md)
 

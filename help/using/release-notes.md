@@ -1,5 +1,5 @@
 ---
-title: "[!DNL Adobe Experience Manager] Opmerkingen bij de release van de bureaubladtoepassing"
+title: '[!DNL Adobe Experience Manager] Opmerkingen bij de release van de bureaubladtoepassing'
 description: De details, de verhogingen van de versie, nieuwe eigenschappen, verenigbaarheid, en downloadverbindingen voor  [!DNL Adobe Experience Manager]  Desktop app.
 mini-toc-levels: 1
 feature: Desktop App,Release Information

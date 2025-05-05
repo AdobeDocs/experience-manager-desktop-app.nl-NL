@@ -417,7 +417,7 @@ Omdat de map `/Volumes` geen beheerrechten meer vereist, is deze wijziging onged
 
 ## Nuttige bronnen {#helpful-resources}
 
-* [ AEM Documentatie ](https://experienceleague.adobe.com/en/docs)
+* [ AEM Documentatie ](https://experienceleague.adobe.com/nl/docs)
 * [AEM desktop app v1.x gebruiken](use-app-v1.md)
 * [Aanbevolen werkwijzen voor desktop app v1.x AEM](best-practices-for-v1.md)
 

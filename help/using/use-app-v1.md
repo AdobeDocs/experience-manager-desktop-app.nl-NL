@@ -156,7 +156,7 @@ Om van de bijzondere activa op uw lokaal dossiersysteem de plaats te bepalen, kl
 
 Met [!DNL Experience Manager Assets] kunt u elementen uitchecken en deze opnieuw inchecken nadat u alle wijzigingen hebt aangebracht. Nadat u een element hebt uitgecheckt, kunt u het element alleen bewerken, annoteren, publiceren, verplaatsen of verwijderen. Als u een element uitcheckt, vergrendelt u het element en voorkomt u dat andere gebruikers deze bewerkingen uitvoeren. Om activa te kunnen uitchecken/inchecken, hebt u schrijftoegang op hen nodig.
 
-Er zijn twee manieren om elementen uit de webinterface van [!DNL Experience Manager] te controleren. Voor gedetailleerde informatie over de eerste methode, zie [ controle en controlerende dossiers van Assets UI ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Voer de volgende stappen uit voor de tweede methoden om het element uit te checken en te openen wanneer de [!DNL Experience Manager] -bureaubladtoepassing wordt geïnstalleerd.
+Er zijn twee manieren om elementen uit de webinterface van [!DNL Experience Manager] te controleren. Voor gedetailleerde informatie over de eerste methode, zie [ controle en controlerende dossiers van Assets UI ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Voer de volgende stappen uit voor de tweede methoden om het element uit te checken en te openen wanneer de [!DNL Experience Manager] -bureaubladtoepassing wordt geïnstalleerd.
 
 1. Open de interface van [!DNL Assets] en houd de aanwijzer boven een map of element om de bureaubladacties als snelle acties weer te geven in de kaartweergave.
 

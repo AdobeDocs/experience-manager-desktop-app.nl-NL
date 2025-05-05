@@ -61,9 +61,9 @@ Voor de kopieer- en verplaatsingsmethoden in de Assets API moeten de volgende aa
 * X-diepte
 * X-Overschrijven
 
-[!DNL Experience Manager] maakt verbinding met [!DNL Experience Manager] via een URL die de standaardpoort bevat. Daarom moet de instelling `virtualhosts` in de Dispatcher-configuratie het standaardpoortnummer bevatten. Voor meer informatie rond `virtualhosts` configuratie, zie [ virtuele gastheren ](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts) identificeren.
+[!DNL Experience Manager] maakt verbinding met [!DNL Experience Manager] via een URL die de standaardpoort bevat. Daarom moet de instelling `virtualhosts` in de Dispatcher-configuratie het standaardpoortnummer bevatten. Voor meer informatie rond `virtualhosts` configuratie, zie [ virtuele gastheren ](https://experienceleague.adobe.com/nl/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts) identificeren.
 
-Voor extra informatie bij het vormen van Dispatcher om door deze extra kopballen over te gaan, zie [ het Specificeren van de Kopballen van HTTP ](https://experienceleague.adobe.com/en/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
+Voor extra informatie bij het vormen van Dispatcher om door deze extra kopballen over te gaan, zie [ het Specificeren van de Kopballen van HTTP ](https://experienceleague.adobe.com/nl/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
 
 ### Proxyondersteuning {#proxy-support}
 
@@ -127,6 +127,6 @@ Als u de toepassing wilt laten verwijzen naar een andere map of een ander statio
 
 >[!MORELIKETHIS]
 >
->* Bekijk een [ Inleiding aan  [!DNL Experience Manager]  Desktop app ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minuten, 43 seconden).
+>* Bekijk een [ Inleiding aan  [!DNL Experience Manager]  Desktop app ](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minuten, 43 seconden).
 >* [ Desktop app van het Gebruik  [!DNL Experience Manager]  ](use-app-v1.md).
 >* [ het Oplossen van problemen  [!DNL Experience Manager]  Desktop app ](troubleshoot-app-v1.md).

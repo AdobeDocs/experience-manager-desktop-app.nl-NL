@@ -140,7 +140,7 @@ U kunt AEM prestaties verbeteren door tijdelijke workflows in te schakelen voor 
 Een andere methode om AEM prestaties te verbeteren is de waarde van de maximumparallelle banen voor de Granite Transient baan van de Rij van het Werkschema te vormen. De aanbevolen waarde is ongeveer de helft van het aantal beschikbare CPU&#39;s bij de server. Voer de volgende stappen uit om de waarde aan te passen:
 
 1. Navigeer naar `/system/console/configMgr` in de instantie AEM die moet worden geconfigureerd (bijvoorbeeld `https://[aem_server]:[port]/system/console/configMgr` ).
-1. Onderzoek naar `QueueConfiguration`, en klik om elke baan te openen tot u van de **Granite 2} baan van de Rij van de Rij van het Werkschema van de Overgang {de plaats bepaalt, en** uitgeeft **klikt.**
+1. Onderzoek naar `QueueConfiguration`, en klik om elke baan te openen tot u van de **Granite 2&rbrace; baan van de Rij van de Rij van het Werkschema van de Overgang &lbrace;de plaats bepaalt, en** uitgeeft **klikt.**
 1. Verander de `Maximum Parallel Jobs` waarde, en klik **sparen**.
 
 ## AWS-configuratie {#aws-configuration}

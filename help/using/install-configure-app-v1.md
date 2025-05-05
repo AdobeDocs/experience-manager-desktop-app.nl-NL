@@ -95,7 +95,7 @@ In macOS X staat een vergelijkbare map op `~/Library/Group Containers/group.com.
 
 ### Optie voor in-app beheren van cache {#in-app-option-to-manage-cache}
 
-U kunt bepalen hoeveel schijfruimte beschikbaar is voor lokale caching-doeleinden. De artefacten van de Assets-server worden lokaal in het cachegeheugen opgeslagen voor een vloeiender ervaring. U kunt de standaardinstellingen aanpassen aan uw wensen. Bovendien kunt u de cache wissen om alle elementen opnieuw op te halen. Klik op het pictogram van de toepassing en klik op **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]** om de gewenste opties in te stellen. ****
+U kunt bepalen hoeveel schijfruimte beschikbaar is voor lokale caching-doeleinden. De artefacten van de Assets-server worden lokaal in het cachegeheugen opgeslagen voor een vloeiender ervaring. U kunt de standaardinstellingen aanpassen aan uw wensen. Bovendien kunt u de cache wissen om alle elementen opnieuw op te halen. Klik op het pictogram van de toepassing en klik op **[!UICONTROL Advanced]** > **[!UICONTROL Manage Cache]** om de gewenste opties in te stellen. **&#x200B;**
 
 >[!NOTE]
 >
@@ -127,6 +127,6 @@ Als u de toepassing wilt laten verwijzen naar een andere map of een ander statio
 
 >[!MORELIKETHIS]
 >
-* Bekijk een [ Inleiding aan  [!DNL Experience Manager]  Desktop app ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minuten, 43 seconden).
-* [ Desktop app van het Gebruik  [!DNL Experience Manager]  ](use-app-v1.md).
-* [ het Oplossen van problemen  [!DNL Experience Manager]  Desktop app ](troubleshoot-app-v1.md).
+>* Bekijk een [ Inleiding aan  [!DNL Experience Manager]  Desktop app ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minuten, 43 seconden).
+>* [ Desktop app van het Gebruik  [!DNL Experience Manager]  ](use-app-v1.md).
+>* [ het Oplossen van problemen  [!DNL Experience Manager]  Desktop app ](troubleshoot-app-v1.md).

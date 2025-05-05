@@ -24,7 +24,7 @@ De meest recente versie van de bureaubladtoepassing bevat de volgende opgeloste 
 De **gesteunde [!DNL Experience Manager] versies** zijn:
 
 * [!DNL Experience Manager] als een [!DNL Cloud Service] . Zie [ versienota&#39;s ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/home).
-* [!DNL Experience Manager] 6.5.0 of hoger, op Adobe Managed Services (AMS) of op locatie. Zie {de versiedetails van het 0} de dienstpak ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).[
+* [!DNL Experience Manager] 6.5.0 of hoger, op Adobe Managed Services (AMS) of op locatie. Zie {de versiedetails van het 0} de dienstpak [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).
 
 [!DNL Adobe Experience Manager] Desktop app is beschikbaar voor de volgende **werkende systemen**:
 

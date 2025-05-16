@@ -242,7 +242,7 @@ In sommige gevallen, bijvoorbeeld wanneer het plaatsen van activa in een inheems
 
 ![ openbaart de actie van het Dossier voor een activa ](assets/revealfile_action_da2.png " onthullen actie van het Dossier voor een activa ")
 
-Klik op **[!UICONTROL Reveal File]** of **[!UICONTROL Reveal Folder]** in een map om Windows Verkenner of de Finder van Mac te openen met het bestand of de map die vooraf op uw lokale computer is geselecteerd. De optie is bijvoorbeeld handig om de [!DNL Experience Manager] -bestanden te plaatsen in de native toepassingen die het plaatsen of koppelen van lokale bestanden ondersteunen. Om te zien hoe te om dossiers in Adobe InDesign te plaatsen, zie [ Plaatsende grafiek ](https://helpx.adobe.com/indesign/using/placing-graphics.html).
+Klik op **[!UICONTROL Reveal File]** of **[!UICONTROL Reveal Folder]** in een map om Windows Verkenner of de Finder van Mac te openen met het bestand of de map die vooraf op uw lokale computer is geselecteerd. De optie is bijvoorbeeld handig om de [!DNL Experience Manager] -bestanden te plaatsen in de native toepassingen die het plaatsen of koppelen van lokale bestanden ondersteunen. Om te zien hoe te om dossiers in Adobe InDesign te plaatsen, zie [ Plaatsende grafiek ](https://helpx.adobe.com/nl/indesign/using/placing-graphics.html).
 
 Met de handeling **[!UICONTROL Reveal File]** wordt een lokaal gedeelde netwerk geopend. Alleen de elementen die lokaal beschikbaar zijn, worden weergegeven. Dit betekent dat er elementen worden weergegeven die met de app zijn onthuld, gedownload of geopend/bewerkt. Het lokale netwerkaandeel uploadt geen veranderingen in [!DNL Experience Manager]. Als u de wijzigingen wilt uploaden, gebruikt u expliciet de handelingen **[!UICONTROL Upload Changes]** of **[!UICONTROL Upload]** in de app.
 
@@ -265,7 +265,7 @@ Gebruik **[!UICONTROL Toggle Check-out]** om het element te vergrendelen om conf
 * U hebt een middel bewerkt zonder het eerst uit te checken (bijvoorbeeld door het alleen te openen).
 * U bent van plan binnenkort met het bewerken van een element te beginnen en wilt niet dat anderen dit bewerken.
 
-Nadat u alle bewerkingen hebt uitgevoerd, geeft de app de **[!UICONTROL Edited Locally]** -status voor de gewijzigde elementen weer. Alle wijzigingen die in de elementen zijn opgeslagen, zijn alleen lokaal totdat u de wijzigingen in [!DNL Experience Manager] uploadt. Als u een individu of een paar elementen een voor een wilt uploaden, klikt u op **[!UICONTROL Upload Changes]** in de opties voor een element. Er wordt een versie van het element gemaakt in [!DNL Experience Manager] . Gebruikend de interface van het Web van [!DNL Assets], kunt u activageschiedenis in de [ mening van de Chronologie ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream) zien.
+Nadat u alle bewerkingen hebt uitgevoerd, geeft de app de **[!UICONTROL Edited Locally]** -status voor de gewijzigde elementen weer. Alle wijzigingen die in de elementen zijn opgeslagen, zijn alleen lokaal totdat u de wijzigingen in [!DNL Experience Manager] uploadt. Als u een individu of een paar elementen een voor een wilt uploaden, klikt u op **[!UICONTROL Upload Changes]** in de opties voor een element. Er wordt een versie van het element gemaakt in [!DNL Experience Manager] . Gebruikend de interface van het Web van [!DNL Assets], kunt u activageschiedenis in de [ mening van de Chronologie ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/using/activity-stream) zien.
 
 ![ uploadt veranderingsoptie in app ](assets/upload_changes_single1_da2.png " uploadt veranderingsoptie in app ")
 
@@ -408,7 +408,7 @@ Na het uploaden, als de verwachte veranderingen niet in app worden weerspiegeld,
 
 >[!NOTE]
 >
->Gebruik geen uploadfunctionaliteit om elementen over twee [!DNL Experience Manager] -implementaties te migreren. In plaats daarvan, zie de [ migratiegids ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
+>Gebruik geen uploadfunctionaliteit om elementen over twee [!DNL Experience Manager] -implementaties te migreren. In plaats daarvan, zie de [ migratiegids ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
 
 ### Lijst van overgedragen elementen {#list-of-transferred-assets}
 
@@ -477,7 +477,7 @@ Om de beperkingen van dit werkschema te kennen, zie de [ systeemvereisten en ges
 
 Voer de volgende stappen uit om deze workflow te testen met een afbeeldingselement en InDesign:
 
-1. Behoud een INDD-bestand met geplaatste elementen in [!DNL Experience Manager]. Om te weten hoe te om zulk een INDD dossier tot stand te brengen, zie [ Plaatsende Grafieken ](https://helpx.adobe.com/indesign/using/placing-graphics.html).
+1. Behoud een INDD-bestand met geplaatste elementen in [!DNL Experience Manager]. Om te weten hoe te om zulk een INDD dossier tot stand te brengen, zie [ Plaatsende Grafieken ](https://helpx.adobe.com/nl/indesign/using/placing-graphics.html).
 1. Vanuit de bureaubladtoepassing **[!UICONTROL Edit]** wordt het INDD-bestand met elementen in [!DNL Experience Manager] geplaatst.
 1. De app downloadt het InDesign-bestand en de gekoppelde middelen. Wanneer InDesign het document opent, worden de koppelingen opgelost, worden de elementen gedownload en worden de elementen weergegeven in het InDesign-document.
 1. Als u een nieuwe afbeelding in het InDesign-bestand wilt plaatsen, gebruikt u de handeling **[!UICONTROL Reveal File]** op het element. De actie downloadt plaatselijk activa en opent de lokale plaats van het netwerkaandeel in de Ontdekkingsreiziger van Vensters of de Vinder van Mac.

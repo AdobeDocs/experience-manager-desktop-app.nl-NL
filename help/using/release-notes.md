@@ -4,39 +4,48 @@ description: De details, de verhogingen van de versie, nieuwe eigenschappen, ver
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: 19f059875a7519cf28628fd801662da7243b077b
+source-git-commit: b5dace65444ca15d09ec8648deb4c262415f40cf
 workflow-type: tm+mt
-source-wordcount: '1955'
+source-wordcount: '2195'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager] Opmerkingen bij de release van de bureaubladtoepassing {#release-notes-v2}
 
-Hieronder vindt u de releasegegevens voor de nieuwste bureaubladtoepassing versie 2.3.1. De releasedatum is 25 juli 2024.
+Hieronder vindt u de releasegegevens voor de nieuwste bureaubladversie 2.3.3. De releasedatum is 16 mei 2025.
 
 De meest recente versie van de bureaubladtoepassing bevat de volgende opgeloste problemen en verbeteringen:
 
-* Het nieuwe installatieprogramma voor Windows van Enterprise installeert de toepassing onder Program Files.
-* Steun voor **Basisauthentificatie** tijdens AEM en SSO logins.
-* Configureerbaar aantal middelen toegestaan tijdens uploadbewerking.
+* U kunt nieuw gemaakte elementen van uw lokale computer uploaden naar AEM, waar de centrale opslagplaats is opgeslagen, en deze weergeven in uw Desktop App.
+* De functie Automatisch vernieuwen werkt de inhoud automatisch in real-time bij. Zo weet u zeker dat u altijd de meest recente informatie ziet zonder de pagina handmatig opnieuw te laden en de lijst met bijgewerkte elementen op te halen.
+* Met de functie voor het vastzetten of vrijmaken van mappen kunt u belangrijke mappen gemakkelijk toegankelijk houden door ze vast te zetten of de weergave te decluteren door ze te verwijderen wanneer ze niet meer nodig zijn.
+* Met de functie Naam van element wijzigen kunt u de titel van element eenvoudig bijwerken of wijzigen, zodat u namen nauwkeurig kunt houden en kunt ordenen terwijl de inhoud evolueert.
+* U kunt het oorspronkelijke bestand behouden en wijzigingen aanbrengen in een vergelijkbaar bestand door bestanden te dupliceren op lokale en cloudlocaties met behulp van de bewerking voor gedupliceerde bestanden.
+* Met de functie voor in- en uitchecken kunt u de bestandstoegang beheren door een bestand te vergrendelen dat u wilt bewerken (uitchecken) en uw wijzigingen op te slaan, terwijl het bestand ook beschikbaar wordt gemaakt voor anderen (inchecken).
+* U kunt verzamelingen weergeven, downloaden en doorbladeren.
+* U kunt metagegevens toewijzen wanneer u een nieuwe map maakt.
 
 De **gesteunde [!DNL Experience Manager] versies** zijn:
 
-* [!DNL Experience Manager] als een [!DNL Cloud Service] . Zie [ versienota&#39;s ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/release-notes/home).
-* [!DNL Experience Manager] 6.5.0 of hoger, op Adobe Managed Services (AMS) of op locatie. Zie {de versiedetails van het 0} de dienstpak [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/release-notes/release-notes).
+* [!DNL Experience Manager] als een [!DNL Cloud Service] . Zie [ versienota&#39;s ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/home).
+* [!DNL Experience Manager] 6.5.0 of hoger, op Adobe Managed Services (AMS) of op locatie. Zie {de versiedetails van het 0} de dienstpak ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes).[
 
 [!DNL Adobe Experience Manager] Desktop app is beschikbaar voor de volgende **werkende systemen**:
 
 * macOS X 10.14 of hoger, met de meest recente opgeloste problemen.
 * Windows 10 met de recentste de dienstpakken en insectenmoeilijke situaties.
 
-Er zijn twee versies van het Windows-installatieprogramma beschikbaar voor AEM Desktop App versie 2.3.1 en latere versies. Het basisinstallatieprogramma installeert de AEM Desktop App onder de lokale map App Data van de gebruiker. Adobe raadt dit installatieproces aan voor de meeste gebruikers. Er is ook een installatieprogramma voor Windows van Enterprise beschikbaar waarmee de AEM Desktop App wordt geïnstalleerd in de map met gedeelde programmabestanden. Deze twee installatieprogramma&#39;s installeren dezelfde versie van de AEM Desktop App, zonder functieverschillen.
+Er zijn twee versies van het Windows-installatieprogramma beschikbaar voor AEM Desktop App versie 2.3.1 en latere versies. Het basisinstallatieprogramma installeert de AEM Desktop App onder de lokale map App Data van de gebruiker. Adobe raadt dit installatieproces aan voor de meeste gebruikers. Er is ook een installatieprogramma voor Enterprise Windows beschikbaar waarmee de AEM Desktop App wordt geïnstalleerd in de map met gedeelde programmabestanden. Deze twee installatieprogramma&#39;s installeren dezelfde versie van de AEM Desktop App, zonder functieverschillen.
 
 De **download URLs** voor gesteund OS zijn:
 
 | Besturingssysteem | [!DNL Experience Manager] als een [!DNL Cloud Service] | [!DNL Experience Manager] 6.x |
 |---|---|---|
+| macOS (v2.3.3) | [ Verbinding van de Download ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-x64-2.3.3.dmg) | [ Verbinding van de Download ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-x64-2.3.3.dmg) |
+| macOS Apple Silicon (M1) (v2.3.3) | [ Verbinding van de Download ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-osx-arm64-2.3.3.dmg) | [ Verbinding van de Download ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-arm64-2.3.3.dmg) |
+| Windows 64-bits (v2.3.3) | [ Verbinding van de Download ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.3.3.exe) | [ Verbinding van de Download ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.3.3.exe) |
+| Windows 64-bits Enterprise (v2.3.3) | [ Verbinding van de Download ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?package=/content/software-distribution/en/details.html/content/dam/aemcloud/public/aem-desktop-app/aem-desktop-win-x64-2.3.3.msi) | [ Verbinding van de Download ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win-x64-2.3.3.msi) |
 | macOS (v2.3.1) | [ Verbinding van de Download ](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-osx-x64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081954149%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=mwSX5ilZL0he2raIx8t5ecQ%2FWuizky4MpcCXX3mEN38%3D&amp;reserved=0) | [ Verbinding van de Download ](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-osx-x64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081981239%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=LJH3OCFq7yRykN4wU8HN9%2FBXC%2BjfXLJH4QizeFZfRHE%3D&amp;reserved=0) |
 | macOS Apple Silicon (M1) (v2.3.1) | [ Verbinding van de Download ](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-osx-arm64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081965822%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=2YENn0tDduiucogClt6aBZHDOE6dbzBdigq8VQawIO0%3D&amp;reserved=0) | [ Verbinding van de Download ](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-osx-arm64-2.3.1.dmg&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081986151%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=jCepldg4dMej0%2BrK2mUonXwqsWL8ksE8%2BLMSgsH9qTA%3D&amp;reserved=0) |
 | Windows 64-bits (v2.3.1) | [ Verbinding van de Download ](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faemcloud.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faemcloud%2Fpublic%2Faem-desktop-app%2Faem-desktop-win-x64-2.3.1.exe&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081970892%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=sRn2UWW%2Bi7SMEvSO74ZGGvJ40vHh1KhLc7zAfKc37Es%3D&amp;reserved=0) | [ Verbinding van de Download ](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fexperience.adobe.com%2F%23%2Fdownloads%2Fcontent%2Fsoftware-distribution%2Fen%2Faem.html%3Fpackage%3D%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fadobe%2Faem-desktop-app%2Faem-desktop-win-x64-2.3.1.exe&amp;data=05%7C02%7Canujm%40adobe.com%7Cfcf599743bd649c5cd7308dcab9ea5cd%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638573945081991004%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=aQWZtEK%2F3cWX8n8Au%2FwZ5Zd9xPVo5phvk%2FuF%2Be0HRrE%3D&amp;reserved=0) |
@@ -65,7 +74,7 @@ De **download URLs** voor gesteund OS zijn:
 
 ## Ondersteuning voor verschillende elementen en bestandstypen {#support-for-file-types}
 
-De toepassing ondersteunt elementen die zijn opgeslagen in [!DNL Experience Manager] en die binair bestand vertegenwoordigen voor basisbewerkingen. Het openen van bestanden in de oorspronkelijke bureaubladtoepassing is afhankelijk van de koppeling van het besturingssysteem naar specifieke bestandstypen, zoals PNG of JPG, aan specifieke toepassingen zoals Mac Preview of Adobe Photoshop.
+De toepassing ondersteunt elementen die zijn opgeslagen in [!DNL Experience Manager] en die binair bestand vertegenwoordigen voor basisbewerkingen. Het openen van bestanden in de oorspronkelijke bureaubladtoepassing is afhankelijk van de koppeling van het besturingssysteem van de specifieke bestandstypen, zoals PNG of JPG, aan specifieke toepassingen, zoals Mac Preview of Adobe Photoshop.
 
 Enkele bestandstypen ondersteunen het plaatsen van gekoppelde elementen in het binaire bestand. De toepassing downloadt de gekoppelde elementen vooraf als het element aanwezig is in de [!DNL Experience Manager] -opslagplaats wanneer dergelijke binaire bestanden worden geopend met de bureaubladtoepassing. Momenteel worden de volgende bestandstypen ondersteund:
 
@@ -77,7 +86,7 @@ De functie wordt ondersteund in [!DNL Adobe Creative Cloud] 2018- en [!DNL Adobe
 
 * Paden naar geplaatste bestanden in de oorspronkelijke toepassing gebruiken een algemeen desktoppad (geplaatst vanuit het gedeelde lokale netwerk dat met de optie [!UICONTROL Reveal] wordt weergegeven).
 
-* Paden worden door de native app in de XMP record van het bestand opgeslagen.
+* Paden worden door de native app opgeslagen in de XMP-record van het bestand.
 
 * [!DNL Experience Manager] heeft de XMP-record geëxtraheerd met de paden naar de metagegevensrecord van het element.
 
@@ -86,6 +95,12 @@ De functie wordt ondersteund in [!DNL Adobe Creative Cloud] 2018- en [!DNL Adobe
 ## Nieuwe functies, verbeteringen en foutoplossingen {#what-is-new}
 
 Om de details te kennen, zie [ wat in v2.0 ](introduction.md#whats-new-v2) nieuw is.
+
+**Updates in app v2.3.1**
+
+* Het nieuwe installatieprogramma voor Windows van Enterprise installeert de toepassing onder Program Files.
+* Steun voor **BasisAuthentificatie** tijdens de logins van AEM en van SSO.
+* Configureerbaar aantal elementen toegestaan tijdens uploadbewerking
 
 **Updates in app v2.3.0**
 
@@ -159,7 +174,7 @@ Het probleem dat in deze versie is opgelost, is:
 
 Het probleem dat in deze versie is opgelost, is:
 
-* Oplossing voor het aanmeldingsprobleem voor app-gebruikers in Windows die proberen toegang te krijgen tot de DAM-opslagplaats op [!DNL Adobe Experience Manager] 6.5.5.0.
+* Oplossing voor het aanmeldingsprobleem voor app-gebruikers in Windows die proberen toegang te krijgen tot de DAM-opslagplaats op [!DNL Adobe Experience Manager] 6.5.5.0 .
 
 **Updates in app v2.0.2**
 
@@ -241,8 +256,8 @@ Het volgende diagram illustreert de stroom van elementen en bestanden van de clo
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Experience Manager]  als a [!DNL Cloud Service]  documentatie ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service)
->* [[!DNL Experience Manager]  als a  [!DNL Cloud Service] [!DNL Assets] documentatie ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/overview)
+>* [[!DNL Experience Manager]  als a [!DNL Cloud Service]  documentatie ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service)
+>* [[!DNL Experience Manager]  als a  [!DNL Cloud Service] [!DNL Assets] documentatie ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview)
 >* [ hoe te  [!DNL Experience Manager]  Desktop app ](using.md) gebruiken
 >* [ installeer en bevorder Desktop app ](install-upgrade.md)
 >* [ Beste praktijken en het oplossen van problemenuiteinden ](troubleshoot.md)

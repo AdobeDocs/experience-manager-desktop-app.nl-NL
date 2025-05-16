@@ -1,12 +1,12 @@
 ---
-title: De Desktop app van het gebruik  [!DNL Experience Manager]
+title: 'De Desktop app van het gebruik  [!DNL Experience Manager] '
 description: Gebruik  [!DNL Adobe Experience Manager]  Desktop app, om met  [!DNL Adobe Experience Manager]  activa te werken DAM recht van uw Desktop van Win of van Mac en gebruik in andere toepassingen.
 mini-toc-levels: 1
 feature: Desktop App,Asset Management
 exl-id: fa19d819-231a-4a01-bfd2-6bba6fec2f18
-source-git-commit: ba980c1a1bad4a9627fc28ac7f6619b644fb1f04
+source-git-commit: fb11b41020a4c2b2c40e8adcde822c65a7fe8985
 workflow-type: tm+mt
-source-wordcount: '4060'
+source-wordcount: '4734'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ De belangrijkste taken die u uitvoert met de bureaubladtoepassing van [!DNL Adob
 
 ![ Werkschema&#39;s en taken u kunt verwezenlijken gebruikend [!DNL Experience Manager] Desktop app ](assets/aem_desktop_app_usecases_v2.png " Werkschema&#39;s en taken u het gebruiken van  [!DNL Adobe Experience Manager]  Desktop app ") kunt verwezenlijken
 
-Download [ dit ](assets/aem_desktop_app_usecases_print.pdf) druk-klaar PDF dossier.
+<!--Download [this](assets/aem_desktop_app_usecases_print.pdf) print-ready PDF file.-->
 
 ## Hoe desktop app werkt {#how-app-works2}
 
@@ -43,19 +43,21 @@ Alvorens u begint de toepassing te gebruiken, begrijp [ hoe app ](release-notes.
 
 * **[!UICONTROL Check-out]**: als u een bestand bewerkt of van plan bent een bestand te bewerken, schakelt u de status in en uit. Er wordt een vergrendelingspictogram toegevoegd aan het element in de app en de [!DNL Experience Manager] webinterface. Met het vergrendelingspictogram kunnen andere gebruikers voorkomen dat hetzelfde element tegelijk wordt bewerkt, omdat dit tot een bewerkingsconflict leidt.
 
-* **[!UICONTROL Check-in]**: Markeer het element als veilig voor andere gebruikers om het te bewerken zonder een bewerkingsconflict te veroorzaken. Wanneer u uw wijzigingen uploadt, wordt het vergrendelingspictogram automatisch verwijderd. Als u de incheck-status inschakelt, wordt ook het vergrendelingspictogram verwijderd. U wordt echter aangeraden handmatig in te checken zonder de wijzigingen te uploaden. Als u de wijzigingen verwijdert, schakelt u het inchecken handmatig in of uit.
+* **[!UICONTROL Check-in]**: Markeer het element als veilig voor andere gebruikers om het te bewerken zonder een bewerkingsconflict te veroorzaken. Wanneer u uw wijzigingen uploadt, wordt het vergrendelingspictogram automatisch verwijderd. Als u de incheckstatus inschakelt, wordt ook het vergrendelingspictogram verwijderd. Adobe raadt u echter aan niet handmatig in te checken zonder de wijzigingen te uploaden. Als u de wijzigingen verwijdert, schakelt u het inchecken handmatig in of uit.
 
-* **[!UICONTROL Open]** Handeling: open het element om er een voorvertoning van te bekijken in de oorspronkelijke toepassing. Adobe raadt u aan het element niet te bewerken door deze handeling te gebruiken. De reden is dat het actief niet wordt uitgecheckt. Ondertussen kunnen andere gebruikers bewerkingen uitvoeren die tot bewerkingsconflicten leiden.
+* **[!UICONTROL Open]** Handeling: open het element om er een voorvertoning van te bekijken in de oorspronkelijke toepassing. Adobe raadt u aan het middel niet te bewerken door deze handeling te gebruiken. De reden is dat het actief niet wordt uitgecheckt. Ondertussen kunnen andere gebruikers bewerkingen uitvoeren die tot bewerkingsconflicten leiden.
+
+* **[!UICONTROL Open with]** action: Met de functie &quot;Openen met&quot; kunt u een bestand openen met een andere specifieke toepassing dan de standaardtoepassing. Dit is handig als u een voorkeursprogramma wilt kiezen, bestanden in verschillende indelingen wilt openen, problemen met de standaardtoepassing wilt oplossen of meerdere programma&#39;s wilt gebruiken. Het biedt flexibiliteit doordat u de standaardtoepassing tijdelijk kunt overschrijven zonder instellingen permanent te wijzigen.
+
+* **[!UICONTROL Open In Web]** action: Open het element in de webinterface van [!DNL Experience Manager] om het element weer te geven. U kunt vanuit de interface van [!DNL Experience Manager] meer workflows starten, zoals het bijwerken van metagegevens of het detecteren van elementen.
 
 * **[!UICONTROL Edit]** actie: gebruik de actie om de afbeelding te wijzigen. Als u op [!UICONTROL Edit] klikt, wordt het element uitgecheckt en wordt een vergrendelingspictogram toegevoegd aan het element. Klik op Bewerken als u het element niet wilt bewerken en klik vervolgens op [!UICONTROL Toggle check-in] . Als u elementen in de DAM-maphiërarchie van [!DNL Experience Manager] wilt verwijderen, hernoemen of verplaatsen, gebruikt u de [!DNL Experience Manager] webinterfacehandelingen en niet de bewerkingshandeling.
 
 * **[!UICONTROL Download]** Handeling: Download het element naar uw lokale computer. U kunt de elementen nu downloaden en later bewerken. Werk offline en upload de wijzigingen later. Assets wordt gedownload in een cachemap op uw bestandssysteem.
 
-* **[!UICONTROL Reveal File]** of **[!UICONTROL Reveal Folder]** actie: terwijl de elementen naar een lokale cachemap worden gedownload, navigeert de toepassing een lokale netwerkschijf. Het biedt een lokaal pad voor elk element. Als u dit pad wilt weten, gebruikt u de desbetreffende openingsoptie in de app. U moet actie onthullen om elementen in de toepassing Creative Cloud te plaatsen. Zie [ plaatselementen ](using.md#place-assets-in-native-documents).
+* **[!UICONTROL Reveal File]** of **[!UICONTROL Reveal Folder]** actie: terwijl de elementen naar een lokale cachemap worden gedownload, navigeert de toepassing een lokale netwerkschijf. Het biedt een lokaal pad voor elk element. Als u dit pad wilt weten, gebruikt u de desbetreffende openingsoptie in de app. Actie tonen is vereist om elementen in de Creative Cloud-toepassing te plaatsen. Zie [ plaatselementen ](using.md#place-assets-in-native-documents).
 
-* **[!UICONTROL Open In Web]** action: Open het element in de webinterface van [!DNL Experience Manager] om het element weer te geven. U kunt vanuit de interface van [!DNL Experience Manager] meer workflows starten, zoals het bijwerken van metagegevens of het detecteren van elementen.
-
-* **[!UICONTROL Delete]** actie: verwijder het element uit de [!DNL Experience Manager] DAM-opslagplaats. De actie schrapt de originele kopie van het middel op de server van de Experience Manager. Als u slechts wijzigingen in het lokale activa wilt verwerpen, zie [ veranderingen ](using.md#edit-assets-upload-updated-assets) verwerpen.
+* **[!UICONTROL Delete]** actie: verwijder het element uit de [!DNL Experience Manager] DAM-opslagplaats. Met de handeling wordt de oorspronkelijke kopie van het element op de Experience Manager-server verwijderd. Als u slechts wijzigingen in het lokale activa wilt verwerpen, zie [ veranderingen ](using.md#edit-assets-upload-updated-assets) verwerpen.
 
 * **[!UICONTROL Upload Changes]**: De bureaubladtoepassing uploadt het bijgewerkte element alleen wanneer u het expliciet uploadt naar de [!DNL Experience Manager] -server. Wanneer u uw bewerkingen opslaat, worden de wijzigingen alleen op uw lokale computer opgeslagen. Wanneer u het element uploadt, wordt het automatisch ingecheckt en wordt het vergrendelingspictogram verwijderd. Zie [ activa ](using.md#edit-assets-upload-updated-assets) uitgeven.
 
@@ -71,6 +73,28 @@ Vanuit de gebruikersinterface van [!DNL Assets] in een browser kunt u de middele
    ![ Uitgezochte tonen de Acties van de Desktop voor Assets om Desktopacties toe te laten ](assets/enable_desktop_actions.png)
 
    *Cijfer: Selecteer [!UICONTROL Show Desktop Actions For Assets] om de Acties van de Desktop toe te laten.*
+
+## Elementen weergeven {#view-assets}
+
+Met AEM Desktop App kunt u elementen weergeven in vier verschillende weergaven:
+
+* **[!UICONTROL Show Assets]:** Staat u toe om alle activa te bekijken.
+* **[!UICONTROL Show Collections]:** Hiermee kunt u alle verzamelingen weergeven die in de native AEM-toepassing zijn gemaakt. Zie meer [ inzamelingen ](#collections-desktop-app).
+* **[!UICONTROL Edited Locally]:** Hiermee kunt u alle lokaal gewijzigde elementen weergeven. In deze weergave kunt u meerdere elementen toevoegen en uploaden.
+* **[!UICONTROL Asset transfers]:** Hiermee kunt u alle elementen weergeven die van de native app naar de lokale of andersom zijn overgebracht.
+* **[!UICONTROL Pinned items]:** Hiermee kunt u alle vastgezette items weergeven.
+
+Voer de volgende stappen uit om te kiezen uit de verschillende weergaven van middelen in de AEM Desktop-app:
+
+1. Open AEM Desktop App.
+
+1. Ga naar de vervolgkeuzelijst rechtsboven in het scherm. Kies een van de beschikbare weergaven.
+
+   ![ speld of speld omslag ](assets/view-pinned-assets.png) uit
+
+### Nieuw toegevoegde mappen en bestanden weergeven {#view-newly-added-files-folders}
+
+U kunt nieuw gemaakte middelen uploaden van uw lokale computer naar AEM, waar de centrale opslagplaats is opgeslagen. Als u deze nieuwe elementen lokaal wilt weergeven, gaat u naar het vervolgkeuzemenu **[!UICONTROL View]** en selecteert u **[!UICONTROL Show Assets]** om alle updates met hun tijdlijn en titels weer te geven, of selecteert u **[!UICONTROL Edited Locally]** . Beide opties tonen expliciet de lokaal bewerkte elementen.
 
 ## Zoeken, zoeken en voorvertonen van elementen {#browse-search-preview-assets}
 
@@ -95,11 +119,59 @@ U kunt vanuit de bureaubladtoepassing bladeren naar de elementen die beschikbaar
 >
 >In de app worden de elementen weergegeven door de zoekcriteria af te stemmen op meerdere metagegevensvelden en niet alleen op de titel van het element of de bestandsnaam.
 
+## Assets Management {#assets-management}
+
+Middelenbeheer omvat het organiseren, onderhouden en optimaliseren van digitale middelen om workflows te stroomlijnen. Dit omvat taken zoals het dupliceren en hernoemen van bestanden, het vastzetten of verwijderen van mappen voor snelle toegang, en het weergeven van elementen in verschillende lay-outs. Dit verbetert de efficiëntie, vereenvoudigt het bijhouden van bedrijfsmiddelen en zorgt ervoor dat digitale middelen eenvoudig kunnen worden opgehaald en geordend op verschillende platforms.
+
+### Bestanden dupliceren {#duplicate-files}
+
+Wanneer u een origineel bestand wilt behouden en wijzigingen wilt aanbrengen in het vergelijkbare bestand, kunt u bestanden op verschillende locaties (lokaal en in de cloud) tegelijk dupliceren. Dit kan worden bereikt door dubbele bestandsbewerkingen uit te voeren tussen elementen.
+
+Voer de volgende stappen uit om bestanden te dupliceren in AEM Desktop App:
+
+1. Blader naar een map en selecteer het element dat u wilt dupliceren.
+
+   ![ Dubbele dossiers ](assets/more-options.png)
+
+1. Klik **[!UICONTROL More actions]** ![ Meer actiepictogram ](assets/do-not-localize/more2_da2.png) en selecteer ![ dubbel pictogram ](assets/do-not-localize/duplicate.svg) **[!UICONTROL Duplicate File]** actie.
+
+1. Het gedupliceerde bestand wordt gemaakt met dezelfde bestandsnaam en inhoud.
+
+### De naam van een element wijzigen {#rename-asset-title}
+
+Voer de onderstaande stappen uit om de naam van een element te wijzigen:
+
+1. Blader door het element waarvan u de naam wilt wijzigen.
+
+1. Klik **[!UICONTROL More actions]** ![ Meer actiepictogram ](assets/do-not-localize/more2_da2.png) en selecteer **[!UICONTROL Rename]** om uw gewenste titel van een activa toe te voegen.
+
+<!--1. Click **[!UICONTROL More actions]** ![More actions icon](assets/do-not-localize/more2_da2.png) and select **[!UICONTROL open in web]** to open the asset in its native application.
+
+1. Go to asset details. Under [!UICONTROL Basic] tab, go to title and enter the text.-->
+
+### Map vastzetten of vastzetten {#pin-unpin-folder}
+
+Voor snelle toegang kunt u een map vastzetten of vrijmaken door de onderstaande stappen uit te voeren:
+
+1. Blader door het element dat u wilt vastzetten of vrijmaken.
+
+1. Klik **[!UICONTROL More actions]** ![ Meer actiepictogram ](assets/do-not-localize/more2_da2.png) en selecteer [!UICONTROL pin] om de activa of de omslag vast te zetten. U kunt ook op [!UICONTROL unpin] klikken om het vastzetten ongedaan te maken.
+
+   ![ speld of speld omslag ](assets/pin-unpin.png) uit
+
+### Automatisch vernieuwen {#auto-refresh}
+
+Met de functie Automatisch vernieuwen wordt inhoud automatisch in real-time bijgewerkt. Zo weet u zeker dat u altijd de meest recente informatie ziet zonder de pagina handmatig opnieuw te laden. Voer de onderstaande stappen uit om elementen automatisch te vernieuwen om de lijst met bijgewerkte elementen op te halen:
+
+1. Open AEM Desktop App.
+
+1. Klik ![ verfrissen pictogram ](assets/do-not-localize/refresh.png) op de menubar om de updates te krijgen.
+
 ## Elementen downloaden {#download-assets}
 
 U kunt de elementen downloaden naar uw lokale bestandssysteem. De toepassing haalt de elementen op van de [!DNL Experience Manager] -server en slaat dezelfde kopie op uw lokale bestandssysteem op.
 
-Klik ![ Meer optiepictogram ](assets/do-not-localize/more2_da2.png) voor opties en klik ![ pictogram van de Download ](assets/do-not-localize/download_cloud_da2.png) om te downloaden.
+Klik **[!UICONTROL More actions]** ![ Meer optiepictogram ](assets/do-not-localize/more2_da2.png) voor opties en klik ![ pictogram van de Download ](assets/do-not-localize/download_cloud_da2.png) om te downloaden.
 
 ![ optie van de Download voor een activa ](assets/download_option_da2.png " optie van de Download voor een activa ")
 
@@ -128,13 +200,49 @@ Klik op **[!UICONTROL Open]** in het menu Middelen. Het element wordt lokaal ged
 
 Om de lokale downloadomslag van een activa te openen, klik ![ Meer actiepictogram ](assets/do-not-localize/more2_da2.png) en klik ![ onthullen pictogram ](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]** actie.
 
+## Verzamelingen {#collections-desktop-app}
+
+AEM App van de Desktop staat u toe om ](#view-collections-desktop-app) te bekijken, [ download ](#download-collections-desktop-app) en doorblader inzamelingen die op [!DNL Adobe Experience Manager Assets] toepassing worden gecreeerd.[
+
+### Verzamelingen weergeven {#view-collections-desktop-app}
+
+Voer de volgende stappen uit om verzamelingen in de bureaubladtoepassing weer te geven:
+
+1. Open App van de Desktop van AEM en ga naar [ meningsactiva ](#view-assets).
+
+1. Selecteer **[!UICONTROL Show Collections]**. De verzamelingen die beschikbaar zijn in de oorspronkelijke toepassing, worden weergegeven.
+
+   ![ de Desktop van Inzamelingen App ](assets/collections-desktop-app.png)
+
+### Verzamelingen downloaden {#download-collections-desktop-app}
+
+Voer de volgende stappen uit om verzamelingen in de bureaubladtoepassing te downloaden:
+
+1. Volg stappen 1 en 2 zoals aangetoond in [ meningsinzamelingen ](#view-collections-desktop-app).
+
+1. Ga naar meer acties ![ Meer actiepictogram ](assets/do-not-localize/more2_da2.png) op de inzameling die u wilt downloaden.
+
+1. Klik op **[!UICONTROL Download]** om de desbetreffende verzameling te downloaden.
+
+## Map maken met metagegevensschema {#create-folder-with-metadata-schema}
+
+Met de AEM Desktop App kunt u metagegevens toewijzen tijdens het maken van een nieuwe map. Voer daartoe de volgende stappen uit:
+
+1. Ga om folderpictogram tot stand te brengen ![ voeg omslagpictogram ](assets/do-not-localize/add-folder.svg) toe. **[!UICONTROL Create Directory]** wordt weergegeven.
+
+1. Voeg de volgende details toe:
+   * **[!UICONTROL Name]** van de map.
+   * **[!UICONTROL Folder Metadata Schema]** om een hiërarchie van metagegevens in de map te kiezen of kies **[!UICONTROL none]** als u er geen metagegevens aan wilt koppelen.
+
+1. Klik op **[!UICONTROL OK]** om verder te gaan.
+
 ## Elementen gebruiken of plaatsen in eigen documenten {#place-assets-in-native-documents}
 
 In sommige gevallen, bijvoorbeeld wanneer het plaatsen van activa in een inheems document, hebt u toegang tot een dossier in de Ontdekkingsreiziger van Vensters of de Vinder van Mac. Om aan de plaats van het dossiersysteem van het plaatselijk gedownloade dossier te krijgen, gebruik ![ het pictogram ](assets/do-not-localize/reveal_action2_da2.png) **[!UICONTROL Reveal File]** optie onthullen.
 
 ![ openbaart de actie van het Dossier voor een activa ](assets/revealfile_action_da2.png " onthullen actie van het Dossier voor een activa ")
 
-Klik op **[!UICONTROL Reveal File]** of **[!UICONTROL Reveal Folder]** in een map om Windows Verkenner of de Finder van Mac te openen met het bestand of de map die vooraf op uw lokale computer is geselecteerd. De optie is bijvoorbeeld handig om de [!DNL Experience Manager] -bestanden te plaatsen in de native toepassingen die het plaatsen of koppelen van lokale bestanden ondersteunen. Om te zien hoe te om dossiers in Adobe InDesign te plaatsen, zie [ Plaatsende grafiek ](https://helpx.adobe.com/nl/indesign/using/placing-graphics.html).
+Klik op **[!UICONTROL Reveal File]** of **[!UICONTROL Reveal Folder]** in een map om Windows Verkenner of de Finder van Mac te openen met het bestand of de map die vooraf op uw lokale computer is geselecteerd. De optie is bijvoorbeeld handig om de [!DNL Experience Manager] -bestanden te plaatsen in de native toepassingen die het plaatsen of koppelen van lokale bestanden ondersteunen. Om te zien hoe te om dossiers in Adobe InDesign te plaatsen, zie [ Plaatsende grafiek ](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 
 Met de handeling **[!UICONTROL Reveal File]** wordt een lokaal gedeelde netwerk geopend. Alleen de elementen die lokaal beschikbaar zijn, worden weergegeven. Dit betekent dat er elementen worden weergegeven die met de app zijn onthuld, gedownload of geopend/bewerkt. Het lokale netwerkaandeel uploadt geen veranderingen in [!DNL Experience Manager]. Als u de wijzigingen wilt uploaden, gebruikt u expliciet de handelingen **[!UICONTROL Upload Changes]** of **[!UICONTROL Upload]** in de app.
 
@@ -157,7 +265,7 @@ Gebruik **[!UICONTROL Toggle Check-out]** om het element te vergrendelen om conf
 * U hebt een middel bewerkt zonder het eerst uit te checken (bijvoorbeeld door het alleen te openen).
 * U bent van plan binnenkort met het bewerken van een element te beginnen en wilt niet dat anderen dit bewerken.
 
-Nadat u alle bewerkingen hebt uitgevoerd, geeft de app de **[!UICONTROL Edited Locally]** -status voor de gewijzigde elementen weer. Alle wijzigingen die in de elementen zijn opgeslagen, zijn alleen lokaal totdat u de wijzigingen in [!DNL Experience Manager] uploadt. Als u een individu of een paar elementen een voor een wilt uploaden, klikt u op **[!UICONTROL Upload Changes]** in de opties voor een element. Er wordt een versie van het element gemaakt in [!DNL Experience Manager] . Gebruikend de interface van het Web van [!DNL Assets], kunt u activageschiedenis in de [ mening van de Chronologie ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/using/activity-stream) zien.
+Nadat u alle bewerkingen hebt uitgevoerd, geeft de app de **[!UICONTROL Edited Locally]** -status voor de gewijzigde elementen weer. Alle wijzigingen die in de elementen zijn opgeslagen, zijn alleen lokaal totdat u de wijzigingen in [!DNL Experience Manager] uploadt. Als u een individu of een paar elementen een voor een wilt uploaden, klikt u op **[!UICONTROL Upload Changes]** in de opties voor een element. Er wordt een versie van het element gemaakt in [!DNL Experience Manager] . Gebruikend de interface van het Web van [!DNL Assets], kunt u activageschiedenis in de [ mening van de Chronologie ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream) zien.
 
 ![ uploadt veranderingsoptie in app ](assets/upload_changes_single1_da2.png " uploadt veranderingsoptie in app ")
 
@@ -191,6 +299,9 @@ U kunt de uploadsnelheid (versnelling) bepalen in de instelling **[!UICONTROL Pr
 >[!NOTE]
 >
 >De overdrachtlijst is niet blijvend en is niet beschikbaar als u de app afsluit en opnieuw opent.
+
+<!--### Upload local file to AEM {#upload-local-file-to-aem}-->
+
 
 ### Speciale tekens in elementnamen beheren {#special-characters-in-filename}
 
@@ -297,7 +408,7 @@ Na het uploaden, als de verwachte veranderingen niet in app worden weerspiegeld,
 
 >[!NOTE]
 >
->Gebruik geen uploadfunctionaliteit om elementen over twee [!DNL Experience Manager] -implementaties te migreren. In plaats daarvan, zie de [ migratiegids ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
+>Gebruik geen uploadfunctionaliteit om elementen over twee [!DNL Experience Manager] -implementaties te migreren. In plaats daarvan, zie de [ migratiegids ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
 
 ### Lijst van overgedragen elementen {#list-of-transferred-assets}
 
@@ -317,7 +428,7 @@ De functionaliteit van de Desktop-app wordt gebruikt wanneer u de volgende hande
 
 De acties in de webinterface die beschikbaar zijn voor een element dat is uitgecheckt in de app, zijn bijvoorbeeld [!UICONTROL Open], [!UICONTROL Reveal] en [!UICONTROL Check in] .
 
-![ Acties van de Desktop in de [!DNL Experience Manager] interface van het Web ](assets/assets_web_actions_da2.png " Acties van de Desktop in de interface van het Web van de Experience Manager ")
+![ Acties van de Desktop in de [!DNL Experience Manager] interface van het Web ](assets/assets_web_actions_da2.png " Acties van de Desktop in de interface van het Web van Experience Manager ")
 
 >[!NOTE]
 >
@@ -352,11 +463,11 @@ Als een middel dat u lokaal bewerkt ook zonder uw medeweten op de server wordt b
 
 ![ Opties om een het uitgeven conflict ](assets/editing_conflict_dialog_da2.png " Opties op te lossen om een het uitgeven conflict ") op te lossen
 
-## Geavanceerde workflow: elementen plaatsen en koppelen in InDesign-bestand {#adv-workflow-place-assets-indesign}
+## Geavanceerde workflow: middelen plaatsen en koppelen in InDesign-bestand {#adv-workflow-place-assets-indesign}
 
 Wanneer u de bureaubladtoepassing van [!DNL Experience Manager] gebruikt om bestanden met gekoppelde elementen te openen, worden de elementen vooraf gedownload en in de oorspronkelijke toepassingen geplaatst. Deze workflow werkt alleen als uw oorspronkelijke toepassing het plaatsen van koppelingen naar lokale elementen ondersteunt en [!DNL Experience Manager] het oplossen van deze koppelingen in binaire bestanden naar verwijzingen naar de server ondersteunt.
 
-De bureaubladtoepassing van [!DNL Experience Manager] ondersteunt deze workflow met een aantal geselecteerde Adobe Creative Cloud-bureaubladtoepassingen en -bestandsindelingen - Adobe InDesign, Adobe Illustrator en Adobe Photoshop. Met de workflow kunt u efficiënt werken met de ondersteunde Creatives Cloud. Als gebruiker A elementen toevoegt aan een InDesign bestand en deze incheckt in [!DNL Experience Manager] , kan gebruiker B de elementen in het bestand zien, ook al maken deze geen deel uit van het bestand. De middelen worden plaatselijk gedownload op de machine van gebruiker B.
+De bureaubladtoepassing van [!DNL Experience Manager] ondersteunt deze workflow met een aantal geselecteerde Adobe Creative Cloud-bureaubladtoepassingen en -bestandsindelingen - Adobe InDesign, Adobe Illustrator en Adobe Photoshop. Met de workflow kunt u efficiënt werken met de ondersteunde Creative Cloud-bestanden. Als gebruiker A elementen toevoegt aan een InDesign-bestand en dit incheckt in [!DNL Experience Manager] , kan gebruiker B de elementen in het bestand zien, ook al maken deze geen deel uit van het bestand. De middelen worden plaatselijk gedownload op de machine van gebruiker B.
 
 >[!NOTE]
 >
@@ -366,12 +477,12 @@ Om de beperkingen van dit werkschema te kennen, zie de [ systeemvereisten en ges
 
 Voer de volgende stappen uit om deze workflow te testen met een afbeeldingselement en InDesign:
 
-1. Behoud een INDD-bestand met geplaatste elementen in [!DNL Experience Manager]. Om te weten hoe te om zulk een INDD dossier tot stand te brengen, zie [ Plaatsende Grafieken ](https://helpx.adobe.com/nl/indesign/using/placing-graphics.html).
+1. Behoud een INDD-bestand met geplaatste elementen in [!DNL Experience Manager]. Om te weten hoe te om zulk een INDD dossier tot stand te brengen, zie [ Plaatsende Grafieken ](https://helpx.adobe.com/indesign/using/placing-graphics.html).
 1. Vanuit de bureaubladtoepassing **[!UICONTROL Edit]** wordt het INDD-bestand met elementen in [!DNL Experience Manager] geplaatst.
-1. De app downloadt het bestand InDesign en de gekoppelde elementen. Wanneer het InDesign het document opent, worden de koppelingen opgelost, worden de elementen gedownload en worden de elementen weergegeven in het document van het InDesign.
-1. Als u een nieuwe afbeelding in het InDesign wilt plaatsen, gebruikt u de handeling **[!UICONTROL Reveal File]** op het element. De actie downloadt plaatselijk activa en opent de lokale plaats van het netwerkaandeel in de Ontdekkingsreiziger van Vensters of de Vinder van Mac.
-1. Plaats het onthulde element in het document van het InDesign. Hiermee maakt u een koppeling in het document.
-1. Nadat u de bewerkingen in het document InDesign hebt voltooid, slaat u deze op en uploadt u deze naar [!DNL Experience Manager] met de bureaubladtoepassing.
+1. De app downloadt het InDesign-bestand en de gekoppelde middelen. Wanneer InDesign het document opent, worden de koppelingen opgelost, worden de elementen gedownload en worden de elementen weergegeven in het InDesign-document.
+1. Als u een nieuwe afbeelding in het InDesign-bestand wilt plaatsen, gebruikt u de handeling **[!UICONTROL Reveal File]** op het element. De actie downloadt plaatselijk activa en opent de lokale plaats van het netwerkaandeel in de Ontdekkingsreiziger van Vensters of de Vinder van Mac.
+1. Plaats het onthulde element in het InDesign-document. Hiermee maakt u een koppeling in het document.
+1. Nadat u de bewerkingen in het InDesign-document hebt voltooid, slaat u het document op en uploadt u het naar [!DNL Experience Manager] met de bureaubladtoepassing.
 
 ## Geavanceerde workflow: download de middelen lokaal {#adv-workflow-download-assets-locally}
 

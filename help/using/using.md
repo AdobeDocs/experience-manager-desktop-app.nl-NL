@@ -202,7 +202,7 @@ Om de lokale downloadomslag van een activa te openen, klik ![ Meer actiepictogra
 
 ## Verzamelingen {#collections-desktop-app}
 
-AEM App van de Desktop staat u toe om ](#view-collections-desktop-app) te bekijken, [ download ](#download-collections-desktop-app) en doorblader inzamelingen die op [!DNL Adobe Experience Manager Assets] toepassing worden gecreeerd.[
+AEM App van de Desktop staat u toe om [&#128279;](#view-collections-desktop-app) te bekijken, [ download ](#download-collections-desktop-app) en doorblader inzamelingen die op [!DNL Adobe Experience Manager Assets] toepassing worden gecreeerd.
 
 ### Verzamelingen weergeven {#view-collections-desktop-app}
 

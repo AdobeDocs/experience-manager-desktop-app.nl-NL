@@ -2,7 +2,7 @@
 title: Beste praktijken voor en het oplossen van problemen  [!DNL Adobe Experience Manager]  Desktop app
 description: Volg de beste praktijken en los problemen op om de af en toe met installatie, verbetering, configuratie, etc. verband houdende kwesties op te lossen.
 exl-id: f388e4ac-907d-4093-ba6f-86ecdafeb015
-source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
+source-git-commit: a8cb0aaab08f24c83a9b5640a96a5ae8895685d2
 workflow-type: tm+mt
 source-wordcount: '2275'
 ht-degree: 0%
@@ -21,11 +21,11 @@ Houd u aan de volgende aanbevolen procedures om bepaalde algemene problemen en p
 
 * **Begrijp hoe Desktop app** werkt: Alvorens te beginnen om de toepassing te gebruiken, besteed een paar ogenblikken het kennen van hoe app werkt. U weet hoe u een koppeling tot stand brengt tussen de webinterface van [!DNL Experience Manager] en het bureaublad, de toewijzing van opslagruimten, het in cache plaatsen van elementen, het lokaal opslaan en het uploaden op de achtergrond. Zie [ hoe het ](release-notes.md#how-app-works) werkt.
 
-* **vermijd niet gesteunde karakters in omslagnamen**: Gebruik geen whitespaces en ongeldige karakters wanneer het creëren van of het uploaden van omslagen. Zie een lijst van karakters bij [ leiden omslagen in  [!DNL Adobe Experience Manager Assets] ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). Niet-ondersteunde tekens in de mapnaam kunnen van invloed zijn op bepaalde gebruiksgevallen van [!DNL Experience Manager] .
+* **vermijd niet gesteunde karakters in omslagnamen**: Gebruik geen whitespaces en ongeldige karakters wanneer het creëren van of het uploaden van omslagen. Zie een lijst van karakters bij [ leiden omslagen in  [!DNL Adobe Experience Manager Assets] ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). Niet-ondersteunde tekens in de mapnaam kunnen van invloed zijn op bepaalde gebruiksgevallen van [!DNL Experience Manager] .
 
-* **Beste praktijken om conflicten** te vermijden: Om potentiële conflicten te vermijden wanneer het samenwerken op veelvoudige activa, ga [ vermijden het uitgeven conflicten ](using.md#adv-workflow-collaborate-avoid-conflicts).
+* **Beste praktijken om conflicten** te vermijden: Om potentiële conflicten te vermijden wanneer het samenwerken op veelvoudige activa, ga [ vermijden het uitgeven conflicten ](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts).
 
-* **de omslagupload van het Gebruik voor grote, hiërarchische omslagen**: In plaats van het gebruiken van de het Webinterface van Assets of andere methodes, gebruik [!DNL Experience Manager] Desktop app om grote omslagen te uploaden. De app uploadt de middelen op de achtergrond met registratie en controle. Zie [ bulkupload activa ](using.md#bulk-upload-assets).
+* **de omslagupload van het Gebruik voor grote, hiërarchische omslagen**: In plaats van het gebruiken van de het Webinterface van Assets of andere methodes, gebruik [!DNL Experience Manager] Desktop app om grote omslagen te uploaden. De app uploadt de middelen op de achtergrond met registratie en controle. Zie [ bulkupload activa ](using-desktop-app.md#bulk-upload-assets).
 
 * **Gebruik de recentste versie**: Gebruik de recentste toepassingsversie. Controleer altijd op compatibiliteit voordat u een nieuwe app-versie installeert of voordat u een upgrade naar een nieuwere [!DNL Experience Manager] versie uitvoert. Zie [ versienota&#39;s ](release-notes.md).
 
@@ -39,7 +39,7 @@ Houd u aan de volgende aanbevolen procedures om bepaalde algemene problemen en p
 
 ## Hoe te om problemen op te lossen {#troubleshooting-prep}
 
-Houd rekening met de volgende informatie als u problemen met bureaubladtoepassingen wilt oplossen. Bovendien is het programma klaar om de problemen beter door te geven aan de Adobe Klantenondersteuning als u ervoor kiest om ondersteuning te zoeken.
+Houd rekening met de volgende informatie als u problemen met bureaubladtoepassingen wilt oplossen. Bovendien is het programma klaar om de problemen beter door te geven aan de klantenondersteuning van Adobe als u ervoor kiest om ondersteuning te zoeken.
 
 ### Locatie van logbestanden {#check-log-files-v2}
 
@@ -53,7 +53,7 @@ Wanneer u een groot aantal elementen uploadt, raadpleegt u `backend.log` bestand
 
 >[!NOTE]
 >
->Wanneer u met de klantenondersteuning van de Adobe werkt aan een ondersteuningsverzoek of -ticket, kunt u worden gevraagd om de logbestanden te delen om het team van Klantenondersteuning te helpen het probleem te begrijpen. Archiveer de volledige map `Logs` en deel deze met uw contactpersoon voor klantenondersteuning.
+>Wanneer u met de klantenondersteuning van Adobe werkt aan een ondersteuningsverzoek of -ticket, kunt u worden gevraagd om de logbestanden te delen om het team van Klantenondersteuning te helpen het probleem te begrijpen. Archiveer de volledige map `Logs` en deel deze met uw contactpersoon voor klantenondersteuning.
 
 ### Detailniveau in logbestanden wijzigen {#level-of-details-in-log}
 
@@ -301,8 +301,8 @@ In beide methoden wordt de toepassing gestart in de hoofdmap DAM.
 
 Wanneer u elementen bladert vanuit de gebruikersinterface van [!DNL Experience Manager] , worden de verlopen elementen niet weergegeven. Beheerders kunnen instellingen configureren om te voorkomen dat verlopen middelen worden weergegeven, gezocht en opgehaald wanneer ze de bureaubladtoepassing en de Asset Link verlaten. Dit zorgt ervoor dat verlopen elementen tijdens deze bewerkingen niet toegankelijk zijn. De configuratie werkt voor alle gebruikers, ongeacht beheerderrechten.
 
-* [ Configuratie in Experience Manager 6.5 om verlopen activa ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api) te verbergen.
-* [ Configuratie in as a Cloud Service Experience Manager om verlopen activa ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api) te verbergen.
+* [ Configuratie in Experience Manager 6.5 om verlopen activa ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api) te verbergen.
+* [ Configuratie in Experience Manager as a Cloud Service om verlopen activa ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api) te verbergen.
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
@@ -325,4 +325,4 @@ Create Jira ticket with the following information:
 >[!MORELIKETHIS]
 >
 >* [ Bekende kwesties ](release-notes.md#known-issues-v2)
->* [ vermijd het uitgeven conflicten ](using.md#adv-workflow-collaborate-avoid-conflicts)
+>* [ vermijd het uitgeven conflicten ](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts)

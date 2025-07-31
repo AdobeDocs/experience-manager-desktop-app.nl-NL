@@ -3,7 +3,7 @@ title: Inleiding aan  [!DNL Experience Manager]  Desktop app
 description: Leer hoe te om  [!DNL Adobe Experience Manager]  Desktop te gebruiken app om de werkschema's van het activabeheer voor creatieve gebruikers te optimaliseren wanneer het gebruiken van  [!DNL Adobe Experience Manager Assets]  direct van hun Desktop.
 role: User, Admin, Leader
 exl-id: 5da36ac5-ab5b-4f8d-b446-ebe2360ec464
-source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
+source-git-commit: f519cb355affea9249d5f5d92c789e993f3ff67d
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # [!DNL Adobe Experience Manager] Overzicht van de bureaubladtoepassing {#overview-v2}
 
-De Adobe biedt verbonden werkschema&#39;s over zijn oplossingen aan om productiviteit op het volgende niveau voor uw branche gebruikers en creatieve beroeps toe te staan. De desktop-app van [!DNL Adobe Experience Manager] verbindt opslagruimten en bureaubladtoepassingen, waaronder Adobe en toepassingen van derden, zodat u sneller toegang hebt tot bronnen en gestroomlijnde workflows. Hierdoor bespaart u tijd en vermindert u de efficiëntie van gebruikers die vanuit [!DNL Adobe Experience Manager] met middelen werken in hun desktopworkflows.
+Adobe biedt verbonden workflows over zijn oplossingen om productiviteit op het volgende niveau voor uw zakelijke gebruikers en creatieve professionals mogelijk te maken. De desktop-app van [!DNL Adobe Experience Manager] verbindt opslagruimten en bureaubladtoepassingen, waaronder Adobe en andere toepassingen, zodat u sneller toegang hebt tot bronnen en gestroomlijnde workflows. Hierdoor bespaart u tijd en vermindert u de efficiëntie van gebruikers die vanuit [!DNL Adobe Experience Manager] met middelen werken in hun desktopworkflows.
 
 Met de app zijn de elementen in [!DNL Experience Manager Assets] gemakkelijk toegankelijk op uw lokale bureaublad en kunnen deze worden gebruikt in alle bureaubladtoepassingen. U kunt de elementen openen en bewerken in de gewenste bureaubladtoepassingen. Lokale bewerkingen worden alleen als een nieuwe versie in [!DNL Experience Manager] opgeslagen wanneer u de wijzigingen uploadt, waardoor bewerkingen in uitvoering op het bureaublad efficiënt kunnen worden uitgevoerd. De app ondersteunt het uploaden van middelen en geneste mappen naar [!DNL Experience Manager], waardoor nieuwe inhoud eenvoudig aan de opslagplaats kan worden toegevoegd.
 
-Dankzij een dergelijke integratie kunnen verschillende rollen in de organisatie de elementen centraal beheren in [!DNL Experience Manager Assets] . Marktdeelnemers en zakelijke gebruikers kunnen ervoor zorgen dat aan de verschillende standaarden wordt voldaan, waaronder branding en licenties. Creatieve gebruikers met een specifiek [&#128279;](https://business.adobe.com/products/experience-manager/assets/adobe-asset-link.html) hulpmiddel van de Verbinding van Activa van de Adobe van 0&rbrace; kunnen tot activa in Adobe Photoshop, Illustrator, en InDesign toegang hebben, kunnen activa op de Desktop in het Creative Cloud en andere inheemse toepassingen ook toegang hebben.
+Dankzij een dergelijke integratie kunnen verschillende rollen in de organisatie de elementen centraal beheren in [!DNL Experience Manager Assets] . Marktdeelnemers en zakelijke gebruikers kunnen ervoor zorgen dat aan de verschillende standaarden wordt voldaan, waaronder branding en licenties. De gebruikers van Creative met een specifiek [ hulpmiddel van de Verbinding van Activa van 0} Adobe kunnen tot activa in Adobe Photoshop, Illustrator, en InDesign toegang hebben, kunnen activa op de Desktop in Creative Cloud en andere inheemse toepassingen ook toegang hebben.](https://business.adobe.com/products/experience-manager/assets/adobe-asset-link.html)
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ De documentatie van de bureaubladtoepassing bevat informatie over de volgende ro
 | Wilt u weten wat de voorwaarden en technische specificaties zijn? Wilt u koppelingen downloaden? | [ de nota&#39;s van de Versie ](release-notes.md) |
 | Niet nieuw voor bureaubladtoepassing? Wilt u de overgang upgraden en probleemloos toepassen? | [ Verbetering van vorige versie ](install-upgrade.md#upgrade-from-previous-version) |
 | Ga aan de slag. Wilt u de standaardvoorkeuren aanpassen? | [ installeer en vorm app ](install-upgrade.md) |
-| Leer hoe u kunt bladeren, zoeken, bewerken, uploaden, conflicten oplossen, bulkbewerkingen uitvoeren enzovoort. | [ Desktop app van het Gebruik  [!DNL Experience Manager]  ](using.md) |
+| Leer hoe u kunt bladeren, zoeken, bewerken, uploaden, conflicten oplossen, bulkbewerkingen uitvoeren enzovoort. | [ Desktop app van het Gebruik  [!DNL Experience Manager]  ](using-desktop-app.md) |
 | Wordt er een probleem opgetreden? | [ los  [!DNL Experience Manager]  Desktop app ](troubleshoot.md) problemen op |
 
 ## Nieuwe functies in de app {#whats-new-v2}

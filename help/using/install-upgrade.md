@@ -3,9 +3,9 @@ title: De bureaubladtoepassing installeren en configureren
 description: Installeer en vorm  [!DNL Adobe Experience Manager]  Desktop app om met  [!DNL Adobe Experience Manager Assets]  servers te werken en de activa op uw lokaal dossiersysteem te downloaden.
 feature: Desktop App,Release Information
 exl-id: 422e51c1-c456-4151-bb43-4b3d29a58187
-source-git-commit: 1c7437786a50eeafa884ce92b745f3438b2d2b88
+source-git-commit: b1fad118e1ffbd0809afe9a33bcb848648cd8bdd
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Zo gebruikt u de bureaubladtoepassing van [!DNL Experience Manager] :
 
 * Download en installeer de toepassing. Zie [ Desktop app ](#install-v2) hieronder installeren.
 
-* Test de verbinding met behulp van een paar elementen. Zie [ om naar activa ](using.md#browse-search-preview-assets) te doorbladeren en te zoeken.
+* Test de verbinding met behulp van een paar elementen. Zie [ om naar activa ](search.md#browse-search-preview-assets) te doorbladeren en te zoeken.
 
 ## Systeemvereisten, vereisten en downloadkoppelingen {#tech-specs-v2}
 
@@ -60,11 +60,11 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijde
 
 1. Als u van een andere versie van app bevordert, zie [ verbeteringDesktop app ](#upgrade-from-previous-version).
 
-1. Sla deze stap over als u [!DNL Experience Manager] als een [!DNL Cloud Service] , [!DNL Experience Manager] 6.4.4 of hoger of [!DNL Experience Manager] 6.5.0 of hoger gebruikt. Zorg ervoor dat uw [!DNL Experience Manager] opstelling aan de verenigbaarheidsvereisten voldoet die in de [ worden vermeld versienota&#39;s ](release-notes.md). Indien nodig, download het toepasselijke [ verenigbaarheidspakket ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) en installeer het gebruikend de [!DNL Experience Manager] Manager van het Pakket als [!DNL Experience Manager] beheerder. Om een pakket te installeren, zie [ hoe te met Pakketten ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager) werken.
+1. Sla deze stap over als u [!DNL Experience Manager] als een [!DNL Cloud Service] , [!DNL Experience Manager] 6.4.4 of hoger of [!DNL Experience Manager] 6.5.0 of hoger gebruikt. Zorg ervoor dat uw [!DNL Experience Manager] opstelling aan de verenigbaarheidsvereisten voldoet die in de [ worden vermeld versienota&#39;s ](release-notes.md). Indien nodig, download het toepasselijke [ verenigbaarheidspakket ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) en installeer het gebruikend de [!DNL Experience Manager] Manager van het Pakket als [!DNL Experience Manager] beheerder. Om een pakket te installeren, zie [ hoe te met Pakketten ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager) werken.
 
 1. Voer het installatieprogramma binair uit en volg de instructies op het scherm om te installeren.
 
-1. In Windows wordt mogelijk gevraagd om `Visual Studio C++ Redistributable 2015` te installeren. Volg de aanwijzingen op het scherm om de installatie uit te voeren. Als de installatie mislukt, installeert u deze handmatig. Download het installatieprogramma van [ hier ](https://www.microsoft.com/en-us/download/details.aspx?id=52685) en installeer zowel `vc_redist.x64.exe` als `vc_redist.x86.exe` dossiers. Voer het installatieprogramma van de [!DNL Experience Manager] -bureaubladtoepassing opnieuw uit.
+1. In Windows wordt mogelijk gevraagd om `Visual Studio C++ Redistributable 2015` te installeren. Volg de aanwijzingen op het scherm om de installatie uit te voeren. Als de installatie mislukt, installeert u deze handmatig. [ Download het installatieprogramma ](https://www.microsoft.com/en-us/download/details.aspx?id=52685) en installeer zowel `vc_redist.x64.exe` als `vc_redist.x86.exe` dossiers. Voer het installatieprogramma van de [!DNL Experience Manager] -bureaubladtoepassing opnieuw uit.
 
 1. Start de computer opnieuw naar wens. Start en configureer de bureaubladtoepassing.
 
@@ -82,9 +82,9 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijde
    >
    >Zorg ervoor dat er geen voorloopspaties of navolgende spaties zijn voor of na het adres van de [!DNL Experience Manager] -server. Anders kan de toepassing geen verbinding maken met de [!DNL Experience Manager] -server.
 
-1. [ Facultatieve ] klik **[!UICONTROL I want to connect a different way]** en klik **[!UICONTROL Adobe login]** om aan de server van Experience Manager Assets het programma te openen gebruikend de Dienst van Identity Management van de Adobe (IMS). Met de IMS-aanmelding kan de bureaubladtoepassing de toegangstoken automatisch vernieuwen, zodat de gebruiker zich maximaal 14 dagen kan aanmelden. Klik op **[!UICONTROL Direct login]** om de standaardaanmelding bij de [!DNL Experience Manager] -server uit te voeren aan de hand van de gebruikersgegevens.
+1. [ Facultatieve ] klik **[!UICONTROL I want to connect a different way]** en klik **[!UICONTROL Adobe login]** om aan de server van Experience Manager Assets het programma te openen gebruikend de Dienst van Adobe Identity Management (IMS). Met de IMS-aanmelding kan de bureaubladtoepassing de toegangstoken automatisch vernieuwen, zodat de gebruiker zich maximaal 14 dagen kan aanmelden. Klik op **[!UICONTROL Direct login]** om de standaardaanmelding bij de [!DNL Experience Manager] -server uit te voeren aan de hand van de gebruikersgegevens.
 
-   ![ Login van de Adobe ](assets/adobe-login.png)
+   ![ Login Adobe ](assets/adobe-login.png)
 
 1. Als de verbinding is gelukt, kunt u de lijst met mappen en middelen weergeven die beschikbaar zijn in de hoofdmap van de [!DNL Experience Manager] DAM. U kunt vanuit de app door de mappen bladeren.
 
@@ -92,9 +92,9 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijde
 
    *Figuur: De toepassing toont de inhoud DAM na login*
 
-1. ([!DNL Experience Manager] 6.5.1 of hoger) Als u de bureaubladtoepassing gebruikt met [!DNL Experience Manager] 6.5.1 of hoger, voert u een upgrade uit van S3 of Azure-aansluiting naar versie 1.10.4 of hoger. Zie [ Azure schakelaar ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) of [ S3 schakelaar ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
+1. ([!DNL Experience Manager] 6.5.1 of hoger) Als u de bureaubladtoepassing gebruikt met [!DNL Experience Manager] 6.5.1 of hoger, voert u een upgrade uit van S3 of Azure-aansluiting naar versie 1.10.4 of hoger. Zie [ Azure schakelaar ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) of [ S3 schakelaar ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
 
-   Neem contact op met de klantenondersteuning van de Adobe Managed Services (AMS).
+   Neem contact op met de klantenondersteuning van Adobe als u een Adobe Managed Services (AMS)-klant bent.
 
 ## Voorkeuren instellen {#set-preferences}
 
@@ -112,7 +112,7 @@ Om voorkeur te veranderen, klik ![ Meer optiepictogram ](assets/do-not-localize/
 
 * **[!UICONTROL Current cache size]**: Opslaggrootte van de lokaal gedownloade elementen. De informatie wordt alleen weergegeven nadat middelen zijn gedownload met de app.
 
-* **[!UICONTROL Automatically download linked assets]**: Wanneer u het oorspronkelijke bestand downloadt, worden elementen die in ondersteunde apps voor native Creatives Cloud zijn geplaatst, automatisch opgehaald.
+* **[!UICONTROL Automatically download linked assets]**: Wanneer u het oorspronkelijke bestand downloadt, worden elementen die in ondersteunde native Creative Cloud-toepassingen zijn geplaatst, automatisch opgehaald.
 
 * **[!UICONTROL Maximum number of downloads]**: ![ waarschuwingspictogram ](assets/do-not-localize/caution-icon.png) Verandering met voorzichtigheid. Wanneer voor het eerst elementen worden gedownload (via de optie Tonen, Openen, Bewerken, Downloaden of een vergelijkbare optie), worden de elementen alleen gedownload als de batch minder dan dit nummer bevat. De standaardwaarde is 50. Niet wijzigen als u het niet zeker weet. Als u de waarde verhoogt, kan het langer duren. Als u de waarde verlaagt, kan het zijn dat u niet alle benodigde elementen of mappen in één poging kunt downloaden.
 
@@ -140,7 +140,7 @@ Als uw proxy verificatie vereist, kan het IT-team de [!DNL Experience Manager As
 
 Voer de volgende stappen uit om de installatie van de toepassing in Windows ongedaan te maken:
 
-1. Upload al uw wijzigingen naar [!DNL Experience Manager] om te voorkomen dat er bewerkingen verloren gaan. Zie [ activa uitgeven en bijgewerkte activa aan  [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets) uploaden. Log uit en [!UICONTROL Exit] de app.
+1. Upload al uw wijzigingen naar [!DNL Experience Manager] om te voorkomen dat er bewerkingen verloren gaan. Zie [ activa uitgeven en bijgewerkte activa aan  [!DNL Experience Manager]](upload-assets.md#edit-assets-upload-updated-assets) uploaden. Log uit en [!UICONTROL Exit] de app.
 
 1. Verwijder de app als u andere besturingssysteemtoepassingen verwijdert. Verwijder de software uit de programma&#39;s Toevoegen en Verwijderen in Windows.
 
@@ -152,7 +152,7 @@ Voer de volgende stappen uit om de installatie van de toepassing in Windows onge
 
 Voer de volgende stappen uit om de installatie van de toepassing op Mac te verwijderen:
 
-1. Upload al uw wijzigingen naar [!DNL Experience Manager] om te voorkomen dat er bewerkingen verloren gaan. Zie [ activa uitgeven en bijgewerkte activa aan  [!DNL Experience Manager]](using.md#edit-assets-upload-updated-assets) uploaden. Log uit en [!UICONTROL Exit] de app.
+1. Upload al uw wijzigingen naar [!DNL Experience Manager] om te voorkomen dat er bewerkingen verloren gaan. Zie [ activa uitgeven en bijgewerkte activa aan  [!DNL Experience Manager]](upload-assets.md#edit-assets-upload-updated-assets) uploaden. Log uit en [!UICONTROL Exit] de app.
 
 1. Verwijder `Adobe Experience Manager Desktop.app` uit `/Applications`.
 

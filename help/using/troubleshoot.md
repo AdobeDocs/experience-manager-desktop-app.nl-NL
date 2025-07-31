@@ -21,7 +21,7 @@ Houd u aan de volgende aanbevolen procedures om bepaalde algemene problemen en p
 
 * **Begrijp hoe Desktop app** werkt: Alvorens te beginnen om de toepassing te gebruiken, besteed een paar ogenblikken het kennen van hoe app werkt. U weet hoe u een koppeling tot stand brengt tussen de webinterface van [!DNL Experience Manager] en het bureaublad, de toewijzing van opslagruimten, het in cache plaatsen van elementen, het lokaal opslaan en het uploaden op de achtergrond. Zie [ hoe het ](release-notes.md#how-app-works) werkt.
 
-* **vermijd niet gesteunde karakters in omslagnamen**: Gebruik geen whitespaces en ongeldige karakters wanneer het creëren van of het uploaden van omslagen. Zie een lijst van karakters bij [ leiden omslagen in  [!DNL Adobe Experience Manager Assets] ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). Niet-ondersteunde tekens in de mapnaam kunnen van invloed zijn op bepaalde gebruiksgevallen van [!DNL Experience Manager] .
+* **vermijd niet gesteunde karakters in omslagnamen**: Gebruik geen whitespaces en ongeldige karakters wanneer het creëren van of het uploaden van omslagen. Zie een lijst van karakters bij [ leiden omslagen in  [!DNL Adobe Experience Manager Assets] ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). Niet-ondersteunde tekens in de mapnaam kunnen van invloed zijn op bepaalde gebruiksgevallen van [!DNL Experience Manager] .
 
 * **Beste praktijken om conflicten** te vermijden: Om potentiële conflicten te vermijden wanneer het samenwerken op veelvoudige activa, ga [ vermijden het uitgeven conflicten ](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts).
 
@@ -301,8 +301,8 @@ In beide methoden wordt de toepassing gestart in de hoofdmap DAM.
 
 Wanneer u elementen bladert vanuit de gebruikersinterface van [!DNL Experience Manager] , worden de verlopen elementen niet weergegeven. Beheerders kunnen instellingen configureren om te voorkomen dat verlopen middelen worden weergegeven, gezocht en opgehaald wanneer ze de bureaubladtoepassing en de Asset Link verlaten. Dit zorgt ervoor dat verlopen elementen tijdens deze bewerkingen niet toegankelijk zijn. De configuratie werkt voor alle gebruikers, ongeacht beheerderrechten.
 
-* [ Configuratie in Experience Manager 6.5 om verlopen activa ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api) te verbergen.
-* [ Configuratie in Experience Manager as a Cloud Service om verlopen activa ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api) te verbergen.
+* [ Configuratie in Experience Manager 6.5 om verlopen activa ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api) te verbergen.
+* [ Configuratie in Experience Manager as a Cloud Service om verlopen activa ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api) te verbergen.
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}

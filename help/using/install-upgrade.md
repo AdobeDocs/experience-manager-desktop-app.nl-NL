@@ -60,7 +60,7 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijde
 
 1. Als u van een andere versie van app bevordert, zie [ verbeteringDesktop app ](#upgrade-from-previous-version).
 
-1. Sla deze stap over als u [!DNL Experience Manager] als een [!DNL Cloud Service] , [!DNL Experience Manager] 6.4.4 of hoger of [!DNL Experience Manager] 6.5.0 of hoger gebruikt. Zorg ervoor dat uw [!DNL Experience Manager] opstelling aan de verenigbaarheidsvereisten voldoet die in de [ worden vermeld versienota&#39;s ](release-notes.md). Indien nodig, download het toepasselijke [ verenigbaarheidspakket ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) en installeer het gebruikend de [!DNL Experience Manager] Manager van het Pakket als [!DNL Experience Manager] beheerder. Om een pakket te installeren, zie [ hoe te met Pakketten ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager) werken.
+1. Sla deze stap over als u [!DNL Experience Manager] als een [!DNL Cloud Service] , [!DNL Experience Manager] 6.4.4 of hoger of [!DNL Experience Manager] 6.5.0 of hoger gebruikt. Zorg ervoor dat uw [!DNL Experience Manager] opstelling aan de verenigbaarheidsvereisten voldoet die in de [ worden vermeld versienota&#39;s ](release-notes.md). Indien nodig, download het toepasselijke [ verenigbaarheidspakket ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/featurepack/adobe-asset-link-support) en installeer het gebruikend de [!DNL Experience Manager] Manager van het Pakket als [!DNL Experience Manager] beheerder. Om een pakket te installeren, zie [ hoe te met Pakketten ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager) werken.
 
 1. Voer het installatieprogramma binair uit en volg de instructies op het scherm om te installeren.
 
@@ -92,7 +92,7 @@ Voer de volgende stappen uit om de bureaubladtoepassing te installeren. Verwijde
 
    *Figuur: De toepassing toont de inhoud DAM na login*
 
-1. ([!DNL Experience Manager] 6.5.1 of hoger) Als u de bureaubladtoepassing gebruikt met [!DNL Experience Manager] 6.5.1 of hoger, voert u een upgrade uit van S3 of Azure-aansluiting naar versie 1.10.4 of hoger. Zie [ Azure schakelaar ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) of [ S3 schakelaar ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
+1. ([!DNL Experience Manager] 6.5.1 of hoger) Als u de bureaubladtoepassing gebruikt met [!DNL Experience Manager] 6.5.1 of hoger, voert u een upgrade uit van S3 of Azure-aansluiting naar versie 1.10.4 of hoger. Zie [ Azure schakelaar ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#azure-data-store) of [ S3 schakelaar ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/implementing/deploying/deploying/data-store-config#amazon-s-data-store).
 
    Neem contact op met de klantenondersteuning van Adobe als u een Adobe Managed Services (AMS)-klant bent.
 

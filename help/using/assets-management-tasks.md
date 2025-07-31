@@ -164,7 +164,7 @@ Voer de volgende stappen uit om deze workflow te testen met een afbeeldingseleme
 
 * Verstrek documentatie terugkoppelt gebruikend [!UICONTROL Edit this page] ![ uitgeeft de pagina ](assets/do-not-localize/edit-page.png) of [!UICONTROL Log an issue] ![ creeer een kwestie GitHub ](assets/do-not-localize/github-issue.png) beschikbaar op juiste sidebar
 
-* De Zorg van de Klant van het contact [](https://experienceleague.adobe.com/?support-solution=General#support)
+* De Zorg van de Klant van het contact [&#128279;](https://experienceleague.adobe.com/?support-solution=General#support)
 
 <!--* Provide product feedback using the [!UICONTROL Feedback] option available on the AEM Desktop App user interface>-->
 

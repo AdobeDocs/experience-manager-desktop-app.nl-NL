@@ -4,9 +4,9 @@ description: De details, de verhogingen van de versie, nieuwe eigenschappen, ver
 mini-toc-levels: 1
 feature: Desktop App,Release Information
 exl-id: e058e7a2-fcc8-4ad1-899e-20695db6bc72
-source-git-commit: b1fad118e1ffbd0809afe9a33bcb848648cd8bdd
+source-git-commit: 3ee1e39553b81e335e07c278537a826df3ad9482
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2502'
 ht-degree: 0%
 
 ---
@@ -15,31 +15,61 @@ ht-degree: 0%
 
 Hieronder vindt u de releasegegevens voor de nieuwste bureaubladtoepassing versie 3.0.0. De releasedatum is 31 juli 2025.
 
-De meest recente versie van de bureaubladtoepassing bevat de volgende opgeloste problemen en verbeteringen:
+Deze release biedt meerdere verbeteringen voor verzamelingen, uploads, check-in/check-out, metagegevensbeheer en algemene bruikbaarheid. Deze updates verbeteren de efficiëntie, stroomlijnen de verwerking van bedrijfsmiddelen en bieden een intuïtievere, real-time ervaring in de AEM Desktop App.
+
+![ het Gebruikersinterface van de Toepassing van de Desktop ](assets/dekktop-app-user-interface.png)
+
+**Inzamelingen**
+
+* U kunt nu verzamelingen weergeven, downloaden en doorbladeren.
+
+* Extra ondersteuning voor het downloaden van mappen die beschikbaar zijn in verzamelingen.
+
+* Met de functie voor automatische synchronisatie kunnen gedownloade elementen in verzamelingen het beheer van AEM-middelen periodiek synchroniseren met het lokale bestandssysteem.
+
+* Wanneer u middelen bijwerkt die deel van een inzameling uitmaken, werkt het systeem automatisch het in de tijdelijke geheim voorgeheugenomslag en in de App UI van de Desktop bij.
+
+**uploadt**
 
 * U kunt nieuw gemaakte elementen van uw lokale computer uploaden naar AEM, waar de centrale opslagplaats is opgeslagen, en deze weergeven in uw Desktop App.
-* De functie Automatisch vernieuwen werkt de inhoud automatisch in real-time bij. Zo weet u zeker dat u altijd de meest recente informatie ziet zonder de pagina handmatig opnieuw te laden en de lijst met bijgewerkte elementen op te halen.
-* Met de functie voor het vastzetten of vrijmaken van mappen kunt u belangrijke mappen gemakkelijk toegankelijk houden door ze vast te zetten of de weergave te decluteren door ze te verwijderen wanneer ze niet meer nodig zijn.
-* Met de functie Naam van element wijzigen kunt u de titel van element eenvoudig bijwerken of wijzigen, zodat u namen nauwkeurig kunt houden en kunt ordenen terwijl de inhoud evolueert.
-* U kunt het oorspronkelijke bestand behouden en wijzigingen aanbrengen in een vergelijkbaar bestand door bestanden te dupliceren op lokale en cloudlocaties met behulp van de bewerking voor gedupliceerde bestanden.
-* Met de functie voor in- en uitchecken kunt u de bestandstoegang beheren door een bestand te vergrendelen dat u wilt bewerken (uitchecken) en uw wijzigingen op te slaan, terwijl het bestand ook beschikbaar wordt gemaakt voor anderen (inchecken).
-* U kunt verzamelingen weergeven, downloaden en doorbladeren.
-* U kunt metagegevens toewijzen wanneer u een nieuwe map maakt.
-* Met de Experience Manager Desktop App kunt u nu elementen of mappen naar een nieuwe locatie verplaatsen en tegelijkertijd de metagegevens behouden. Zo kunt u uw bestandssysteem ordenen en stroomlijnen.
-* Extra ondersteuning voor het downloaden van mappen die beschikbaar zijn in verzamelingen.
-* Met de exportoptie kunt u geselecteerde bestanden en mappen nu in een platte structuur downloaden van de bureaubladtoepassing naar de specifieke doellocatie.
+
 * Desktop App identificeert nu automatisch nieuwe bestanden die zijn gemaakt in een map die al is gedownload op uw lokale bestandssysteem en uploadt deze naar AEM. Bureaubladtoepassing moet geopend blijven om de nieuwe bestanden op uw lokale bestandssysteem te kunnen identificeren.
-* Met de functie voor automatische synchronisatie kunnen gedownloade elementen in verzamelingen het beheer van AEM-middelen periodiek synchroniseren met het lokale bestandssysteem.
-* Met AEM Desktop App kunt u nu de eigenschappen van mappen weergeven, zoals de miniatuur, grootte, pad, gemaakte datum, tags, metagegevens, enzovoort.
-* U hebt nu toegang tot elementen in de kaartweergave, de rasterweergave of de structuurweergave voor een schone, geordende en visueel aantrekkelijke indeling van elementen.
+
+**Controle-binnen en controle-uit**
+
+* Met de functie voor in- en uitchecken kunt u de bestandstoegang beheren door een bestand te vergrendelen dat u wilt bewerken (uitchecken) en uw wijzigingen op te slaan, terwijl het bestand ook beschikbaar wordt gemaakt voor anderen (inchecken).
+
 * Mogelijkheid om middelen van Desktop App aan de doelCreative Cloud toepassing te slepen. De Desktop App controleert automatisch de middelen en downloadt het op het lokale dossiersysteem.
-* Wanneer u middelen bijwerkt die deel van een inzameling uitmaken, werkt het systeem automatisch het in de tijdelijke geheim voorgeheugenomslag en in de App UI van de Desktop bij.
+
+**Metagegevens**
+
+* U kunt metagegevens toewijzen wanneer u een nieuwe map maakt.
+
+* Met de Experience Manager Desktop App kunt u nu elementen of mappen naar een nieuwe locatie verplaatsen en tegelijkertijd de metagegevens behouden. Zo kunt u uw bestandssysteem ordenen en stroomlijnen.
+
+* Met AEM Desktop App kunt u nu de eigenschappen van mappen weergeven, zoals de miniatuur, grootte, pad, gemaakte datum, tags, metagegevens, enzovoort.
+
+**Verbeteringen van de bruikbaarheid**
+
+
+* De functie Automatisch vernieuwen werkt de inhoud automatisch in real-time bij. Zo weet u zeker dat u altijd de meest recente informatie ziet zonder de pagina handmatig opnieuw te laden en de lijst met bijgewerkte elementen op te halen.
+
+* Met de functie voor het vastzetten of vrijmaken van mappen kunt u belangrijke mappen gemakkelijk toegankelijk houden door ze vast te zetten of de weergave te decluteren door ze te verwijderen wanneer ze niet meer nodig zijn.
+
+* Met de functie Naam van element wijzigen kunt u de titel van element eenvoudig bijwerken of wijzigen, zodat u namen nauwkeurig kunt houden en kunt ordenen terwijl de inhoud evolueert.
+
+* U kunt het oorspronkelijke bestand behouden en wijzigingen aanbrengen in een vergelijkbaar bestand door bestanden te dupliceren op lokale en cloudlocaties met behulp van de bewerking voor gedupliceerde bestanden.
+
+* Met de exportoptie kunt u geselecteerde bestanden en mappen nu in een platte structuur downloaden van de bureaubladtoepassing naar de specifieke doellocatie.
+
+* U hebt nu toegang tot elementen in de kaartweergave, de rasterweergave of de structuurweergave voor een schone, geordende en visueel aantrekkelijke indeling van elementen.
+
 * Verschillende labels voor verschillende opties worden in de gebruikersinterface bijgewerkt om de toepassing intuïtiever te maken.
 
 De **gesteunde [!DNL Experience Manager] versies** zijn:
 
-* [!DNL Experience Manager] als een [!DNL Cloud Service] . Zie [ versienota&#39;s ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/release-notes/home).
-* [!DNL Experience Manager] 6.5.0 of hoger, op Adobe Managed Services (AMS) of op locatie. Zie {de versiedetails van het 0} de dienstpak [.](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/release-notes/release-notes)
+* [!DNL Experience Manager] als een [!DNL Cloud Service] . Zie [ versienota&#39;s ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/home).
+* [!DNL Experience Manager] 6.5.0 of hoger, op Adobe Managed Services (AMS) of op locatie. Zie {de versiedetails van het 0} de dienstpak [.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
 
 [!DNL Adobe Experience Manager] Desktop app is beschikbaar voor de volgende **werkende systemen**:
 
@@ -270,8 +300,8 @@ Het volgende diagram illustreert de stroom van elementen en bestanden van de clo
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Experience Manager]  als a [!DNL Cloud Service]  documentatie ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service)
->* [[!DNL Experience Manager]  als a  [!DNL Cloud Service] [!DNL Assets] documentatie ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/overview)
+>* [[!DNL Experience Manager]  als a [!DNL Cloud Service]  documentatie ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service)
+>* [[!DNL Experience Manager]  als a  [!DNL Cloud Service] [!DNL Assets] documentatie ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview)
 >* [ hoe te  [!DNL Experience Manager]  Desktop app ](using-desktop-app.md) gebruiken
 >* [ installeer en bevorder Desktop app ](install-upgrade.md)
 >* [ Beste praktijken en het oplossen van problemenuiteinden ](troubleshoot.md)

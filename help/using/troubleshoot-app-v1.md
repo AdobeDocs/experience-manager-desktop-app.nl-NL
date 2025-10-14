@@ -15,9 +15,9 @@ Los de AEM Desktop app problemen op om af en toe de kwesties met betrekking tot 
 
 De desktop-app van [!DNL Adobe Experience Manager] bevat hulpprogramma&#39;s waarmee u de AEM Assets-opslagplaats kunt toewijzen als een gedeelde netwerksite op een desktopcomputer (SMB-share op macOS). Het aandeel van het netwerk is een werkend systeemtechnologie die verre bronnen toelaat worden behandeld alsof zij deel van het lokale dossiersysteem van een computer maakten. Voor de bureaubladtoepassing is de externe bestandsbron de DAM-opslagstructuur (Digital Asset Management) van een externe AEM-instantie. In het volgende diagram wordt de topologie van de bureaubladtoepassing beschreven:
 
-![ Desktop app diagram ](assets/aem-desktopapp-architecture.png)
+![&#x200B; Desktop app diagram &#x200B;](assets/aem-desktopapp-architecture.png)
 
-Met deze architectuur, onderschept de Desktop toepassing dossiersysteemvraag (open, dicht, lees, schrijf, etc.) aan het opgezette netwerkaandeel, en zet hen in inheemse AEM vraag van HTTP aan de AEM server om. Bestanden worden lokaal in cache geplaatst. Voor meer details, zie [ Gebruik AEM Desktop app v1.x ](use-app-v1.md).
+Met deze architectuur, onderschept de Desktop toepassing dossiersysteemvraag (open, dicht, lees, schrijf, etc.) aan het opgezette netwerkaandeel, en zet hen in inheemse AEM vraag van HTTP aan de AEM server om. Bestanden worden lokaal in cache geplaatst. Voor meer details, zie [&#x200B; Gebruik AEM Desktop app v1.x &#x200B;](use-app-v1.md).
 
 ## Overzicht van de bureaubladtoepassing {#desktop-app-component-overview}
 
@@ -88,7 +88,7 @@ Elke bewerking wordt niet lokaal in het cachegeheugen opgeslagen. Het volgende w
 
 ## Individuele verrichtingen {#individual-operations}
 
-Wanneer het oplossen van problemen sub-geoptimaliseerde prestaties voor individuele gebruikers, eerste overzicht [ de toepassingsbeperkingen ](#limitations). De volgende secties bevatten suggesties om de prestaties voor individuele gebruikers te verbeteren.
+Wanneer het oplossen van problemen sub-geoptimaliseerde prestaties voor individuele gebruikers, eerste overzicht [&#x200B; de toepassingsbeperkingen &#x200B;](#limitations). De volgende secties bevatten suggesties om de prestaties voor individuele gebruikers te verbeteren.
 
 ## Aanbevelingen voor bandbreedte {#bandwidth-recommendations}
 
@@ -149,7 +149,7 @@ Vanwege de beperkingen van de netwerkbandbreedte kunnen de prestaties van WebDAV
 
 Deze maatregel verhoogt specifiek de hoeveelheid netwerkbandbreedte beschikbaar aan de server. Hier volgen enkele details:
 
-* De hoeveelheid netwerkbandbreedte die aan een instantie van AWS wordt gewijd stijgt aangezien de grootte van de instantie stijgt. Voor informatie over hoeveel bandbreedte voor elke instantiegrootte beschikbaar is, ga naar de [ documentatie van AWS ](https://aws.amazon.com/ec2/instance-types/).
+* De hoeveelheid netwerkbandbreedte die aan een instantie van AWS wordt gewijd stijgt aangezien de grootte van de instantie stijgt. Voor informatie over hoeveel bandbreedte voor elke instantiegrootte beschikbaar is, ga naar de [&#x200B; documentatie van AWS &#x200B;](https://aws.amazon.com/ec2/instance-types/).
 * Wanneer het oplossen van problemen voor een grote cliënt, vormde de Adobe de grootte van zijn AEM instantie aan c4.8xlarge, hoofdzakelijk voor 4000 Mbps van specifieke bandbreedte die het verstrekt.
 * Als er een Dispatcher voor de AEM-instantie is, moet u ervoor zorgen dat deze de juiste grootte heeft. Als de AEM instantie 4000 Mbps verstrekt maar Dispatcher slechts 500 Mbps verstrekt, is de efficiënte bandbreedte slechts 500 Mbps. Dat komt omdat de Dispatcher een knelpunt in het netwerk maakt.
 
@@ -264,7 +264,7 @@ Het bestand blijft ongewijzigd wanneer u het incheckt, ongeacht het gedrag. Zelf
 
 ## Problemen met het verplaatsen van bestanden oplossen {#troubleshooting-problems-around-moving-files}
 
-De server-API vereist extra kopballen, x-Bestemming, x-Diepte, en x-Overschrijf, om worden overgegaan voor de beweging en exemplaarverrichtingen om te werken. De Dispatcher geeft deze headers standaard niet door, waardoor deze bewerkingen mislukken. Voor meer informatie, zie [ Verbindend met AEM achter een Dispatcher ](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
+De server-API vereist extra kopballen, x-Bestemming, x-Diepte, en x-Overschrijf, om worden overgegaan voor de beweging en exemplaarverrichtingen om te werken. De Dispatcher geeft deze headers standaard niet door, waardoor deze bewerkingen mislukken. Voor meer informatie, zie [&#x200B; Verbindend met AEM achter een Dispatcher &#x200B;](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
 
 ## Problemen met AEM bureaubladverbinding oplossen {#troubleshooting-aem-desktop-connection-issues}
 
@@ -281,11 +281,11 @@ De gemeenschappelijkste reden voor kwesties met AEM Desktop die met uw SSO-Toege
 
 ### Probleem met SSL-configuratie {#ssl-configuration-issue}
 
-De bibliotheken die de AEM-bureaubladtoepassing gebruikt voor HTTP-communicatie, maken gebruik van strikte SSL-handhaving. Soms kan een verbinding met een browser slagen, maar kan de AEM-bureaubladtoepassing niet worden gebruikt. Installeer het ontbrekende tussentijdse certificaat in Apache om SSL op de juiste wijze te configureren. Zie [ hoe te om een Tussentijdse cert van CA in Apache ](https://access.redhat.com/solutions/43575) te installeren.
+De bibliotheken die de AEM-bureaubladtoepassing gebruikt voor HTTP-communicatie, maken gebruik van strikte SSL-handhaving. Soms kan een verbinding met een browser slagen, maar kan de AEM-bureaubladtoepassing niet worden gebruikt. Installeer het ontbrekende tussentijdse certificaat in Apache om SSL op de juiste wijze te configureren. Zie [&#x200B; hoe te om een Tussentijdse cert van CA in Apache &#x200B;](https://access.redhat.com/solutions/43575) te installeren.
 
 ## AEM desktop gebruiken met Dispatcher {#using-aem-desktop-with-dispatcher}
 
-AEM Desktop werkt met AEM implementaties achter een Dispatcher. Dit is een standaard en aanbevolen configuratie voor AEM servers. AEM verzenders vóór AEM ontwerpomgevingen worden doorgaans geconfigureerd om het in cache plaatsen van DAM-middelen over te slaan. Daarom bieden de verzenders geen extra caching vanuit het standpunt van de AEM Desktop. Zorg ervoor dat de Dispatcher-configuratie is aangepast aan de werking van AEM Desktop. Voor extra details, zie [ Verbindend met AEM met Dispatcher ](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
+AEM Desktop werkt met AEM implementaties achter een Dispatcher. Dit is een standaard en aanbevolen configuratie voor AEM servers. AEM verzenders vóór AEM ontwerpomgevingen worden doorgaans geconfigureerd om het in cache plaatsen van DAM-middelen over te slaan. Daarom bieden de verzenders geen extra caching vanuit het standpunt van de AEM Desktop. Zorg ervoor dat de Dispatcher-configuratie is aangepast aan de werking van AEM Desktop. Voor extra details, zie [&#x200B; Verbindend met AEM met Dispatcher &#x200B;](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
 
 ## Controleren op logbestanden {#checking-for-log-files}
 

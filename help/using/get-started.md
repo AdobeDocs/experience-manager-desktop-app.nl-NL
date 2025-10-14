@@ -20,11 +20,11 @@ Wanneer u de toepassing opent na het afmelden of voor het eerst, geeft u de URL 
 
 De belangrijkste taken die u uitvoert met de bureaubladtoepassing van [!DNL Adobe Experience Manager] zijn:
 
-![ Werkschema&#39;s en taken u kunt verwezenlijken gebruikend [!DNL Experience Manager] Desktop app ](assets/aem_desktop_app_usecases_v2.png)
+![&#x200B; Werkschema&#39;s en taken u kunt verwezenlijken gebruikend [!DNL Experience Manager] Desktop app &#x200B;](assets/aem_desktop_app_usecases_v2.png)
 
 ## Hoe desktop app werkt {#how-app-works2}
 
-Alvorens u begint de toepassing te gebruiken, begrijp [ hoe app ](release-notes.md#how-app-works) werkt. Zorg ook dat u bekend bent met de volgende termen:
+Alvorens u begint de toepassing te gebruiken, begrijp [&#x200B; hoe app &#x200B;](release-notes.md#how-app-works) werkt. Zorg ook dat u bekend bent met de volgende termen:
 
 * **[!UICONTROL Desktop Actions]**: Vanuit de Assets-webinterface kunt u vanuit een browser de middelenlocaties of uitchecken verkennen en het middel openen voor bewerking in uw native desktoptoepassing. Deze acties zijn beschikbaar via de webinterface en maken gebruik van de functionaliteit van de bureaubladtoepassing.
 
@@ -32,11 +32,11 @@ Alvorens u begint de toepassing te gebruiken, begrijp [ hoe app ](release-notes.
 
 * Bestandsstatus is **[!UICONTROL Available locally]**: de elementen worden gedownload en zijn ongewijzigd beschikbaar op de lokale computer. De elementen worden niet gewijzigd.
 
-* Bestandsstatus is **[!UICONTROL Edited locally]**: Dergelijke elementen worden lokaal gewijzigd en de wijzigingen blijven naar de [!DNL Experience Manager] -server geüpload. Nadat u het uploadt, verandert de status in [!UICONTROL Available locally]. Zie [ activa ](upload-assets.md#edit-assets-upload-updated-assets) uitgeven.
+* Bestandsstatus is **[!UICONTROL Edited locally]**: Dergelijke elementen worden lokaal gewijzigd en de wijzigingen blijven naar de [!DNL Experience Manager] -server geüpload. Nadat u het uploadt, verandert de status in [!UICONTROL Available locally]. Zie [&#x200B; activa &#x200B;](upload-assets.md#edit-assets-upload-updated-assets) uitgeven.
 
-* Bestandsstatus is **[!UICONTROL Editing conflict]**: als u en anderen tegelijkertijd een element bewerken, geeft de app aan dat er een bewerkingsconflict is opgetreden. De app biedt ook opties om uw wijzigingen te behouden of te negeren. Zie [ hoe te om het uitgeven conflicten ](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts) te vermijden.
+* Bestandsstatus is **[!UICONTROL Editing conflict]**: als u en anderen tegelijkertijd een element bewerken, geeft de app aan dat er een bewerkingsconflict is opgetreden. De app biedt ook opties om uw wijzigingen te behouden of te negeren. Zie [&#x200B; hoe te om het uitgeven conflicten &#x200B;](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts) te vermijden.
 
-* Bestandsstatus is **[!UICONTROL Modified remotely]**: de app geeft aan of een element dat u hebt gedownload, is gewijzigd op de [!DNL Experience Manager] -server. De app biedt ook de optie om de nieuwste versie te downloaden en uw lokale kopie bij te werken. Zie [ hoe te om het uitgeven conflicten ](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts) te vermijden.
+* Bestandsstatus is **[!UICONTROL Modified remotely]**: de app geeft aan of een element dat u hebt gedownload, is gewijzigd op de [!DNL Experience Manager] -server. De app biedt ook de optie om de nieuwste versie te downloaden en uw lokale kopie bij te werken. Zie [&#x200B; hoe te om het uitgeven conflicten &#x200B;](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts) te vermijden.
 
 * **[!UICONTROL Check-out]**: als u een bestand bewerkt of van plan bent een bestand te bewerken, schakelt u de status in en uit. Er wordt een vergrendelingspictogram toegevoegd aan het element in de app en de [!DNL Experience Manager] webinterface. Met het vergrendelingspictogram kunnen andere gebruikers voorkomen dat hetzelfde element tegelijk wordt bewerkt, omdat dit tot een bewerkingsconflict leidt.
 
@@ -48,13 +48,13 @@ Alvorens u begint de toepassing te gebruiken, begrijp [ hoe app ](release-notes.
 
 * **[!UICONTROL Download]** Handeling: Download het element naar uw lokale computer. U kunt de elementen nu downloaden en later bewerken. Werk offline en upload de wijzigingen later. Assets wordt gedownload in een cachemap op uw bestandssysteem.
 
-* **[!UICONTROL Reveal File]** of **[!UICONTROL Reveal Folder]** actie: terwijl de elementen naar een lokale cachemap worden gedownload, navigeert de toepassing een lokale netwerkschijf. Het biedt een lokaal pad voor elk element. Als u dit pad wilt weten, gebruikt u de desbetreffende openingsoptie in de app. Actie tonen is vereist om elementen in de Creative Cloud-toepassing te plaatsen. Zie [ plaatselementen ](search.md#place-assets-in-native-documents).
+* **[!UICONTROL Reveal File]** of **[!UICONTROL Reveal Folder]** actie: terwijl de elementen naar een lokale cachemap worden gedownload, navigeert de toepassing een lokale netwerkschijf. Het biedt een lokaal pad voor elk element. Als u dit pad wilt weten, gebruikt u de desbetreffende openingsoptie in de app. Actie tonen is vereist om elementen in de Creative Cloud-toepassing te plaatsen. Zie [&#x200B; plaatselementen &#x200B;](search.md#place-assets-in-native-documents).
 
 * **[!UICONTROL Open In Web]** action: Open het element in de webinterface van [!DNL Experience Manager] om het element weer te geven. U kunt vanuit de interface van [!DNL Experience Manager] meer workflows starten, zoals het bijwerken van metagegevens of het detecteren van elementen.
 
-* **[!UICONTROL Delete]** actie: verwijder het element uit de [!DNL Experience Manager] DAM-opslagplaats. Met de handeling wordt de oorspronkelijke kopie van het element op de Experience Manager-server verwijderd. Als u slechts wijzigingen in het lokale activa wilt verwerpen, zie [ veranderingen ](upload-assets.md#edit-assets-upload-updated-assets) verwerpen.
+* **[!UICONTROL Delete]** actie: verwijder het element uit de [!DNL Experience Manager] DAM-opslagplaats. Met de handeling wordt de oorspronkelijke kopie van het element op de Experience Manager-server verwijderd. Als u slechts wijzigingen in het lokale activa wilt verwerpen, zie [&#x200B; veranderingen &#x200B;](upload-assets.md#edit-assets-upload-updated-assets) verwerpen.
 
-* **[!UICONTROL Upload Changes]**: De bureaubladtoepassing uploadt het bijgewerkte element alleen wanneer u het expliciet uploadt naar de [!DNL Experience Manager] -server. Wanneer u uw bewerkingen opslaat, worden de wijzigingen alleen op uw lokale computer opgeslagen. Wanneer u het element uploadt, wordt het automatisch ingecheckt en wordt het vergrendelingspictogram verwijderd. Zie [ activa ](upload-assets.md#edit-assets-upload-updated-assets) uitgeven.
+* **[!UICONTROL Upload Changes]**: De bureaubladtoepassing uploadt het bijgewerkte element alleen wanneer u het expliciet uploadt naar de [!DNL Experience Manager] -server. Wanneer u uw bewerkingen opslaat, worden de wijzigingen alleen op uw lokale computer opgeslagen. Wanneer u het element uploadt, wordt het automatisch ingecheckt en wordt het vergrendelingspictogram verwijderd. Zie [&#x200B; activa &#x200B;](upload-assets.md#edit-assets-upload-updated-assets) uitgeven.
 
 ## Bureaubladhandelingen inschakelen in de webinterface van [!DNL Experience Manager] {#desktopactions-v2}
 
@@ -65,7 +65,7 @@ Vanuit de gebruikersinterface van [!DNL Assets] in een browser kunt u de middele
 
 1. Selecteer [!UICONTROL User Preferences] in het dialoogvenster **[!UICONTROL Show Desktop Actions For Assets]** en klik vervolgens op **[!UICONTROL Accept]** .
 
-   ![ Uitgezochte tonen de Acties van de Desktop voor Assets om Desktopacties toe te laten ](assets/enable_desktop_actions1.png)
+   ![&#x200B; Uitgezochte tonen de Acties van de Desktop voor Assets om Desktopacties toe te laten &#x200B;](assets/enable_desktop_actions1.png)
 
 ## Starten via de [!DNL Assets] webinterface {#adv-workflow-start-from-aem-ui}
 
@@ -81,7 +81,7 @@ De functionaliteit van de Desktop-app wordt gebruikt wanneer u de volgende hande
 
 De acties in de webinterface die beschikbaar zijn voor een element dat is uitgecheckt in de app, zijn bijvoorbeeld [!UICONTROL Open], [!UICONTROL Reveal] en [!UICONTROL Check in] .
 
-![ Acties van de Desktop in de [!DNL Experience Manager] interface van het Web ](assets/assets_web_actions_da2.png " Acties van de Desktop in de interface van het Web van Experience Manager ")
+![&#x200B; Acties van de Desktop in de [!DNL Experience Manager] interface van het Web &#x200B;](assets/assets_web_actions_da2.png " Acties van de Desktop in de interface van het Web van Experience Manager ")
 
 >[!NOTE]
 >
@@ -98,14 +98,14 @@ Integendeel, u kunt het element met de handeling **[!UICONTROL Open In Web]** op
 
 ## Volgende stappen {#next-steps}
 
-* [ bekijk een video om met App van de Desktop van Adobe Experience Manager ](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) te beginnen te worden
+* [&#x200B; bekijk een video om met App van de Desktop van Adobe Experience Manager &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) te beginnen te worden
 
-* Verstrek documentatie terugkoppelt gebruikend [!UICONTROL Edit this page] ![ uitgeeft de pagina ](assets/do-not-localize/edit-page.png) of [!UICONTROL Log an issue] ![ creeer een kwestie GitHub ](assets/do-not-localize/github-issue.png) beschikbaar op juiste sidebar
+* Verstrek documentatie terugkoppelt gebruikend [!UICONTROL Edit this page] ![&#x200B; uitgeeft de pagina &#x200B;](assets/do-not-localize/edit-page.png) of [!UICONTROL Log an issue] ![&#x200B; creeer een kwestie GitHub &#x200B;](assets/do-not-localize/github-issue.png) beschikbaar op juiste sidebar
 
 * De Zorg van de Klant van het contact [&#128279;](https://experienceleague.adobe.com/nl?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >
->* [ Begrijp het gebruikersinterface ](/help/using/user-interface.md)
->* [ de nota&#39;s van de Versie en bekende kwesties ](/help/using/release-notes.md)
->* [ installeer of bevordert Desktop App ](/help/using/install-upgrade.md)
+>* [&#x200B; Begrijp het gebruikersinterface &#x200B;](/help/using/user-interface.md)
+>* [&#x200B; de nota&#39;s van de Versie en bekende kwesties &#x200B;](/help/using/release-notes.md)
+>* [&#x200B; installeer of bevordert Desktop App &#x200B;](/help/using/install-upgrade.md)

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Wanneer u zich aanmeldt bij [!DNL Adobe Experience Manager] Desktop App, ziet u de volgende interface:
 
-![ het Gebruikersinterface van de Toepassing van de Desktop ](assets/app-user-interface.png)
+![&#x200B; het Gebruikersinterface van de Toepassing van de Desktop &#x200B;](assets/app-user-interface.png)
 
 <table border="0">
     <tr>
@@ -120,20 +120,20 @@ Wanneer u zich aanmeldt bij [!DNL Adobe Experience Manager] Desktop App, ziet u 
 
 ## Mappenstructuur weergeven [!DNL Adobe Experience Manager] Desktop App {#folder-structure-desktop-app}
 
-Navigeer aan een omslag dan klik ![ Meer actiepictogram ](assets/do-not-localize/more2_da2.png) naast omslagnaam. Selecteer **[!UICONTROL Reveal Folder]** om de map direct te openen in de bestandsverkenner van uw systeem, zodat u snel en rechtstreeks toegang hebt tot de inhoud van de map, zodat u deze eenvoudig kunt gebruiken voor navigatie en beheer.
+Navigeer aan een omslag dan klik ![&#x200B; Meer actiepictogram &#x200B;](assets/do-not-localize/more2_da2.png) naast omslagnaam. Selecteer **[!UICONTROL Reveal Folder]** om de map direct te openen in de bestandsverkenner van uw systeem, zodat u snel en rechtstreeks toegang hebt tot de inhoud van de map, zodat u deze eenvoudig kunt gebruiken voor navigatie en beheer.
 
 
 ## Volgende stappen {#next-steps}
 
-* [ bekijk een video om met App van de Desktop van Adobe Experience Manager ](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) te beginnen te worden
+* [&#x200B; bekijk een video om met App van de Desktop van Adobe Experience Manager &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) te beginnen te worden
 
-* Verstrek documentatie terugkoppelt gebruikend [!UICONTROL Edit this page] ![ uitgeeft de pagina ](assets/do-not-localize/edit-page.png) of [!UICONTROL Log an issue] ![ creeer een kwestie GitHub ](assets/do-not-localize/github-issue.png) beschikbaar op juiste sidebar
+* Verstrek documentatie terugkoppelt gebruikend [!UICONTROL Edit this page] ![&#x200B; uitgeeft de pagina &#x200B;](assets/do-not-localize/edit-page.png) of [!UICONTROL Log an issue] ![&#x200B; creeer een kwestie GitHub &#x200B;](assets/do-not-localize/github-issue.png) beschikbaar op juiste sidebar
 
 * De Zorg van de Klant van het contact [&#128279;](https://experienceleague.adobe.com/nl?support-solution=General#support)
 
 >[!MORELIKETHIS]
 >
->* [ Beherend Assets in de Toepassing van de Desktop ](/help/using/assets-management-tasks.md)
->* [ de activa van de Download ](/help/using/download-assets.md)
->* [ uploadt activa ](/help/using/upload-assets.md)
+>* [&#x200B; Beherend Assets in de Toepassing van de Desktop &#x200B;](/help/using/assets-management-tasks.md)
+>* [&#x200B; de activa van de Download &#x200B;](/help/using/download-assets.md)
+>* [&#x200B; uploadt activa &#x200B;](/help/using/upload-assets.md)
 

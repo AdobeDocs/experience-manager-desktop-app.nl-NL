@@ -17,19 +17,19 @@ Dankzij deze integratie kunnen verschillende functies bedrijfsmiddelen centraal 
 
 U kunt als volgt de bureaubladtoepassing van [!DNL Experience Manager] gebruiken:
 
-* Controleer of uw [!DNL Experience Manager] -serverversie compatibel is met de bureaubladtoepassing van [!DNL Experience Manager] . Zie de [ verenigbaarheidsmatrijs ](release-notes-of-v1.md#compatibilitymatrix).
+* Controleer of uw [!DNL Experience Manager] -serverversie compatibel is met de bureaubladtoepassing van [!DNL Experience Manager] . Zie de [&#x200B; verenigbaarheidsmatrijs &#x200B;](release-notes-of-v1.md#compatibilitymatrix).
 
 * Download en installeer de toepassing.
 
-* Test de verbinding met behulp van een paar elementen. Zie [ Toegang en open activa op uw Desktop ](use-app-v1.md#openondesktop).
+* Test de verbinding met behulp van een paar elementen. Zie [&#x200B; Toegang en open activa op uw Desktop &#x200B;](use-app-v1.md#openondesktop).
 
 ## Systeemvereisten, vereisten en downloadkoppelingen {#system-requirements-prerequisites-and-download-links}
 
-Voor gedetailleerde informatie, zie de [[!DNL Experience Manager]  nota&#39;s van de de toepassingsversie van de Desktop ](release-notes-of-v1.md).
+Voor gedetailleerde informatie, zie de [[!DNL Experience Manager]  nota&#39;s van de de toepassingsversie van de Desktop &#x200B;](release-notes-of-v1.md).
 
 ## De toepassing installeren en verbinden met de [!DNL Experience Manager] -server {#install-and-connect-aem-desktop-app-to-aem-server}
 
-Voor details, zie [ installeer en verbind  [!DNL Experience Manager]  Desktop app met  [!DNL Experience Manager]  server ](use-app-v1.md#installandconnect).
+Voor details, zie [&#x200B; installeer en verbind  [!DNL Experience Manager]  Desktop app met  [!DNL Experience Manager]  server &#x200B;](use-app-v1.md#installandconnect).
 
 >[!NOTE]
 >
@@ -61,9 +61,9 @@ Voor de kopieer- en verplaatsingsmethoden in de Assets API moeten de volgende aa
 * X-diepte
 * X-Overschrijven
 
-[!DNL Experience Manager] maakt verbinding met [!DNL Experience Manager] via een URL die de standaardpoort bevat. Daarom moet de instelling `virtualhosts` in de Dispatcher-configuratie het standaardpoortnummer bevatten. Voor meer informatie rond `virtualhosts` configuratie, zie [ virtuele gastheren ](https://experienceleague.adobe.com/nl/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts) identificeren.
+[!DNL Experience Manager] maakt verbinding met [!DNL Experience Manager] via een URL die de standaardpoort bevat. Daarom moet de instelling `virtualhosts` in de Dispatcher-configuratie het standaardpoortnummer bevatten. Voor meer informatie rond `virtualhosts` configuratie, zie [&#x200B; virtuele gastheren &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#identifying-virtual-hosts-virtualhosts) identificeren.
 
-Voor extra informatie bij het vormen van Dispatcher om door deze extra kopballen over te gaan, zie [ het Specificeren van de Kopballen van HTTP ](https://experienceleague.adobe.com/nl/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
+Voor extra informatie bij het vormen van Dispatcher om door deze extra kopballen over te gaan, zie [&#x200B; het Specificeren van de Kopballen van HTTP &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration#specifying-the-http-headers-to-pass-through-clientheaders).
 
 ### Proxyondersteuning {#proxy-support}
 
@@ -127,6 +127,6 @@ Als u de toepassing wilt laten verwijzen naar een andere map of een ander statio
 
 >[!MORELIKETHIS]
 >
->* Bekijk een [ Inleiding aan  [!DNL Experience Manager]  Desktop app ](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minuten, 43 seconden).
->* [ Desktop app van het Gebruik  [!DNL Experience Manager]  ](use-app-v1.md).
->* [ het Oplossen van problemen  [!DNL Experience Manager]  Desktop app ](troubleshoot-app-v1.md).
+>* Bekijk een [&#x200B; Inleiding aan  [!DNL Experience Manager]  Desktop app &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) (5 minuten, 43 seconden).
+>* [&#x200B; Desktop app van het Gebruik  [!DNL Experience Manager]  &#x200B;](use-app-v1.md).
+>* [&#x200B; het Oplossen van problemen  [!DNL Experience Manager]  Desktop app &#x200B;](troubleshoot-app-v1.md).

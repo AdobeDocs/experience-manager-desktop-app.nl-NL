@@ -19,7 +19,7 @@ Middelenbeheer omvat het organiseren, onderhouden en optimaliseren van digitale 
 Met AEM Desktop App kunt u elementen weergeven in vier verschillende weergaven:
 
 * **[!UICONTROL Show Assets]:** Staat u toe om alle activa te bekijken.
-* **[!UICONTROL Show Collections]:** Hiermee kunt u alle verzamelingen weergeven die in de native AEM-toepassing zijn gemaakt. Zie meer [ inzamelingen ](#collections-desktop-app).
+* **[!UICONTROL Show Collections]:** Hiermee kunt u alle verzamelingen weergeven die in de native AEM-toepassing zijn gemaakt. Zie meer [&#x200B; inzamelingen &#x200B;](#collections-desktop-app).
 * **[!UICONTROL Edited Locally]:** Hiermee kunt u alle lokaal gewijzigde elementen weergeven. In deze weergave kunt u meerdere elementen toevoegen en uploaden.
 * **[!UICONTROL Asset transfers]:** Hiermee kunt u alle elementen weergeven die van de native app naar de lokale of andersom zijn overgebracht.
 * **[!UICONTROL Pinned items]:** Hiermee kunt u alle vastgezette items weergeven.
@@ -30,7 +30,7 @@ Voer de volgende stappen uit om te kiezen uit de verschillende weergaven van mid
 
 1. Ga naar de vervolgkeuzelijst rechtsboven in het scherm. Kies een van de beschikbare weergaven.
 
-   ![ speld of speld omslag ](assets/view-pinned-assets.png) uit
+   ![&#x200B; speld of speld omslag &#x200B;](assets/view-pinned-assets.png) uit
 
 ## Nieuw toegevoegde mappen en bestanden weergeven {#view-newly-added-files-folders}
 
@@ -44,9 +44,9 @@ Voer de volgende stappen uit om bestanden te dupliceren in AEM Desktop App:
 
 1. Blader naar een map en selecteer het element dat u wilt dupliceren.
 
-   ![ Meer opties ](assets/more-options1.png)
+   ![&#x200B; Meer opties &#x200B;](assets/more-options1.png)
 
-1. Klik **[!UICONTROL More actions]** ![ Meer actiepictogram ](assets/do-not-localize/more2_da2.png) en selecteer ![ dubbel pictogram ](assets/do-not-localize/duplicate.svg) **[!UICONTROL Duplicate File]** actie.
+1. Klik **[!UICONTROL More actions]** ![&#x200B; Meer actiepictogram &#x200B;](assets/do-not-localize/more2_da2.png) en selecteer ![&#x200B; dubbel pictogram &#x200B;](assets/do-not-localize/duplicate.svg) **[!UICONTROL Duplicate File]** actie.
 
 1. Het gedupliceerde bestand wordt gemaakt met dezelfde bestandsnaam en inhoud.
 
@@ -56,7 +56,7 @@ Voer de onderstaande stappen uit om de naam van een element of map te wijzigen:
 
 1. Blader door het element waarvan u de naam wilt wijzigen. Speciale tekens zoals `\ / : * ?  | < > [ ] %` zijn niet toegestaan wanneer u een map een naam geeft. Indien opgenomen worden ze automatisch vervangen door een afbreekstreepje `-` .
 
-1. Klik **[!UICONTROL More actions]** ![ Meer actiepictogram ](assets/do-not-localize/more2_da2.png) en selecteer **[!UICONTROL Rename]** om uw gewenste titel van een activa toe te voegen.
+1. Klik **[!UICONTROL More actions]** ![&#x200B; Meer actiepictogram &#x200B;](assets/do-not-localize/more2_da2.png) en selecteer **[!UICONTROL Rename]** om uw gewenste titel van een activa toe te voegen.
 
 
 ## Map vastzetten of vastzetten {#pin-unpin-folder}
@@ -65,9 +65,9 @@ Vastgezette mappen worden automatisch gesynchroniseerd om eventuele wijzigingen 
 
 1. Blader door het element dat u wilt vastzetten of vrijmaken.
 
-1. Klik **[!UICONTROL More actions]** ![ Meer actiepictogram ](assets/do-not-localize/more2_da2.png) en selecteer [!UICONTROL pin] om de activa of de omslag vast te zetten. U kunt ook op [!UICONTROL unpin] klikken om het vastzetten ongedaan te maken.
+1. Klik **[!UICONTROL More actions]** ![&#x200B; Meer actiepictogram &#x200B;](assets/do-not-localize/more2_da2.png) en selecteer [!UICONTROL pin] om de activa of de omslag vast te zetten. U kunt ook op [!UICONTROL unpin] klikken om het vastzetten ongedaan te maken.
 
-   ![ speld of speld omslag ](assets/pin-unpin.png) uit
+   ![&#x200B; speld of speld omslag &#x200B;](assets/pin-unpin.png) uit
 
 ## Automatisch vernieuwen {#auto-refresh}
 
@@ -75,29 +75,29 @@ Met de functie Automatisch vernieuwen wordt inhoud automatisch in real-time bijg
 
 1. Open AEM Desktop App.
 
-1. Klik ![ verfrissen pictogram ](assets/do-not-localize/refresh.png) op de menubar om de updates te krijgen.
+1. Klik ![&#x200B; verfrissen pictogram &#x200B;](assets/do-not-localize/refresh.png) op de menubar om de updates te krijgen.
 
 ## Verzamelingen {#collections-desktop-app}
 
-AEM App van de Desktop staat u toe om [ te bekijken, ](#view-collections-desktop-app) download [ en doorblader inzamelingen die op ](#download-collections-desktop-app) toepassing worden gecreeerd.[!DNL Adobe Experience Manager Assets]
+AEM App van de Desktop staat u toe om [&#x200B; te bekijken, &#x200B;](#view-collections-desktop-app) download [&#x200B; en doorblader inzamelingen die op &#x200B;](#download-collections-desktop-app) toepassing worden gecreeerd.[!DNL Adobe Experience Manager Assets]
 
 ### Verzamelingen weergeven {#view-collections-desktop-app}
 
 Voer de volgende stappen uit om verzamelingen in de bureaubladtoepassing weer te geven:
 
-1. Open App van de Desktop van AEM en ga naar [ meningsactiva ](#view-assets).
+1. Open App van de Desktop van AEM en ga naar [&#x200B; meningsactiva &#x200B;](#view-assets).
 
 1. Selecteer **[!UICONTROL Show Collections]**. De verzamelingen die beschikbaar zijn in de oorspronkelijke toepassing, worden weergegeven.
 
-   ![ de Desktop van Inzamelingen App ](assets/collections-desktop-app.png)
+   ![&#x200B; de Desktop van Inzamelingen App &#x200B;](assets/collections-desktop-app.png)
 
 ### Verzamelingen downloaden {#download-collections-desktop-app}
 
 Voer de volgende stappen uit om verzamelingen in de bureaubladtoepassing te downloaden:
 
-1. Volg stappen 1 en 2 zoals aangetoond in [ meningsinzamelingen ](#view-collections-desktop-app).
+1. Volg stappen 1 en 2 zoals aangetoond in [&#x200B; meningsinzamelingen &#x200B;](#view-collections-desktop-app).
 
-1. Ga naar meer acties ![ Meer actiepictogram ](assets/do-not-localize/more2_da2.png) op de inzameling die u wilt downloaden.
+1. Ga naar meer acties ![&#x200B; Meer actiepictogram &#x200B;](assets/do-not-localize/more2_da2.png) op de inzameling die u wilt downloaden.
 
 1. Klik op **[!UICONTROL Download]** om de desbetreffende verzameling te downloaden.
 
@@ -105,7 +105,7 @@ Voer de volgende stappen uit om verzamelingen in de bureaubladtoepassing te down
 
 Met de AEM Desktop App kunt u metagegevens toewijzen tijdens het maken van een nieuwe map. Voer daartoe de volgende stappen uit:
 
-1. Ga om folderpictogram tot stand te brengen ![ voeg omslagpictogram ](assets/do-not-localize/add-folder.svg) toe. **[!UICONTROL Create Directory]** wordt weergegeven.
+1. Ga om folderpictogram tot stand te brengen ![&#x200B; voeg omslagpictogram &#x200B;](assets/do-not-localize/add-folder.svg) toe. **[!UICONTROL Create Directory]** wordt weergegeven.
 
 1. Voeg de volgende details toe:
    * **[!UICONTROL Name]** van de map.
@@ -115,7 +115,7 @@ Met de AEM Desktop App kunt u metagegevens toewijzen tijdens het maken van een n
 
 ## Lijst van overgedragen elementen {#list-of-transferred-assets}
 
-Om de lijst van activa te bekijken die in een bepaalde zitting worden overgebracht, zie [ activa uploaden aan  [!DNL Experience Manager]](#upload-and-add-new-assets-to-aem).
+Om de lijst van activa te bekijken die in een bepaalde zitting worden overgebracht, zie [&#x200B; activa uploaden aan  [!DNL Experience Manager]](#upload-and-add-new-assets-to-aem).
 
 ## Geavanceerde workflow: samenwerken aan dezelfde bestanden en bewerkingsconflicten voorkomen {#adv-workflow-collaborate-avoid-conflicts}
 
@@ -127,15 +127,15 @@ In samenwerkingsomgevingen kunnen meerdere gebruikers werken aan dezelfde set el
 * Voordat u een element bewerkt, moet u ervoor zorgen dat andere gebruikers het element niet bewerken. Zoek het slotpictogram op de activa.
 * Na het voltooien van de bewerkingen uploadt u alle wijzigingen en checkt u het element in.
 
-![ Statussen van het uitgeven van conflicten ](assets/edits_conflicts_status_da2.png " Statussen van het uitgeven van conflicten ")
+![&#x200B; Statussen van het uitgeven van conflicten &#x200B;](assets/edits_conflicts_status_da2.png " Statussen van het uitgeven van conflicten ")
 
 Als een lokaal gedownload element wordt bijgewerkt op de [!DNL Experience Manager] -server, geeft de app een **[!UICONTROL Modified remotely]** -status weer. U kunt de lokale kopie verwijderen of de lokale kopie vernieuwen door respectievelijk op [!UICONTROL Remove] of [!UICONTROL Update] te klikken. Met de koppelingen in het dialoogvenster kunt u beide versies van het element weergeven.
 
-![ Opties om het conflict op te lossen wanneer het middel ](assets/modified_remotely_dialog_da2.png " Opties ver wordt gewijzigd om het conflict op te lossen wanneer het middel ver wordt gewijzigd ")
+![&#x200B; Opties om het conflict op te lossen wanneer het middel &#x200B;](assets/modified_remotely_dialog_da2.png " Opties ver wordt gewijzigd om het conflict op te lossen wanneer het middel ver wordt gewijzigd ")
 
 Als een middel dat u lokaal bewerkt ook zonder uw medeweten op de server wordt bijgewerkt, geeft de app een **[!UICONTROL Editing Conflict]** status weer. U kunt één set wijzigingen behouden. U kunt de updates behouden (klik op **[!UICONTROL Keep Mine]** ) en de bewerking van de andere gebruiker verwijderen, of de updates van de andere gebruiker respecteren en uw wijzigingen verwijderen (**[!UICONTROL Overwrite Mine]** ).
 
-![ Opties om een het uitgeven conflict ](assets/editing_conflict_dialog_da2.png " Opties op te lossen om een het uitgeven conflict ") op te lossen
+![&#x200B; Opties om een het uitgeven conflict &#x200B;](assets/editing_conflict_dialog_da2.png " Opties op te lossen om een het uitgeven conflict ") op te lossen
 
 ## Geavanceerde workflow: middelen plaatsen en koppelen in InDesign-bestand {#adv-workflow-place-assets-indesign}
 
@@ -147,11 +147,11 @@ De bureaubladtoepassing van [!DNL Experience Manager] ondersteunt deze workflow 
 >
 >De bureaubladtoepassing kan worden toegewezen aan elk station in Windows. Wijzig de standaardstationsletter echter niet voor vloeiende bewerkingen. Als gebruikers van dezelfde organisatie verschillende stationsletters gebruiken, kunnen ze de elementen die door anderen zijn geplaatst, niet zien. De geplaatste elementen worden niet opgehaald wanneer het pad verandert. De geplaatste elementen blijven in het binaire bestand (bijvoorbeeld INDD) staan en worden niet verwijderd.
 
-Om de beperkingen van dit werkschema te kennen, zie de [ systeemvereisten en gesteunde versies ](release-notes.md).
+Om de beperkingen van dit werkschema te kennen, zie de [&#x200B; systeemvereisten en gesteunde versies &#x200B;](release-notes.md).
 
 Voer de volgende stappen uit om deze workflow te testen met een afbeeldingselement en InDesign:
 
-1. Behoud een INDD-bestand met geplaatste elementen in [!DNL Experience Manager]. Om te weten hoe te om zulk een INDD dossier tot stand te brengen, zie [ Plaatsende Grafieken ](https://helpx.adobe.com/nl/indesign/using/placing-graphics.html).
+1. Behoud een INDD-bestand met geplaatste elementen in [!DNL Experience Manager]. Om te weten hoe te om zulk een INDD dossier tot stand te brengen, zie [&#x200B; Plaatsende Grafieken &#x200B;](https://helpx.adobe.com/nl/indesign/using/placing-graphics.html).
 1. Vanuit de bureaubladtoepassing **[!UICONTROL Edit]** wordt het INDD-bestand met elementen in [!DNL Experience Manager] geplaatst.
 1. De app downloadt het InDesign-bestand en de gekoppelde middelen. Wanneer InDesign het document opent, worden de koppelingen opgelost, worden de elementen gedownload en worden de elementen weergegeven in het InDesign-document.
 1. Als u een nieuwe afbeelding in het InDesign-bestand wilt plaatsen, gebruikt u de handeling **[!UICONTROL Reveal File]** op het element. De actie downloadt plaatselijk activa en opent de lokale plaats van het netwerkaandeel in de Ontdekkingsreiziger van Vensters of de Vinder van Mac.
@@ -160,9 +160,9 @@ Voer de volgende stappen uit om deze workflow te testen met een afbeeldingseleme
 
 ## Volgende stappen {#next-steps}
 
-* [ bekijk een video om met App van de Desktop van Adobe Experience Manager ](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) te beginnen te worden
+* [&#x200B; bekijk een video om met App van de Desktop van Adobe Experience Manager &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/assets/creative-workflows/aem-desktop-app) te beginnen te worden
 
-* Verstrek documentatie terugkoppelt gebruikend [!UICONTROL Edit this page] ![ uitgeeft de pagina ](assets/do-not-localize/edit-page.png) of [!UICONTROL Log an issue] ![ creeer een kwestie GitHub ](assets/do-not-localize/github-issue.png) beschikbaar op juiste sidebar
+* Verstrek documentatie terugkoppelt gebruikend [!UICONTROL Edit this page] ![&#x200B; uitgeeft de pagina &#x200B;](assets/do-not-localize/edit-page.png) of [!UICONTROL Log an issue] ![&#x200B; creeer een kwestie GitHub &#x200B;](assets/do-not-localize/github-issue.png) beschikbaar op juiste sidebar
 
 * De Zorg van de Klant van het contact [&#128279;](https://experienceleague.adobe.com/nl?support-solution=General#support)
 
@@ -170,5 +170,5 @@ Voer de volgende stappen uit om deze workflow te testen met een afbeeldingseleme
 
 >[!MORELIKETHIS]
 >
->* [ begrijp het gebruikersinterface ](/help/using/user-interface.md).
->* [ krijgen begonnen gids ](/help/using/get-started.md).
+>* [&#x200B; begrijp het gebruikersinterface &#x200B;](/help/using/user-interface.md).
+>* [&#x200B; krijgen begonnen gids &#x200B;](/help/using/get-started.md).

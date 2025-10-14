@@ -23,7 +23,7 @@ De belangrijkste taken die u uitvoert met de [!DNL Experience Manager] desktop a
 1. [Elementen bewerken en uitchecken vanuit de bureaubladtoepassing](#workonassets)
 1. [Elementen en mappen bulksgewijs uploaden](#bulkupload)
 
-Voor diverse geadviseerde doet en niet, zie de [ beste praktijken voor het gebruiken van Desktop app ](best-practices-for-v1.md). Als u kwesties gebruikend App onder ogen ziet, hoe te [  [!DNL Experience Manager]  Desktop app ](troubleshoot-app-v1.md) problemen oplossen.
+Voor diverse geadviseerde doet en niet, zie de [&#x200B; beste praktijken voor het gebruiken van Desktop app &#x200B;](best-practices-for-v1.md). Als u kwesties gebruikend App onder ogen ziet, hoe te [&#x200B;  [!DNL Experience Manager]  Desktop app &#x200B;](troubleshoot-app-v1.md) problemen oplossen.
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Voor diverse geadviseerde doet en niet, zie de [ beste praktijken voor het gebru
 
 De bureaubladtoepassing van [!DNL Experience Manager] integreert, samen met [!DNL Assets] , in uw creatieve workflow en biedt de volgende aanraakpunten.
 
-![[!DNL Experience Manager] desktop app touch-points the creative workflow ](assets/aem_desktopapp_workflow.png)
+![[!DNL Experience Manager] desktop app touch-points the creative workflow &#x200B;](assets/aem_desktopapp_workflow.png)
 
 [!DNL Experience Manager] desktop app touch-points de creatieve workflow
 
@@ -41,10 +41,10 @@ De bureaubladtoepassing van [!DNL Experience Manager] integreert, samen met [!DN
 
 Voordat u kunt beginnen met het maken of bewerken van creatieve middelen, sluit u de bureaubladtoepassing aan op de [!DNL Assets] -server om elementen te downloaden en uploaden in de opslagplaats. Voer de volgende taken uit:
 
-1. [ installeer app ](#installapp).
-1. [ plaats uw voorkeur ](#inapppref) en verbindingsdetails.
-1. [ verbind met een  [!DNL Experience Manager]  server ](#connect) en onderstel activa bewaarplaats als lokale aandrijving.
-1. [ laat Desktopacties ](#desktopactions) op de [!DNL Experience Manager] server toe.
+1. [&#x200B; installeer app &#x200B;](#installapp).
+1. [&#x200B; plaats uw voorkeur &#x200B;](#inapppref) en verbindingsdetails.
+1. [&#x200B; verbind met een  [!DNL Experience Manager]  server &#x200B;](#connect) en onderstel activa bewaarplaats als lokale aandrijving.
+1. [&#x200B; laat Desktopacties &#x200B;](#desktopactions) op de [!DNL Experience Manager] server toe.
 
 De desktop-app van [!DNL Experience Manager] gebruikt een HTTPS-verbinding om verbinding te maken met de [!DNL Experience Manager] -server om uw elementen robuust en veilig over te brengen.
 
@@ -56,9 +56,9 @@ De desktop-app van [!DNL Experience Manager] gebruikt een HTTPS-verbinding om ve
 
 Zorg ervoor dat de app uw versie van de Experience Manager-server ondersteunt om de Experience Manager desktop-app te gebruiken. Download het juiste (binaire) installatiebestand voor uw besturingssysteem (Mac of Windows) en installeer de toepassing.
 
-Afhankelijk van uw netwerk- en systeemvoorkeuren kan een gedetailleerde configuratie nodig zijn. Zie [ installeer en vorm  [!DNL Experience Manager]  Desktop app ](install-configure-app-v1.md) voor meer details.
+Afhankelijk van uw netwerk- en systeemvoorkeuren kan een gedetailleerde configuratie nodig zijn. Zie [&#x200B; installeer en vorm  [!DNL Experience Manager]  Desktop app &#x200B;](install-configure-app-v1.md) voor meer details.
 
-1. Ga naar de [[!DNL Experience Manager]  Desktop app v1.10 downloadpagina ](/help/using/release-notes-of-v1.md) en download aangewezen binair voor uw werkend systeem.
+1. Ga naar de [[!DNL Experience Manager]  Desktop app v1.10 downloadpagina &#x200B;](/help/using/release-notes-of-v1.md) en download aangewezen binair voor uw werkend systeem.
 1. Start het gedownloade installatiebestand en volg de aanwijzingen op het scherm om de app te installeren.
 
    >[!NOTE]
@@ -87,11 +87,11 @@ De toepassing ondersteunt proxyconfiguratie in Mac en Windows. De configuratie w
 
 1. Start de bureaubladtoepassing van [!DNL Experience Manager] . Als u de [!DNL Experience Manager] -instantie wilt toewijzen met de app, geeft u de [!DNL Experience Manager] server op in de notatie `https://[aem-server-url]:[port]` .
 
-   ![ verifieert op Mac en verstrekt [!DNL Experience Manager] server URL ](assets/aem_desktop_app_server_url.png)
+   ![&#x200B; verifieert op Mac en verstrekt [!DNL Experience Manager] server URL &#x200B;](assets/aem_desktop_app_server_url.png)
 
 1. Geef in het aanmeldingsscherm de gebruikersnaam en het wachtwoord voor de instantie op. Als u een alternatieve [!DNL Experience Manager] -instantie wilt opgeven, selecteert u de optie **[!UICONTROL Alternate Login URL]** .
 
-   ![ verstrekken [!DNL Experience Manager] servergeloofsbrieven op het login scherm op [!DNL Experience Manager] Desktop app ](assets/login_screen_v1.png)
+   ![&#x200B; verstrekken [!DNL Experience Manager] servergeloofsbrieven op het login scherm op [!DNL Experience Manager] Desktop app &#x200B;](assets/login_screen_v1.png)
 
 ### Bureaubladhandelingen inschakelen in de webinterface van [!DNL Experience Manager] {#desktopactions}
 
@@ -100,11 +100,11 @@ Vanuit de Assets-gebruikersinterface kunt u de locaties van middelen verkennen o
 1. Klik/tik in de Assets-interface op het gebruikerspictogram in de rechterbovenhoek van de werkbalk.
 1. Klik op **[!UICONTROL My Preferences]** om het dialoogvenster **[!UICONTROL Preferences]** weer te geven.
 
-   ![[!DNL Experience Manager] interface met gebruikersvoorkeuren ](assets/aem_ui_user_preferences.png)
+   ![[!DNL Experience Manager] interface met gebruikersvoorkeuren &#x200B;](assets/aem_ui_user_preferences.png)
 
 1. Selecteer **[!UICONTROL Show Desktop Actions For Assets]** in het dialoogvenster [!UICONTROL User Preferences] en klik vervolgens op **[!UICONTROL Accept]** .
 
-   ![ Controle [!UICONTROL Show Desktop Actions For Assets] om Desktopacties ](assets/enable_desktop_actions.png) toe te laten
+   ![&#x200B; Controle [!UICONTROL Show Desktop Actions For Assets] om Desktopacties &#x200B;](assets/enable_desktop_actions.png) toe te laten
 
    *Cijfer: Controle [!UICONTROL Show Desktop Actions For Assets] om de Desktopacties toe te laten.*
 
@@ -112,11 +112,11 @@ Vanuit de Assets-gebruikersinterface kunt u de locaties van middelen verkennen o
 
 Wanneer u **Open** klikt om activa op uw lokale computer te openen, downloadt app de activa aan zijn intern geheime voorgeheugen. De app start de native bureaubladtoepassing die is gekoppeld aan het bestandstype van het gedownloade element.
 
-Op Mac, uitgezochte **Open** van het contextmenu om activa door [!DNL Experience Manager] Desktop app te openen. In Windows selecteert u Openen op web in het contextmenu om het element te openen. Van het venster van de Status van Activa, klik/tik ![ Open op het pictogram van de Desktop ](assets/do-not-localize/aemassets_icon_openondesktop.png) om de activa te openen.
+Op Mac, uitgezochte **Open** van het contextmenu om activa door [!DNL Experience Manager] Desktop app te openen. In Windows selecteert u Openen op web in het contextmenu om het element te openen. Van het venster van de Status van Activa, klik/tik ![&#x200B; Open op het pictogram van de Desktop &#x200B;](assets/do-not-localize/aemassets_icon_openondesktop.png) om de activa te openen.
 
 Voor Adobe InDesign-bestanden (INDD) selecteert u **[!UICONTROL Open]** in het contextmenu. Wanneer u op deze optie klikt, downloadt de app de gekoppelde elementen naar uw lokale bestandssysteem en wordt het INDD-bestand in Adobe InDesign geopend. Deze methode zorgt ervoor dat de benodigde elementen lokaal beschikbaar zijn wanneer u het INDD-bestand bewerkt.
 
-![ het menuopties van de context om tot activa toegang te hebben en te openen gebruikend [!DNL Experience Manager] Desktop app ](assets/aem_desktopapp_mac_context_menu.png)
+![&#x200B; het menuopties van de context om tot activa toegang te hebben en te openen gebruikend [!DNL Experience Manager] Desktop app &#x200B;](assets/aem_desktopapp_mac_context_menu.png)
 
 *Figuur: De menuopties van de context om tot activa toegang te hebben en te openen gebruikend [!DNL Experience Manager] Desktop app.*
 
@@ -130,25 +130,25 @@ Nadat u de [!DNL Assets] opslagplaats aan uw lokale aandrijving in kaart hebt ge
 
 1. Open de interface van [!DNL Assets] en houd de aanwijzer boven een map of element om de bureaubladacties als snelle acties weer te geven in de kaartweergave.
 
-   ![ in Assets UI, open snel actiemenu om Desktopacties ](assets/desktop_actions_in_card_view.png) te zien
+   ![&#x200B; in Assets UI, open snel actiemenu om Desktopacties &#x200B;](assets/desktop_actions_in_card_view.png) te zien
 
    *Figuur: In Assets UI, open het snelle actiemenu om Desktopacties te zien.*
 
    Deze Desktopacties zijn ook beschikbaar wanneer u de **optie van de Acties van de Desktop** in de toolbar klikt na het selecteren van de activa of van de toolbar in de activapagina.
 
-1. Om de activa in de Desktoptoepassing te openen die met de specifieke dossieruitbreiding wordt geassocieerd, klik **Open op Desktop** snelle actie ![ Open op het pictogram van de Desktop ](assets/do-not-localize/aemassets_icon_openondesktop.png).
+1. Om de activa in de Desktoptoepassing te openen die met de specifieke dossieruitbreiding wordt geassocieerd, klik **Open op Desktop** snelle actie ![&#x200B; Open op het pictogram van de Desktop &#x200B;](assets/do-not-localize/aemassets_icon_openondesktop.png).
 
    Alternatief, kies **Open** van het **menu van de Acties van de Desktop** in de toolbar.
 
-Om van de bijzondere activa op uw lokaal dossiersysteem de plaats te bepalen, klik **onthullen snelle actie ![ pictogram ](assets/do-not-localize/aemassets_reveal_icon.png) onthullen.** Alternatief, kies **onthullen** van het **menu van de Acties van de Desktop** in de toolbar.
+Om van de bijzondere activa op uw lokaal dossiersysteem de plaats te bepalen, klik **onthullen snelle actie ![&#x200B; pictogram &#x200B;](assets/do-not-localize/aemassets_reveal_icon.png) onthullen.** Alternatief, kies **onthullen** van het **menu van de Acties van de Desktop** in de toolbar.
 
 ## De status van elementen begrijpen {#understand-the-asset-statuses}
 
-| ![ standaard toepassingspictogram van Vensters ](assets/do-not-localize/win_default.png) | De app is verbonden met de server en alle middelen zijn gesynchroniseerd. |
+| ![&#x200B; standaard toepassingspictogram van Vensters &#x200B;](assets/do-not-localize/win_default.png) | De app is verbonden met de server en alle middelen zijn gesynchroniseerd. |
 --- |--- |
-| ![ gehandicapte pictogram van Vensters ](assets/do-not-localize/win_disabled.png) | De app wordt gestart, maar heeft geen verbinding met de server. Sommige elementen zijn mogelijk in afwachting van synchronisatie. |
-| ![ het pictogram van de dossiersynchronisatie van Vensters ](assets/do-not-localize/win_sync.png) | Assets synchroniseert. Bestanden worden geüpload of gedownload. U kunt de exacte status zien en de overdrachten pauzeren vanuit het venster Asset Status. |
-| ![ Vensters verbindt pictogram opnieuw ](assets/do-not-localize/win_refresh.png) | App probeert opnieuw verbinding te maken. Mogelijk wordt de verbinding verbroken door de netwerkproblemen. |
+| ![&#x200B; gehandicapte pictogram van Vensters &#x200B;](assets/do-not-localize/win_disabled.png) | De app wordt gestart, maar heeft geen verbinding met de server. Sommige elementen zijn mogelijk in afwachting van synchronisatie. |
+| ![&#x200B; het pictogram van de dossiersynchronisatie van Vensters &#x200B;](assets/do-not-localize/win_sync.png) | Assets synchroniseert. Bestanden worden geüpload of gedownload. U kunt de exacte status zien en de overdrachten pauzeren vanuit het venster Asset Status. |
+| ![&#x200B; Vensters verbindt pictogram opnieuw &#x200B;](assets/do-not-localize/win_refresh.png) | App probeert opnieuw verbinding te maken. Mogelijk wordt de verbinding verbroken door de netwerkproblemen. |
 
 ## Werken met uw elementen {#workonassets}
 
@@ -156,15 +156,15 @@ Om van de bijzondere activa op uw lokaal dossiersysteem de plaats te bepalen, kl
 
 Met [!DNL Experience Manager Assets] kunt u elementen uitchecken en deze opnieuw inchecken nadat u alle wijzigingen hebt aangebracht. Nadat u een element hebt uitgecheckt, kunt u het element alleen bewerken, annoteren, publiceren, verplaatsen of verwijderen. Als u een element uitcheckt, vergrendelt u het element en voorkomt u dat andere gebruikers deze bewerkingen uitvoeren. Om activa te kunnen uitchecken/inchecken, hebt u schrijftoegang op hen nodig.
 
-Er zijn twee manieren om elementen uit de webinterface van [!DNL Experience Manager] te controleren. Voor gedetailleerde informatie over de eerste methode, zie [ controle en controlerende dossiers van Assets UI ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Voer de volgende stappen uit voor de tweede methoden om het element uit te checken en te openen wanneer de [!DNL Experience Manager] -bureaubladtoepassing wordt geïnstalleerd.
+Er zijn twee manieren om elementen uit de webinterface van [!DNL Experience Manager] te controleren. Voor gedetailleerde informatie over de eerste methode, zie [&#x200B; controle en controlerende dossiers van Assets UI &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/managing/check-out-and-submit-assets). Voer de volgende stappen uit voor de tweede methoden om het element uit te checken en te openen wanneer de [!DNL Experience Manager] -bureaubladtoepassing wordt geïnstalleerd.
 
 1. Open de interface van [!DNL Assets] en houd de aanwijzer boven een map of element om de bureaubladacties als snelle acties weer te geven in de kaartweergave.
 
-   ![ optie van Eigenschappen in de Mening van de Kaart ](assets/desktop_actions_in_card_view.png)
+   ![&#x200B; optie van Eigenschappen in de Mening van de Kaart &#x200B;](assets/desktop_actions_in_card_view.png)
 
    Deze bureaubladacties zijn ook beschikbaar wanneer u op het pictogram Bureaubladhandelingen op de werkbalk klikt of tikt nadat u het element of de werkbalk op de elementpagina hebt geselecteerd.
 
-1. Om de activa te openen, klik/tik Open op Desktop snelle actie ![ Open op het pictogram van de Desktop ](assets/do-not-localize/aemassets_icon_openondesktop.png).
+1. Om de activa te openen, klik/tik Open op Desktop snelle actie ![&#x200B; Open op het pictogram van de Desktop &#x200B;](assets/do-not-localize/aemassets_icon_openondesktop.png).
 
    U kunt ook Openen kiezen in het menu Bureaubladhandelingen op de werkbalk.
 
@@ -172,7 +172,7 @@ Er zijn twee manieren om elementen uit de webinterface van [!DNL Experience Mana
    >
    >Wanneer u een geopend maar niet-uitgecheckt bestand bewerkt, weten andere gebruikers niet dat u het element bijwerkt.
 
-1. Om activa voor het uitgeven in een toepassing van Adobe Creative Cloud te openen, klik ![ uitgeven het pictogram van de Desktop ](assets/do-not-localize/aemassets_icon_editdesktop.png). Met deze optie wordt het element ook uitgecheckt voor bewerking. Nadat u klaar bent met bewerken, checkt u het element in om de wijzigingen in [!DNL Assets] bij te werken.
+1. Om activa voor het uitgeven in een toepassing van Adobe Creative Cloud te openen, klik ![&#x200B; uitgeven het pictogram van de Desktop &#x200B;](assets/do-not-localize/aemassets_icon_editdesktop.png). Met deze optie wordt het element ook uitgecheckt voor bewerking. Nadat u klaar bent met bewerken, checkt u het element in om de wijzigingen in [!DNL Assets] bij te werken.
 
    U kunt ook Bewerken kiezen in het menu Bureaubladhandelingen op de werkbalk.
 
@@ -185,7 +185,7 @@ Met de app kunt u elementbestanden uitchecken om te voorkomen dat andere gebruik
 
 1. Selecteer in het contextmenu van Mac de optie AEM Assets-map openen om de Finder te openen.
 
-   ![ het menuopties van de context om tot activa toegang te hebben en te openen gebruikend [!DNL Experience Manager] Desktop app ](assets/aem_desktopapp_mac_context_menu.png)
+   ![&#x200B; het menuopties van de context om tot activa toegang te hebben en te openen gebruikend [!DNL Experience Manager] Desktop app &#x200B;](assets/aem_desktopapp_mac_context_menu.png)
 
    *Figuur: De menuopties van de context om tot activa toegang te hebben en te openen gebruikend [!DNL Experience Manager] Desktop app.*
 
@@ -193,7 +193,7 @@ Met de app kunt u elementbestanden uitchecken om te voorkomen dat andere gebruik
 1. Klik met de rechtermuisknop op het element en selecteer Meer Assets-informatie in het contextmenu.
 1. Klik/tik op het pictogram Uitchecken in het dialoogvenster Asset Info om het element uit te checken. Het pictogram Uitchecken schakelt over naar het pictogram voor inchecken nadat u erop hebt geklikt of getikt.
 
-   ![ doorbladert aan activa om uit te checken ](assets/browse_assets_to_checkout.png)
+   ![&#x200B; doorbladert aan activa om uit te checken &#x200B;](assets/browse_assets_to_checkout.png)
 
 1. Als u het element wilt inchecken zodat het beschikbaar is voor andere gebruikers, klikt of tikt u op het incheckpictogram in het dialoogvenster Elementinfo.
 
@@ -206,9 +206,9 @@ Met de app kunt u elementbestanden uitchecken om te voorkomen dat andere gebruik
 1. Klik met de rechtermuisknop op het element en selecteer Openen op web in het contextmenu.
 1. Klik in het dialoogvenster Elementinfo op het pictogram Uitchecken. Met het pictogram Uitchecken schakelt u over naar het pictogram voor inchecken.
 
-   ![ het pictogramknevels van de Controle ](assets/checkout_icon_toggles.png)
+   ![&#x200B; het pictogramknevels van de Controle &#x200B;](assets/checkout_icon_toggles.png)
 
-1. Controleer het element in Verkenner. Het slotpictogram op de activa ![ het slotpictogram van Activa ](assets/do-not-localize/aemassets_icon_lockcheckout.png) wijst erop dat u de activa hebt uitgecheckt.
+1. Controleer het element in Verkenner. Het slotpictogram op de activa ![&#x200B; het slotpictogram van Activa &#x200B;](assets/do-not-localize/aemassets_icon_lockcheckout.png) wijst erop dat u de activa hebt uitgecheckt.
 
    >[!NOTE]
    >
@@ -220,7 +220,7 @@ Met de app kunt u elementbestanden uitchecken om te voorkomen dat andere gebruik
 
 Wanneer u klaar bent met het bewerken van de elementen, slaat u de elementen op in uw bureaubladtoepassing. Van het contextmenu, uitgezochte **Meer Info van Assets** en klik controle-binnen.
 
-De elementen worden geüpload naar de [!DNL Experience Manager] -server. Naar keuze, kunt u de status van uploaden controleren door **de Status van Activa van de Mening** van het pictogram van het systeemdienblad te selecteren. U kunt een element ook inchecken via de webinterface van [!DNL Experience Manager] . Klik op de uitgecheckte elementen of selecteer deze. Van de toolbar, klik het controle-binnen pictogram ![ controle-binnen pictogram ](assets/do-not-localize/aemassets_icon_checkin.png).
+De elementen worden geüpload naar de [!DNL Experience Manager] -server. Naar keuze, kunt u de status van uploaden controleren door **de Status van Activa van de Mening** van het pictogram van het systeemdienblad te selecteren. U kunt een element ook inchecken via de webinterface van [!DNL Experience Manager] . Klik op de uitgecheckte elementen of selecteer deze. Van de toolbar, klik het controle-binnen pictogram ![&#x200B; controle-binnen pictogram &#x200B;](assets/do-not-localize/aemassets_icon_checkin.png).
 
 Middelen worden automatisch naar [!DNL Experience Manager] geüpload nadat eventuele wijzigingen lokaal zijn opgeslagen. Met het inchecken kunt u het element ter beschikking stellen van andere [!DNL Experience Manager] -gebruikers voor bewerking.
 
@@ -232,7 +232,7 @@ Met de bureaubladtoepassing van [!DNL Experience Manager] kunt u een volledige m
 1. Blader naar de map die u wilt uploaden en selecteer deze.
 1. Klik op OK/tik op OK. In het dialoogvenster Assets-status wordt de status van het uploaden weergegeven.
 
-   ![ zie status van uploaden in het venster van de Status van Activa ](assets/aem_desktopapp_bulkupload_status.png)
+   ![&#x200B; zie status van uploaden in het venster van de Status van Activa &#x200B;](assets/aem_desktopapp_bulkupload_status.png)
 
    De status van de upload bekijken in het venster Asset Status
 
@@ -248,4 +248,4 @@ Alternatief, uitgezochte dossiers/omslagen in Vinder of Ontdekkingsreiziger, kop
 
 >[!MORELIKETHIS]
 >
->* [ los  [!DNL Experience Manager]  Desktop app toepassing ](troubleshoot-app-v1.md) problemen op
+>* [&#x200B; los  [!DNL Experience Manager]  Desktop app toepassing &#x200B;](troubleshoot-app-v1.md) problemen op

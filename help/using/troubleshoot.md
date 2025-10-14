@@ -19,15 +19,15 @@ Lees verder om de app problemen op te lossen, de beste werkwijzen te leren en de
 
 Houd u aan de volgende aanbevolen procedures om bepaalde algemene problemen en problemen te voorkomen.
 
-* **Begrijp hoe Desktop app** werkt: Alvorens te beginnen om de toepassing te gebruiken, besteed een paar ogenblikken het kennen van hoe app werkt. U weet hoe u een koppeling tot stand brengt tussen de webinterface van [!DNL Experience Manager] en het bureaublad, de toewijzing van opslagruimten, het in cache plaatsen van elementen, het lokaal opslaan en het uploaden op de achtergrond. Zie [ hoe het ](release-notes.md#how-app-works) werkt.
+* **Begrijp hoe Desktop app** werkt: Alvorens te beginnen om de toepassing te gebruiken, besteed een paar ogenblikken het kennen van hoe app werkt. U weet hoe u een koppeling tot stand brengt tussen de webinterface van [!DNL Experience Manager] en het bureaublad, de toewijzing van opslagruimten, het in cache plaatsen van elementen, het lokaal opslaan en het uploaden op de achtergrond. Zie [&#x200B; hoe het &#x200B;](release-notes.md#how-app-works) werkt.
 
-* **vermijd niet gesteunde karakters in omslagnamen**: Gebruik geen whitespaces en ongeldige karakters wanneer het creëren van of het uploaden van omslagen. Zie een lijst van karakters bij [ leiden omslagen in  [!DNL Adobe Experience Manager Assets] ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). Niet-ondersteunde tekens in de mapnaam kunnen van invloed zijn op bepaalde gebruiksgevallen van [!DNL Experience Manager] .
+* **vermijd niet gesteunde karakters in omslagnamen**: Gebruik geen whitespaces en ongeldige karakters wanneer het creëren van of het uploaden van omslagen. Zie een lijst van karakters bij [&#x200B; leiden omslagen in  [!DNL Adobe Experience Manager Assets] &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/managing/manage-assets#creating-folders). Niet-ondersteunde tekens in de mapnaam kunnen van invloed zijn op bepaalde gebruiksgevallen van [!DNL Experience Manager] .
 
-* **Beste praktijken om conflicten** te vermijden: Om potentiële conflicten te vermijden wanneer het samenwerken op veelvoudige activa, ga [ vermijden het uitgeven conflicten ](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts).
+* **Beste praktijken om conflicten** te vermijden: Om potentiële conflicten te vermijden wanneer het samenwerken op veelvoudige activa, ga [&#x200B; vermijden het uitgeven conflicten &#x200B;](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts).
 
-* **de omslagupload van het Gebruik voor grote, hiërarchische omslagen**: In plaats van het gebruiken van de het Webinterface van Assets of andere methodes, gebruik [!DNL Experience Manager] Desktop app om grote omslagen te uploaden. De app uploadt de middelen op de achtergrond met registratie en controle. Zie [ bulkupload activa ](using-desktop-app.md#bulk-upload-assets).
+* **de omslagupload van het Gebruik voor grote, hiërarchische omslagen**: In plaats van het gebruiken van de het Webinterface van Assets of andere methodes, gebruik [!DNL Experience Manager] Desktop app om grote omslagen te uploaden. De app uploadt de middelen op de achtergrond met registratie en controle. Zie [&#x200B; bulkupload activa &#x200B;](using-desktop-app.md#bulk-upload-assets).
 
-* **Gebruik de recentste versie**: Gebruik de recentste toepassingsversie. Controleer altijd op compatibiliteit voordat u een nieuwe app-versie installeert of voordat u een upgrade naar een nieuwere [!DNL Experience Manager] versie uitvoert. Zie [ versienota&#39;s ](release-notes.md).
+* **Gebruik de recentste versie**: Gebruik de recentste toepassingsversie. Controleer altijd op compatibiliteit voordat u een nieuwe app-versie installeert of voordat u een upgrade naar een nieuwere [!DNL Experience Manager] versie uitvoert. Zie [&#x200B; versienota&#39;s &#x200B;](release-notes.md).
 
 * **gebruik de zelfde aandrijvingsbrief**: Gebruik de zelfde aandrijvingsbrief over een organisatie om aan [!DNL Experience Manager] DAM in kaart te brengen. Als u elementen wilt zien die door andere gebruikers zijn geplaatst, moeten de paden gelijk zijn. Als u dezelfde stationsletter gebruikt, bent u verzekerd van een constant pad naar DAM-middelen. De elementen blijven geplaatst en worden niet verwijderd, zelfs niet als verschillende stationsletters door verschillende gebruikers worden gebruikt.
 
@@ -145,7 +145,7 @@ De cache wordt gewist door de cachemap van de toepassing te verwijderen. Deze ma
 
 Als u de cache wilt wissen, verwijdert u de gewenste gecodeerde [!DNL Adobe Experience Manager] Eindpuntmap. Als u de volledige map verwijdert die u in de voorkeuren hebt opgegeven, wordt de cache ook gewist voor alle instanties die door de toepassing zijn gebruikt.
 
-Het wissen van de cache van de [!DNL Adobe Experience Manager] -bureaubladtoepassing is een voorlopige taak voor het oplossen van problemen die verschillende problemen kan oplossen. Wis de cache uit de toepassingsvoorkeuren. Zie [ vastgestelde voorkeur ](install-upgrade.md#set-preferences). De standaardlocatie van de cachemap is:
+Het wissen van de cache van de [!DNL Adobe Experience Manager] -bureaubladtoepassing is een voorlopige taak voor het oplossen van problemen die verschillende problemen kan oplossen. Wis de cache uit de toepassingsvoorkeuren. Zie [&#x200B; vastgestelde voorkeur &#x200B;](install-upgrade.md#set-preferences). De standaardlocatie van de cachemap is:
 
 ## Kan geplaatste elementen niet zien {#placed-assets-missing}
 
@@ -180,7 +180,7 @@ sudo find /var/folders -type d -name "com.adobe.aem.desktop.finderintegration-pl
 
 ## Kan bestanden niet uploaden {#upload-fails}
 
-Als u de bureaubladtoepassing gebruikt met [!DNL Experience Manager] 6.5.1 of hoger, moet u de S3- of Azure-aansluiting upgraden naar versie 1.10.4 of hoger. Het lost het dossier op uploadt mislukkingskwestie met betrekking tot [ OAK-8599 ](https://issues.apache.org/jira/browse/OAK-8599). Zie [ instructies ](install-upgrade.md#install-v2) installeren.
+Als u de bureaubladtoepassing gebruikt met [!DNL Experience Manager] 6.5.1 of hoger, moet u de S3- of Azure-aansluiting upgraden naar versie 1.10.4 of hoger. Het lost het dossier op uploadt mislukkingskwestie met betrekking tot [&#x200B; OAK-8599 &#x200B;](https://issues.apache.org/jira/browse/OAK-8599). Zie [&#x200B; instructies &#x200B;](install-upgrade.md#install-v2) installeren.
 
 ## [!DNL Experience Manager] Verbindingsproblemen met bureaubladtoepassingen {#connection-issues}
 
@@ -197,7 +197,7 @@ De desktop-app van [!DNL Experience Manager] registreert alle aanvragen die het 
 **de verzoeken van de Controle die door ingebedde browser van de toepassing** worden geladen
 
 Een meerderheid van de verzoeken van de toepassing wordt gevonden in het verzoeklogboek. Als er echter geen nuttige informatie beschikbaar is, kan het nuttig zijn om te kijken naar de aanvragen die door de ingesloten browser van de toepassing worden verzonden.
-Zie de [ sectie van SAML ](#da-connection-issue-with-saml-aem) voor instructies op hoe te om die verzoeken te bekijken.
+Zie de [&#x200B; sectie van SAML &#x200B;](#da-connection-issue-with-saml-aem) voor instructies op hoe te om die verzoeken te bekijken.
 
 ### SAML-aanmeldverificatie werkt niet {#da-connection-issue-with-saml-aem}
 
@@ -217,19 +217,19 @@ Soms richt het proces SAML niet terug naar de oorspronkelijk gevraagde weg. De u
 
 Het venster binnen de bureaubladtoepassing van [!DNL Adobe Experience Manager] waarin het aanmeldingsproces wordt weergegeven, is gewoon een webbrowser die de webgebruikersinterface van de doelinstantie van [!DNL Adobe Experience Manager] weergeeft:
 
-* De versie van Mac gebruikt a [ WebView ](https://developer.apple.com/documentation/webkit/webview).
+* De versie van Mac gebruikt a [&#x200B; WebView &#x200B;](https://developer.apple.com/documentation/webkit/webview).
 
-* De versie van Vensters gebruikt op chroom-Gebaseerde [ CefSharp ](https://cefsharp.github.io/).
+* De versie van Vensters gebruikt op chroom-Gebaseerde [&#x200B; CefSharp &#x200B;](https://cefsharp.github.io/).
 
 Zorg ervoor dat het SAML-proces deze browsers ondersteunt.
 
 Als u meer problemen wilt oplossen, kunt u de exacte URL&#39;s bekijken die de browser probeert te laden. Deze informatie bekijken:
 
-1. Volg de richtingen voor het lanceren van de toepassing op [ zuivert wijze ](#enable-debug-mode).
+1. Volg de richtingen voor het lanceren van de toepassing op [&#x200B; zuivert wijze &#x200B;](#enable-debug-mode).
 
 1. Reproduceer de login poging.
 
-1. Navigeer aan de [ logboekfolder ](#check-log-files-v2) van de toepassing.
+1. Navigeer aan de [&#x200B; logboekfolder &#x200B;](#check-log-files-v2) van de toepassing.
 
 1. Voor Windows:
 
@@ -247,7 +247,7 @@ Het bekijken van de opeenvolging URL die wordt geladen kan helpen bij het eind v
 
 ### Probleem met SSL-configuratie {#ssl-config-v2}
 
-De bibliotheken die de bureaubladtoepassing van [!DNL Experience Manager] gebruikt voor HTTP-communicatie, maken gebruik van strikte SSL-afgedwongen omzetting. Soms kan een verbinding met een browser slagen, maar mislukt het gebruik van de bureaubladtoepassing van [!DNL Experience Manager] . Installeer het ontbrekende tussentijdse certificaat in Apache om SSL op de juiste wijze te configureren. Zie [ hoe te om een Tussentijdse cert van CA in Apache ](https://access.redhat.com/solutions/43575) te installeren.
+De bibliotheken die de bureaubladtoepassing van [!DNL Experience Manager] gebruikt voor HTTP-communicatie, maken gebruik van strikte SSL-afgedwongen omzetting. Soms kan een verbinding met een browser slagen, maar mislukt het gebruik van de bureaubladtoepassing van [!DNL Experience Manager] . Installeer het ontbrekende tussentijdse certificaat in Apache om SSL op de juiste wijze te configureren. Zie [&#x200B; hoe te om een Tussentijdse cert van CA in Apache &#x200B;](https://access.redhat.com/solutions/43575) te installeren.
 
 De bibliotheken die de bureaubladtoepassing van [!DNL Experience Manager] gebruikt voor HTTP-communicatie, maken gebruik van strikte SSL-afgedwongen omzetting. Er kunnen zich dus situaties voordoen waarin SSL-verbindingen die via een browser slagen, mislukken met de bureaubladtoepassing van [!DNL Adobe Experience Manager] . Dit resultaat is goed omdat het de juiste configuratie van SSL aanmoedigt en de beveiliging verhoogt, maar het kan frustrerend zijn wanneer de toepassing geen verbinding kan maken.
 
@@ -286,7 +286,7 @@ Als een tijdelijke maatregel, is het mogelijk om strikte SSL handhaving in de [!
 
 Wanneer u een [!DNL Experience Manager] -server gebruikt en probeert de verbinding te wijzigen met een andere server, kunnen er aanmeldingsproblemen optreden. Dit is te wijten aan oude cookies die de nieuwe verificatie belemmeren. Een optie in het hoofdmenu die [!UICONTROL Clear Cookies] helpt. Meld u af bij de huidige sessie in de app en selecteer [!UICONTROL Clear Cookies] voordat u verdergaat met het maken van een verbinding.
 
-![ Duidelijke koekjes wanneer omschakelingsserver ](assets/main_menu_logout_da2.png)
+![&#x200B; Duidelijke koekjes wanneer omschakelingsserver &#x200B;](assets/main_menu_logout_da2.png)
 
 ## App reageert niet {#unresponsive}
 
@@ -301,8 +301,8 @@ In beide methoden wordt de toepassing gestart in de hoofdmap DAM.
 
 Wanneer u elementen bladert vanuit de gebruikersinterface van [!DNL Experience Manager] , worden de verlopen elementen niet weergegeven. Beheerders kunnen instellingen configureren om te voorkomen dat verlopen middelen worden weergegeven, gezocht en opgehaald wanneer ze de bureaubladtoepassing en de Asset Link verlaten. Dit zorgt ervoor dat verlopen elementen tijdens deze bewerkingen niet toegankelijk zijn. De configuratie werkt voor alle gebruikers, ongeacht beheerderrechten.
 
-* [ Configuratie in Experience Manager 6.5 om verlopen activa ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api) te verbergen.
-* [ Configuratie in Experience Manager as a Cloud Service om verlopen activa ](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api) te verbergen.
+* [&#x200B; Configuratie in Experience Manager 6.5 om verlopen activa &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/managing/manage-assets#hide-expired-assets-via-acp-api) te verbergen.
+* [&#x200B; Configuratie in Experience Manager as a Cloud Service om verlopen activa &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#hide-expired-assets-via-acp-api) te verbergen.
 
 <!--
 ### Need additional help with [!DNL Experience Manager] desktop app {#additional-help}
@@ -324,5 +324,5 @@ Create Jira ticket with the following information:
 
 >[!MORELIKETHIS]
 >
->* [ Bekende kwesties ](release-notes.md#known-issues-v2)
->* [ vermijd het uitgeven conflicten ](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts)
+>* [&#x200B; Bekende kwesties &#x200B;](release-notes.md#known-issues-v2)
+>* [&#x200B; vermijd het uitgeven conflicten &#x200B;](assets-management-tasks.md#adv-workflow-collaborate-avoid-conflicts)

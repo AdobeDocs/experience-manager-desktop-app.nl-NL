@@ -18,7 +18,7 @@ Voor desktop app v1.x release zijn de volgende downloadkoppelingen en AEM compat
 | Versie | 1.10 (1.10.0.6 voor Mac en 1.10.0.3 voor Windows) |
 | Type | Minder release |
 | Datum | 1.10.0.6 (Mac): 15 april 2020; 1.10.0.3 (Win): 31 augustus 2018 |
-| URL&#39;s downloaden | [ macOS X 64 beetje ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-1.10.0.6.dmg); [ Vensters 32 beetje ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-1.10.0.3.exe); [ Vensters 64 beetje ](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-1.10.0.3.exe) |
+| URL&#39;s downloaden | [&#x200B; macOS X 64 beetje &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-osx-1.10.0.6.dmg); [&#x200B; Vensters 32 beetje &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win32-1.10.0.3.exe); [&#x200B; Vensters 64 beetje &#x200B;](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/adobe/aem-desktop-app/aem-desktop-win64-1.10.0.3.exe) |
 | Compatibiliteit | AEM 6.5.x; AEM 6.4.x; AEM 6.3 SP2; AEM 6.2 SP1 GVB2+; AEM 6.1 SP2 GVB7+ |
 
 >[!NOTE]
@@ -38,7 +38,7 @@ Adobe raadt u aan de nieuwste versie van de AEM-bureaubladtoepassing te gebruike
 Voor de versie van AEM bureaubladtoepassing die u op uw lokale computer wilt installeren, is een specifieke AEM vereist
 versie / extra serveronderdelen (servicepacks, hotfixes of functiepakketten). Zorg ervoor dat de AEM server correct is geconfigureerd voordat u er voor het eerst verbinding mee maakt. Neem contact op met de AEM als u hulp nodig hebt.
 
-Zie de [ gedetailleerde verenigbaarheidsmatrijs ](#compatibilitymatrix) aan het eind van dit document om de eerste vereisten voor uw opstelling te evalueren.
+Zie de [&#x200B; gedetailleerde verenigbaarheidsmatrijs &#x200B;](#compatibilitymatrix) aan het eind van dit document om de eerste vereisten voor uw opstelling te evalueren.
 
 ## Nieuw in desktop app v1.10 {#what-s-new-in-aem-desktop-app}
 
@@ -46,7 +46,7 @@ AEM desktop app 1.10 richt zich op het verbeteren van de gebruikerservaring bij 
 
 >[!NOTE]
 >
->Gebruik minimaal versie 1.10.0.6 van de app als u macOS 10.15.4 of hoger gebruikt. Deze flardversie voldoet aan [ notariseringsvereisten van Apple ](https://developer.apple.com/news/?id=04102019a).
+>Gebruik minimaal versie 1.10.0.6 van de app als u macOS 10.15.4 of hoger gebruikt. Deze flardversie voldoet aan [&#x200B; notariseringsvereisten van Apple &#x200B;](https://developer.apple.com/news/?id=04102019a).
 
 **Lokale het Uitgeven/Controle**: De automatische uploads van veranderingen die aan activa worden bewaard kunnen in het statusvenster worden onbruikbaar gemaakt. Op die manier kan de gebruiker aan bestanden blijven werken en wijzigingen opslaan en vervolgens, wanneer deze gereed zijn, besluiten alle wijzigingen te uploaden.
 
@@ -60,7 +60,7 @@ AEM desktop app 1.10 richt zich op het verbeteren van de gebruikerservaring bij 
 
 ## Installatie-instructies {#installation-instructions}
 
-Voor gedetailleerde instructies, zie [ installeer en vorm de AEM Desktop app ](install-configure-app-v1.md).
+Voor gedetailleerde instructies, zie [&#x200B; installeer en vorm de AEM Desktop app &#x200B;](install-configure-app-v1.md).
 
 ## Verbeteringen in de vorige versies {#enhancements-in-the-previous-versions}
 
@@ -213,7 +213,7 @@ AEM desktop app 1.8.1 fast-follow release heeft verbeteringen aangebracht bij he
 
 ### Verbeteringen beschikbaar sinds AEM desktop app 1.6 {#Enhancements-Available-Since-AEM-Desktop-App-16}
 
-* Documentatie: Nieuwe [ Beste praktijken voor v1.x app ](/help/using/best-practices-for-v1.md) documentatie.
+* Documentatie: Nieuwe [&#x200B; Beste praktijken voor v1.x app &#x200B;](/help/using/best-practices-for-v1.md) documentatie.
 
 * Verbeterd aanmeldingsproces voor AEM:
 
@@ -362,7 +362,7 @@ Omdat de map `/Volumes` geen beheerrechten meer vereist, is deze wijziging onged
 
 >[!NOTE]
 >
->In macOS X leidt de wijziging van het protocol van de lokale netwerkschijf van WebDAV in SMB1 tot een ander lokaal pad naar hetzelfde middel in de opslagplaats. Deze wijziging kan gevolgen hebben voor koppelingen naar bestanden die via de opdracht Plaatsen in Adobe Creative Cloud-toepassingen zijn geplaatst. Zie het [ Gebruik AEM Desktop app ](use-app-v1.md) voor meer informatie.
+>In macOS X leidt de wijziging van het protocol van de lokale netwerkschijf van WebDAV in SMB1 tot een ander lokaal pad naar hetzelfde middel in de opslagplaats. Deze wijziging kan gevolgen hebben voor koppelingen naar bestanden die via de opdracht Plaatsen in Adobe Creative Cloud-toepassingen zijn geplaatst. Zie het [&#x200B; Gebruik AEM Desktop app &#x200B;](use-app-v1.md) voor meer informatie.
 
 ### Bestandsbeheer (sinds 1.3) {#file-handling-since}
 
@@ -417,7 +417,7 @@ Omdat de map `/Volumes` geen beheerrechten meer vereist, is deze wijziging onged
 
 ## Nuttige bronnen {#helpful-resources}
 
-* [ AEM Documentatie ](https://experienceleague.adobe.com/nl/docs)
+* [&#x200B; AEM Documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs)
 * [AEM desktop app v1.x gebruiken](use-app-v1.md)
 * [Aanbevolen werkwijzen voor desktop app v1.x AEM](best-practices-for-v1.md)
 

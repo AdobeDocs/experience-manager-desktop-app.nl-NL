@@ -16,7 +16,7 @@ Adobe biedt verbonden workflows over zijn oplossingen om productiviteit op het v
 
 Met de app zijn de elementen in [!DNL Experience Manager Assets] gemakkelijk toegankelijk op uw lokale bureaublad en kunnen deze worden gebruikt in alle bureaubladtoepassingen. U kunt de elementen openen en bewerken in de gewenste bureaubladtoepassingen. Lokale bewerkingen worden alleen als een nieuwe versie in [!DNL Experience Manager] opgeslagen wanneer u de wijzigingen uploadt, waardoor bewerkingen in uitvoering op het bureaublad efficiënt kunnen worden uitgevoerd. De app ondersteunt het uploaden van middelen en geneste mappen naar [!DNL Experience Manager], waardoor nieuwe inhoud eenvoudig aan de opslagplaats kan worden toegevoegd.
 
-Dankzij een dergelijke integratie kunnen verschillende rollen in de organisatie de elementen centraal beheren in [!DNL Experience Manager Assets] . Marktdeelnemers en zakelijke gebruikers kunnen ervoor zorgen dat aan de verschillende standaarden wordt voldaan, waaronder branding en licenties. De gebruikers van Creative met een specifiek [ hulpmiddel van de Verbinding van Activa van 0&rbrace; Adobe kunnen tot activa in Adobe Photoshop, Illustrator, en InDesign toegang hebben, kunnen activa op de Desktop in Creative Cloud en andere inheemse toepassingen ook toegang hebben.](https://business.adobe.com/products/experience-manager/assets/adobe-asset-link.html)
+Dankzij een dergelijke integratie kunnen verschillende rollen in de organisatie de elementen centraal beheren in [!DNL Experience Manager Assets] . Marktdeelnemers en zakelijke gebruikers kunnen ervoor zorgen dat aan de verschillende standaarden wordt voldaan, waaronder branding en licenties. De gebruikers van Creative met een specifiek [&#x200B; hulpmiddel van de Verbinding van Activa van 0&rbrace; Adobe kunnen tot activa in Adobe Photoshop, Illustrator, en InDesign toegang hebben, kunnen activa op de Desktop in Creative Cloud en andere inheemse toepassingen ook toegang hebben.](https://business.adobe.com/products/experience-manager/assets/adobe-asset-link.html)
 
 >[!NOTE]
 >
@@ -26,12 +26,12 @@ De documentatie van de bureaubladtoepassing bevat informatie over de volgende ro
 
 | Vereiste informatie | Help-inhoud |
 |--- |--- |
-| Wilt u snel een overzicht van de nieuwe functies en verbeteringen in de nieuwste versie? | [ wat in app ](#whats-new-v2) nieuw is |
-| Wilt u weten wat de voorwaarden en technische specificaties zijn? Wilt u koppelingen downloaden? | [ de nota&#39;s van de Versie ](release-notes.md) |
-| Niet nieuw voor bureaubladtoepassing? Wilt u de overgang upgraden en probleemloos toepassen? | [ Verbetering van vorige versie ](install-upgrade.md#upgrade-from-previous-version) |
-| Ga aan de slag. Wilt u de standaardvoorkeuren aanpassen? | [ installeer en vorm app ](install-upgrade.md) |
-| Leer hoe u kunt bladeren, zoeken, bewerken, uploaden, conflicten oplossen, bulkbewerkingen uitvoeren enzovoort. | [ Desktop app van het Gebruik  [!DNL Experience Manager]  ](using-desktop-app.md) |
-| Wordt er een probleem opgetreden? | [ los  [!DNL Experience Manager]  Desktop app ](troubleshoot.md) problemen op |
+| Wilt u snel een overzicht van de nieuwe functies en verbeteringen in de nieuwste versie? | [&#x200B; wat in app &#x200B;](#whats-new-v2) nieuw is |
+| Wilt u weten wat de voorwaarden en technische specificaties zijn? Wilt u koppelingen downloaden? | [&#x200B; de nota&#39;s van de Versie &#x200B;](release-notes.md) |
+| Niet nieuw voor bureaubladtoepassing? Wilt u de overgang upgraden en probleemloos toepassen? | [&#x200B; Verbetering van vorige versie &#x200B;](install-upgrade.md#upgrade-from-previous-version) |
+| Ga aan de slag. Wilt u de standaardvoorkeuren aanpassen? | [&#x200B; installeer en vorm app &#x200B;](install-upgrade.md) |
+| Leer hoe u kunt bladeren, zoeken, bewerken, uploaden, conflicten oplossen, bulkbewerkingen uitvoeren enzovoort. | [&#x200B; Desktop app van het Gebruik  [!DNL Experience Manager]  &#x200B;](using-desktop-app.md) |
+| Wordt er een probleem opgetreden? | [&#x200B; los  [!DNL Experience Manager]  Desktop app &#x200B;](troubleshoot.md) problemen op |
 
 ## Nieuwe functies in de app {#whats-new-v2}
 
@@ -46,6 +46,6 @@ De nieuwe app biedt een aanzienlijke verbetering van de gebruikerservaring en bi
 
 De belangrijkste gebruiksscenario&#39;s en verbeteringen van de nieuwe app worden in de volgende afbeelding toegewezen aan de reis van de klant.
 
-![ wat in [!DNL Experience Manager] Desktop app ](assets/aem_desktop_app_usecases_v2.png) Nieuw is
+![&#x200B; wat in [!DNL Experience Manager] Desktop app &#x200B;](assets/aem_desktop_app_usecases_v2.png) Nieuw is
 
 Met de bureaubladtoepassing kunnen gebruikers alle hierboven vermelde gebruiksgevallen uitvoeren. Indien nodig kunt u ook de functie voor het detecteren van elementen in de webinterface gebruiken en vervolgens de controle aan de app doorgeven om de elementen te openen en te bewerken.

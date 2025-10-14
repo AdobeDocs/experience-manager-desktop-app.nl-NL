@@ -21,13 +21,13 @@ De bureaubladtoepassing monteert de AEM Assets-opslagplaats als een gedeelde net
 
 >[!NOTE]
 >
->Alvorens dit document te lezen, kunt u de algemene [ beste praktijken van de AEM en van de Creative Cloud integratie ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/administer/aem-cc-integration-best-practices) voor een overzicht op hoger niveau van het onderwerp herzien.
+>Alvorens dit document te lezen, kunt u de algemene [&#x200B; beste praktijken van de AEM en van de Creative Cloud integratie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/administer/aem-cc-integration-best-practices) voor een overzicht op hoger niveau van het onderwerp herzien.
 
 ## AEM bureaubladtoepassingsarchitectuur {#aem-desktop-app-architecture}
 
 AEM desktop gebruikt WebDAV (Windows) of SMB (Mac) netwerkshares om netwerkshares te koppelen. Het gekoppelde netwerkaandeel is alleen lokaal. AEM bureaubladtoepassing onderschept de aanroepen (openen, lezen, schrijven) en biedt extra lokale caching. Het vertaalt verre vraag aan de server van AEM Assets aan geoptimaliseerde AEM HTTP- verzoeken. In het volgende diagram wordt de architectuur van de AEM desktop-app weergegeven.
 
-![ AEM Desktop app architectuur ](assets/arch_v1.png)
+![&#x200B; AEM Desktop app architectuur &#x200B;](assets/arch_v1.png)
 
 *Cijfer: Desktop app architectuur*
 
@@ -63,7 +63,7 @@ De belangrijkste mogelijkheden van de AEM desktop-app zijn:
 
 * Gebruik AEM netwerkstations voor bureaubladtoepassingen niet om elementen vaak op te slaan. Alle opslagbewerkingen worden naar AEM Assets verzonden. Daarom is het onpraktisch om intensieve bewerkingen rechtstreeks uit te voeren in de gekoppelde AEM Assets-opslagplaats. Door een element rechtstreeks in de gekoppelde opslagplaats te bewerken, loopt de tijdlijn van het element vast met irrelevante versies en worden extra overheadkosten aan de server opgelegd.
 
-* Gebruik AEM bureaubladtoepassing niet voor het migreren van grote hoeveelheden gegevens van de ene AEM naar de andere. Zie de [ Gids van de Migratie ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/administer/assets-migration-guide) om activa migraties te plannen en uit te voeren. In tegenstelling, steunt Desktop app [ bulksgewijs uploaden ](use-app-v1.md#bulkupload) groot aantal activa voor het eerst in [!DNL Adobe Experience Manager].
+* Gebruik AEM bureaubladtoepassing niet voor het migreren van grote hoeveelheden gegevens van de ene AEM naar de andere. Zie de [&#x200B; Gids van de Migratie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/administer/assets-migration-guide) om activa migraties te plannen en uit te voeren. In tegenstelling, steunt Desktop app [&#x200B; bulksgewijs uploaden &#x200B;](use-app-v1.md#bulkupload) groot aantal activa voor het eerst in [!DNL Adobe Experience Manager].
 
 ## Recommendations voor geselecteerde gebruiksgevallen {#recommendations-for-selected-use-cases}
 
@@ -119,9 +119,9 @@ Een goede gebruikerservaring met de AEM desktop-app is afhankelijk van stabiele 
 
 ### Netwerkoverwegingen {#network-considerations}
 
-Om beste praktijken rond het netwerkconfiguratie van AEM Assets te begrijpen, ga [ hoe te in bulk migreren activa ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/administer/assets-migration-guide) document. Enkele belangrijke aspecten die u helpen de AEM bureaubladervaring voor de gebruikers te optimaliseren, zijn:
+Om beste praktijken rond het netwerkconfiguratie van AEM Assets te begrijpen, ga [&#x200B; hoe te in bulk migreren activa &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/administer/assets-migration-guide) document. Enkele belangrijke aspecten die u helpen de AEM bureaubladervaring voor de gebruikers te optimaliseren, zijn:
 
-* **Gebruik behoorlijk gevormde Dispatcher**. Gebruik AEM Dispatcher voor extra veiligheid en zorg ervoor dat het voor [ AEM de verbinding van de Desktopapp om achter een Dispatcher wordt gevormd te AEM ](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
+* **Gebruik behoorlijk gevormde Dispatcher**. Gebruik AEM Dispatcher voor extra veiligheid en zorg ervoor dat het voor [&#x200B; AEM de verbinding van de Desktopapp om achter een Dispatcher wordt gevormd te AEM &#x200B;](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher)
 
 * **sparen bandbreedte**. U kunt de voorvertoning van pictogrammen in Finder op Mac uitschakelen wanneer u in de gekoppelde opslagplaats bladert met Finder. De Finder vraagt elk bestand om een voorvertoning te genereren en zorgt ervoor dat de bureaubladtoepassing het element lokaal downloadt en in de cache plaatst. Terwijl het besparen van bandbreedte, vermindert het ook gebruikerservaring voor de gebruikers op de Desktop, zodat zou het moeten worden gedaan wanneer het werken aan bewaarplaatsen met grote activa of beperkte bandbreedte.
 
@@ -131,8 +131,8 @@ Om beste praktijken rond het netwerkconfiguratie van AEM Assets te begrijpen, ga
 
 ### Serverprestaties optimaliseren {#optimizing-server-performance}
 
-Om te begrijpen hoe de server van AEM Assets voor prestaties zou moeten worden geoptimaliseerd, ga naar [ de Reeksen van Prestaties van AEM Assets ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines). Sommige belangrijke aspecten van de serverprestaties voor AEM bureaubladtoepassing betreffen het optimaliseren van de workflowconfiguratie, zodat deze goed functioneert bij het uploaden van middelen:
+Om te begrijpen hoe de server van AEM Assets voor prestaties zou moeten worden geoptimaliseerd, ga naar [&#x200B; de Reeksen van Prestaties van AEM Assets &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines). Sommige belangrijke aspecten van de serverprestaties voor AEM bureaubladtoepassing betreffen het optimaliseren van de workflowconfiguratie, zodat deze goed functioneert bij het uploaden van middelen:
 
-* **krachtigere activa uploaden**. Vorm het [ AEM de werkschemamodel van de Update van Activa om transient ](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines) te zijn.
+* **krachtigere activa uploaden**. Vorm het [&#x200B; AEM de werkschemamodel van de Update van Activa om transient &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/administer/performance-tuning-guidelines) te zijn.
 
 * **grens serverCpu voor uploads**. Zorg ervoor dat de maximale parameter voor parallelle workflowtaken correct is ingesteld, zodat uploads niet alle CPU uitputten.

@@ -33,8 +33,8 @@ De releasedatum van desktop app versie 3.0.1 is 18 december 2025.  De release be
 
 De **gesteunde [!DNL Experience Manager] versies** zijn:
 
-* [!DNL Experience Manager] als een [!DNL Cloud Service] . Zie [&#x200B; versienota&#39;s &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/home).
-* [!DNL Experience Manager] 6.5.0 of hoger, op Adobe Managed Services (AMS) of op locatie. Zie {de versiedetails van het 0} de dienstpak [.](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/release-notes)
+* [!DNL Experience Manager] als een [!DNL Cloud Service] . Zie [&#x200B; versienota&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/release-notes/home).
+* [!DNL Experience Manager] 6.5.0 of hoger, op Adobe Managed Services (AMS) of op locatie. Zie {de versiedetails van het 0} de dienstpak [.](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/release-notes/release-notes)
 
 [!DNL Adobe Experience Manager] Desktop app is beschikbaar voor de volgende **werkende systemen**:
 
@@ -321,8 +321,8 @@ Het volgende diagram illustreert de stroom van elementen en bestanden van de clo
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Experience Manager]  als a [!DNL Cloud Service]  documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service)
->* [[!DNL Experience Manager]  als a  [!DNL Cloud Service] [!DNL Assets] documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/overview)
+>* [[!DNL Experience Manager]  als a [!DNL Cloud Service]  documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service)
+>* [[!DNL Experience Manager]  als a  [!DNL Cloud Service] [!DNL Assets] documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/assets/overview)
 >* [&#x200B; hoe te  [!DNL Experience Manager]  Desktop app &#x200B;](using-desktop-app.md) gebruiken
 >* [&#x200B; installeer en bevorder Desktop app &#x200B;](install-upgrade.md)
 >* [&#x200B; Beste praktijken en het oplossen van problemenuiteinden &#x200B;](troubleshoot.md)

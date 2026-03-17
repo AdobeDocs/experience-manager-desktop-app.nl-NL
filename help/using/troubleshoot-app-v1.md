@@ -2,61 +2,61 @@
 title: Los Desktop app versie 1.10 problemen op.
 description: Los  [!DNL Adobe Experience Manager]  Desktop app versie 1.10 problemen op om de occasionele kwesties met betrekking tot installatie, verbetering, en configuratie op te lossen.
 exl-id: 1e1409c2-bf5e-4e2d-a5aa-3dd74166862c
-source-git-commit: 5676e7ece8bb43f051dae72d17e15ab1c34caefc
+source-git-commit: 19e4b92016670de20474b251cda9f2f5274dbc26
 workflow-type: tm+mt
-source-wordcount: '3331'
+source-wordcount: '3358'
 ht-degree: 0%
 
 ---
 
 # Problemen met [!DNL Adobe Experience Manager] bureaubladtoepassing v1.x oplossen {#troubleshoot-aem-desktop-app}
 
-Los de AEM Desktop app problemen op om af en toe de kwesties met betrekking tot installatie, verbetering, configuratie, etc. op te lossen.
+Los de Desktop app van AEM problemen op om de af en toe kwesties met betrekking tot installatie, verbetering, configuratie, etc. op te lossen.
 
 De desktop-app van [!DNL Adobe Experience Manager] bevat hulpprogramma&#39;s waarmee u de AEM Assets-opslagplaats kunt toewijzen als een gedeelde netwerksite op een desktopcomputer (SMB-share op macOS). Het aandeel van het netwerk is een werkend systeemtechnologie die verre bronnen toelaat worden behandeld alsof zij deel van het lokale dossiersysteem van een computer maakten. Voor de bureaubladtoepassing is de externe bestandsbron de DAM-opslagstructuur (Digital Asset Management) van een externe AEM-instantie. In het volgende diagram wordt de topologie van de bureaubladtoepassing beschreven:
 
-![&#x200B; Desktop app diagram &#x200B;](assets/aem-desktopapp-architecture.png)
+![ Desktop app diagram ](assets/aem-desktopapp-architecture.png)
 
-Met deze architectuur, onderschept de Desktop toepassing dossiersysteemvraag (open, dicht, lees, schrijf, etc.) aan het opgezette netwerkaandeel, en zet hen in inheemse AEM vraag van HTTP aan de AEM server om. Bestanden worden lokaal in cache geplaatst. Voor meer details, zie [&#x200B; Gebruik AEM Desktop app v1.x &#x200B;](use-app-v1.md).
+Met deze architectuur onderschept de bureaubladtoepassing bestandssysteemaanroepen (openen, sluiten, lezen, schrijven, enzovoort) naar het gekoppelde netwerkaandeel en zet deze om in native AEM HTTP-aanroepen naar de AEM-server. Bestanden worden lokaal in cache geplaatst. Voor meer details, zie [ Desktop app v1.x van AEM gebruiken ](use-app-v1.md).
 
-## Overzicht van de bureaubladtoepassing {#desktop-app-component-overview}
+## Overzicht van de AEM-bureaubladtoepassing {#desktop-app-component-overview}
 
 De bureaubladtoepassing bevat de volgende componenten:
 
-* **de Desktoptoepassing**: De toepassing bouwt of maakt DAM als ver dossiersysteem op. Het vertaalt de vraag van het dossiersysteem tussen het plaatselijk opgezette netwerkaandeel en de verre AEM instantie waarmet het verbindt.
-* **de cliënt van WebDAV/SMB van het Werkende systeem**: Behandelt communicatie tussen de Ontdekkingsreiziger/de Vinder van Vensters en Desktop app. Als een bestand wordt opgehaald, gemaakt, gewijzigd, verwijderd, verplaatst of gekopieerd, communiceert de WebDAV/SMB-client van het besturingssysteem deze bewerking met de desktop-app. Nadat de communicatie is ontvangen, zet de bureaubladtoepassing deze om in native AEM externe API-aanroepen. Als een gebruiker bijvoorbeeld een bestand maakt in de gekoppelde map, initieert de WebDAV/SMB-client een aanvraag, die de bureaubladtoepassing omzet in een HTTP-aanvraag die het bestand maakt in DAM. De WebDAV/SMB-client is een ingebouwde component van het besturingssysteem. Het is op geen enkele manier verbonden met bureaubladapps, AEM of Adobe.
-* **instantie van Adobe Experience Manager**: Verleent toegang tot activa die in de bewaarplaats van AEM Assets DAM worden opgeslagen. Bovendien voert het acties uit die door de Desktop app worden gevraagd namens de lokale Desktoptoepassingen die met het opgezette netwerkaandeel interactie aangaan. Het doel AEM instantie zou AEM versie 6.1 of hoger moeten in werking stellen. AEM instanties die vorige AEM versies uitvoeren, hebben mogelijk extra functiepakketten en hotfixes nodig die zijn geïnstalleerd om volledig functioneel te worden.
+* **de Desktoptoepassing**: De toepassing bouwt of maakt DAM als ver dossiersysteem op. Het vertaalt de vraag van het dossiersysteem tussen het plaatselijk opgezette netwerkaandeel en de verre instantie van AEM waarmet het verbindt.
+* **de cliënt van WebDAV/SMB van het Werkende systeem**: Behandelt communicatie tussen de Ontdekkingsreiziger/de Vinder van Vensters en Desktop app. Als een bestand wordt opgehaald, gemaakt, gewijzigd, verwijderd, verplaatst of gekopieerd, communiceert de WebDAV/SMB-client van het besturingssysteem deze bewerking met de desktop-app. Nadat de communicatie is ontvangen, zet de bureaubladtoepassing deze om in externe API-aanroepen van AEM. Als een gebruiker bijvoorbeeld een bestand maakt in de gekoppelde map, initieert de WebDAV/SMB-client een aanvraag, die de bureaubladtoepassing omzet in een HTTP-aanvraag die het bestand maakt in DAM. De WebDAV/SMB-client is een ingebouwde component van het besturingssysteem. Het is geenszins verbonden met desktop app, AEM of Adobe.
+* **instantie van Adobe Experience Manager**: Verleent toegang tot activa die in de bewaarplaats van AEM Assets DAM worden opgeslagen. Bovendien voert het acties uit die door de Desktop app worden gevraagd namens de lokale Desktoptoepassingen die met het opgezette netwerkaandeel interactie aangaan. De AEM-doelinstantie moet AEM versie 6.1 of hoger uitvoeren. Voor AEM-instanties die eerdere AEM-versies uitvoeren, zijn mogelijk extra functiepakketten en hotfixes vereist die zijn geïnstalleerd om volledig te kunnen functioneren.
 
 ## Beoogde gebruiksgevallen voor de AEM-bureaubladtoepassing {#intended-use-cases-for-aem-desktop-app}
 
-De AEM desktop-app gebruikt de netwerkshare-technologie om een externe AEM opslagplaats toe te wijzen aan een lokale desktop. Het is echter niet bedoeld als vervanging voor een netwerkshare-holding-assets, waarbij gebruikers digitale middelenbeheerbewerkingen rechtstreeks vanaf hun lokale bureaublad uitvoeren. Dit zijn onder andere het verplaatsen of kopiëren van meerdere bestanden of het rechtstreeks slepen van grote mapstructuren naar het AEM Assets-netwerkaandeel in Finder/Explorer.
+De AEM-bureaubladtoepassing gebruikt de technologie voor netwerkdeling om een externe AEM-opslagplaats toe te wijzen aan een lokale desktop. Het is echter niet bedoeld als vervanging voor een netwerkshare-holding-assets, waarbij gebruikers digitale middelenbeheerbewerkingen rechtstreeks vanaf hun lokale bureaublad uitvoeren. Dit zijn onder andere het verplaatsen of kopiëren van meerdere bestanden of het rechtstreeks slepen van grote mapstructuren naar het AEM Assets-netwerkaandeel in Finder/Explorer.
 
-De app AEM desktop biedt een handige manier om DAM-middelen te openen en bewerken (opslaan) tussen de AEM Assets Touch-gebruikersinterface en het lokale bureaublad. Elementen op de AEM Assets-server worden gekoppeld aan workflows op uw bureaublad.
+De AEM-bureaubladtoepassing biedt een handige manier om DAM-middelen te openen en te bewerken (opslaan) tussen de AEM Assets Touch-gebruikersinterface en het lokale bureaublad. Elementen op de AEM Assets-server worden gekoppeld aan workflows op uw bureaublad.
 
-In het volgende voorbeeld ziet u hoe AEM Desktop moet worden gebruikt:
+Het volgende voorbeeld laat zien hoe AEM Desktop moet worden gebruikt:
 
-* Een gebruiker logt binnen aan AEM en gebruikt Web UI om van activa de plaats te bepalen.
-* Met de actiemogelijkheden van het bureaublad van de AEM webinterface opent, geeft of bewerkt de gebruiker het middel desgewenst op het bureaublad.
-* AEM Desktop opent de activa in de standaardredacteur voor het dossiertype van activa.
+* Een gebruiker meldt zich aan bij AEM en gebruikt de web-UI om een middel te zoeken.
+* Met de actiemogelijkheden van het bureaublad van de AEM-webinterface opent, geeft of bewerkt de gebruiker het middel desgewenst op het bureaublad.
+* AEM Desktop opent het element in de standaardeditor voor het bestandstype van het element.
 * De gebruiker brengt de gewenste wijzigingen aan in het element.
-* Nadat een bestand is gewijzigd, kan de gebruiker de synchronisatiestatus van het bestand weergeven via AEM statusvenster voor achtergrondsynchronisatie van het bureaublad.
-* Met behulp van het contextmenu van AEM Desktop controleert de gebruiker het element in of uit of keert hij terug naar de DAM-gebruikersinterface.
-* Nadat de wijzigingen in het bestand zijn voltooid, keert de gebruiker terug naar de AEM webinterface
+* Nadat een bestand is gewijzigd, kan de gebruiker de synchronisatiestatus van het bestand weergeven via het statusvenster voor achtergrondsynchronisatie van AEM Desktop.
+* Met behulp van het contextmenu van AEM Desktop controleert de gebruiker het middel in of uit, of gaat hij terug naar de DAM-gebruikersinterface.
+* Nadat de wijzigingen in het bestand zijn aangebracht, keert de gebruiker terug naar de gebruikersinterface van het AEM-web
 
-Dit scenario is niet het enige gebruiksgeval. Het toont echter aan hoe AEM Desktop een handig mechanisme is om elementen lokaal te openen/bewerken. U wordt aangemoedigd om de DAM-webinterface zoveel mogelijk te gebruiken, omdat deze een betere ervaring biedt. Het verstrekt Adobe meer flexibiliteit om aan klantenvereisten te voldoen.
+Dit scenario is niet het enige gebruiksgeval. Het toont echter aan hoe AEM Desktop een handig mechanisme is om elementen lokaal te openen/bewerken. U wordt aangemoedigd om de DAM-webinterface zoveel mogelijk te gebruiken, omdat deze een betere ervaring biedt. Het biedt Adobe meer flexibiliteit om aan de vereisten van de klant te voldoen.
 
 ## Beperkingen {#limitations}
 
-WebDAV/SMB1 netwerkaandeel verstrekt het gemak om met dossiers in een venster van de Ontdekkingsreiziger/van de Vinder te werken. Nochtans, de Ontdekkingsreiziger/de Vinder en AEM communiceren over een netwerkverbinding die bepaalde beperkingen heeft. De tijd die bijvoorbeeld nodig is om een 1-GB-bestand naar de gekoppelde WebDAV/SMB-map te kopiëren, is ongeveer gelijk aan de tijd die nodig is om een 1-GB-bestand met een webbrowser naar een website te uploaden. In het eerste geval kan de duur langer zijn vanwege inefficiënties van het WebDAV/SMB-protocol en de WebDAV/SMB-clients van het besturingssysteem (met name macOS X).
+WebDAV/SMB1 netwerkaandeel verstrekt het gemak om met dossiers in een venster van de Ontdekkingsreiziger/van de Vinder te werken. Verkenner/Finder en AEM communiceren echter via een netwerkverbinding met bepaalde beperkingen. De tijd die bijvoorbeeld nodig is om een 1-GB-bestand naar de gekoppelde WebDAV/SMB-map te kopiëren, is ongeveer gelijk aan de tijd die nodig is om een 1-GB-bestand met een webbrowser naar een website te uploaden. In het eerste geval kan de duur langer zijn vanwege inefficiënties van het WebDAV/SMB-protocol en de WebDAV/SMB-clients van het besturingssysteem (met name macOS X).
 
 Er zijn beperkingen aan de typen taken die vanuit een gekoppelde map kunnen worden uitgevoerd. Over het algemeen kan het lastig zijn om met grote bestanden te werken, met name via een slechte/hoge latentie/lage bandbreedte-netwerkverbinding, vooral wanneer u grote bestanden bewerkt.
 
-De Adobe raadt u aan om een of ander gebruik-case-tests uit te voeren voordat u zich aan een client vastlegt dat bepaalde bestandstypen op een efficiënte manier op hun plaats vanuit de gekoppelde map kunnen worden bewerkt.
+Adobe raadt u aan een aantal tests met een gebruiksscenario uit te voeren voordat u een client bindt, zodat bepaalde bestandstypen op een efficiënte manier op hun plaats kunnen worden bewerkt vanuit de gekoppelde map.
 
-AEM Desktop is niet geschikt voor intensieve manipulatie van bestandssystemen, waaronder, maar niet beperkt tot:
+AEM Desktop is niet geschikt voor intensief bewerken van bestandssystemen, waaronder, maar niet beperkt tot:
 
 * Bestanden en mappen verplaatsen of kopiëren
-* Veel elementen toevoegen aan AEM
+* Veel middelen toevoegen aan AEM
 * Bestanden zoeken en openen via het bestandssysteem, behalve in mappen
 * Bestandsarchieven comprimeren of decomprimeren
 
@@ -66,7 +66,7 @@ De desktop-app van [!DNL Experience Manager] heeft geen configureerbare time-out
 
 ## Caching en communicatie met AEM {#caching-and-communication-with-aem}
 
-De AEM desktop-app biedt mogelijkheden voor interne caching en het uploaden naar de achtergrond om de gebruikerservaring te verbeteren. Wanneer u een groot bestand opslaat, wordt het eerst lokaal opgeslagen zodat u kunt doorgaan met werken. Na enige tijd (momenteel 30 seconden) wordt het bestand op de achtergrond naar de AEM server verzonden.
+De AEM-bureaubladtoepassing biedt mogelijkheden voor interne caching en het uploaden naar de achtergrond om de gebruikerservaring te verbeteren. Wanneer u een groot bestand opslaat, wordt het eerst lokaal opgeslagen zodat u kunt doorgaan met werken. Na enige tijd (momenteel 30 seconden) wordt het bestand op de achtergrond naar de AEM-server verzonden.
 
 In tegenstelling tot Creative Cloud Desktop of andere oplossingen voor bestandssynchronisatie, zoals Microsoft One Drive, is de AEM desktop app geen volledige Desktop Sync client. De reden hiervoor is dat het toegang biedt tot de gehele AEM Assets-opslagplaats, die zeer groot kan zijn (honderden gigabytes of terabytes) voor een volledige synchronisatie.
 
@@ -74,29 +74,30 @@ Caching verstrekt de capaciteit om de netwerk/opslagoverheadkosten tot slechts e
 
 >[!CAUTION]
 >
->Adobe raadt aan miniatuurgeneratie uit te schakelen om sneller te kunnen bladeren. Als u pictogramvoorvertoningen inschakelt, plaatst de app de digitale elementen in de cache wanneer u door de gekoppelde map navigeert. De app downloadt ook elementen die de gebruiker niet kan schelen. Als dusdanig, voegt het lading aan de server toe, verbruikt de bandbreedte van de gebruiker, en gebruikt meer van de schijfruimte van de gebruiker.
+>Adobe raadt u aan miniatuurgeneratie uit te schakelen om sneller te kunnen bladeren. Als u pictogramvoorvertoningen inschakelt, plaatst de app de digitale elementen in de cache wanneer u door de gekoppelde map navigeert. De app downloadt ook elementen die de gebruiker niet kan schelen. Als dusdanig, voegt het lading aan de server toe, verbruikt de bandbreedte van de gebruiker, en gebruikt meer van de schijfruimte van de gebruiker.
 
 Hieronder wordt beschreven hoe de AEM-bureaubladtoepassing caching uitvoert:
 
 * Wanneer u een map opent in de Finder en er miniaturen of voorvertoningen van bestanden worden weergegeven, plaatst de bureaubladtoepassing het bestand binair in de cache. Wanneer u een bestand in een toepassing opent, wordt het bestand ook binair door de toepassing in cache opgeslagen.
 * Wanneer u bestanden opslaat in de vorm van Finder of andere bureaubladtoepassingen, wordt het bestand eerst lokaal opgeslagen (in cache geplaatst) en wordt het besturingssysteem op de hoogte gesteld. Het bestand wordt vervolgens in de wachtrij geplaatst voor uploaden naar de server op de achtergrond en wordt uiteindelijk via het netwerk geüpload. Als er een netwerkfout optreedt, probeert de bureaubladtoepassing het gehele bestand maximaal drie keer te uploaden. Als het uploaden van de bestanden mislukt nadat drie keer is geprobeerd, wordt het bestand gemarkeerd als een conflicterend bestand en wordt de status weergegeven via het venster Status wachtrij uploaden op de achtergrond. de bureaubladtoepassing probeert het bestand niet meer bij te werken. De gebruiker moet het bestand bijwerken en opnieuw uploaden nadat de connectiviteit is hersteld
 
-Elke bewerking wordt niet lokaal in het cachegeheugen opgeslagen. Het volgende wordt onmiddellijk naar de AEM-server verzonden zonder lokale caching:
+Elke bewerking wordt niet lokaal in het cachegeheugen opgeslagen. Het volgende wordt onmiddellijk zonder lokale caching naar de AEM Server verzonden:
 
 * Alle bewerkingen in mappen, zoals maken, verwijderen, enzovoort
 * Met de functie Map uploaden die in versie 1.4 is geïntroduceerd, wordt een lokale maphiërarchie geüpload zonder de bestanden lokaal in de cache te plaatsen
 
 ## Individuele verrichtingen {#individual-operations}
 
-Wanneer het oplossen van problemen sub-geoptimaliseerde prestaties voor individuele gebruikers, eerste overzicht [&#x200B; de toepassingsbeperkingen &#x200B;](#limitations). De volgende secties bevatten suggesties om de prestaties voor individuele gebruikers te verbeteren.
+Wanneer het oplossen van problemen sub-geoptimaliseerde prestaties voor individuele gebruikers, eerste overzicht [ de toepassingsbeperkingen ](#limitations). De volgende secties bevatten suggesties om de prestaties voor individuele gebruikers te verbeteren.
 
 ## Aanbevelingen voor bandbreedte {#bandwidth-recommendations}
 
 De bandbreedte beschikbaar aan een individuele gebruiker speelt een kritieke rol in de prestaties van de cliënt WebDAV/SMB.
 
-De Adobe raadt aan dat de uploadsnelheid van een individuele gebruiker dichtbij 10 Mbps is. Voor draadloze verbindingen, wordt de bandbreedte vaak gedeeld tussen veelvoudige gebruikers. Als de veelvoudige gebruikers tegelijkertijd taken uitvoeren die netwerkbandbreedte verbruiken, kunnen de prestaties nog verder degraderen. Gebruik een bekabelde verbinding om dergelijke problemen te voorkomen.
+Adobe raadt aan dat de uploadsnelheid van een individuele gebruiker dicht bij 10 Mbps ligt. Voor draadloze verbindingen, wordt de bandbreedte vaak gedeeld tussen veelvoudige gebruikers. Als de veelvoudige gebruikers tegelijkertijd taken uitvoeren die netwerkbandbreedte verbruiken, kunnen de prestaties nog verder degraderen. Gebruik een bekabelde verbinding om dergelijke problemen te voorkomen.
 
-<!-- AG, 8/18: The Windows KB article is removed by MS now. Giving 404. Also, Win 7 support is gone and the desktop app is also not supported on Win 7. Hiding this content for now.
+<!-- 
+AG, 8/18: The Windows KB article is removed by MS now. Giving 404. Also, Win 7 support is gone and the desktop app is also not supported on Win 7. Hiding this content for now.
 
 ## Windows-specific configurations {#windows-specific-configurations}
 
@@ -111,25 +112,25 @@ Wanneer u lokaal met een bestand werkt, controleert AEM Desktop of een nieuwere 
 
 Wanneer hetzelfde bestand zowel lokaal als in AEM wordt gewijzigd, overschrijft de lokaal gewijzigde versie de versie in AEM. In dit geval is de vorige versie beschikbaar in de tijdlijn van het element. U kunt beide versies controleren en eventuele conflicten oplossen.
 
-Als een lokaal bestand niet overeenkomt met de versie die beschikbaar is op de server, wordt in het statusdialoogvenster voor uploaden op de achtergrond melding gemaakt van het conflict. Open het conflicterende bestand en sla het op om het probleem op te lossen. Als u het bestand opslaat, worden de bestanden AEM Desktop geforceerd om de meest recente lokale wijzigingen in AEM te synchroniseren. U kunt vorige versies van het element in de tijdlijn bekijken en eventuele conflicten oplossen.
+Als een lokaal bestand niet overeenkomt met de versie die beschikbaar is op de server, wordt in het statusdialoogvenster voor uploaden op de achtergrond melding gemaakt van het conflict. Open het conflicterende bestand en sla het op om het probleem op te lossen. Als u het bestand opslaat, synchroniseert AEM Desktop uw meest recente lokale wijzigingen met AEM. U kunt vorige versies van het element in de tijdlijn bekijken en eventuele conflicten oplossen.
 
-Houd rekening met extra factoren wanneer meerdere gebruikers proberen te werken in afzonderlijke gekoppelde mappen die hetzelfde AEM gebruiken. De volgende factoren zijn met name van belang:
+Houd rekening met extra factoren wanneer meerdere gebruikers proberen te werken in afzonderlijke gekoppelde mappen die hetzelfde AEM-exemplaar als doel hebben. De volgende factoren zijn met name van belang:
 
 * De hoeveelheid bandbreedte beschikbaar op het van gebruikers voortkomende netwerk
 * Netwerkconfiguratie, zoals firewalls of proxy&#39;s, van het oorspronkelijke netwerk
-* Hoeveelheid bandbreedte beschikbaar in het netwerk van de AEM van het doel
-* Geeft aan of een Dispatcher aanwezig is vóór de AEM instantie target
-* Huidige belasting op AEM instantie
+* Hoeveelheid beschikbare bandbreedte in het netwerk van de doelinstantie van AEM
+* Of een Dispatcher aanwezig is vóór de AEM-doelinstantie
+* Huidige belasting op de AEM-doelinstantie
 
-## Aanvullende AEM {#additional-aem-configurations}
+## Aanvullende AEM-configuraties {#additional-aem-configurations}
 
-Als de WebDAV/SMB prestaties drastisch degraderen wanneer de veelvoudige gebruikers gelijktijdig werken, kunt u een paar dingen in AEM vormen, die kunnen helpen prestaties verbeteren.
+Als de WebDAV/SMB prestaties drastisch verminderen wanneer de veelvoudige gebruikers gelijktijdig werken, kunt u een paar dingen in AEM vormen, die kunnen helpen prestaties verbeteren.
 
 ## Workflows voor middelentransitie bijwerken {#update-asset-transient-workflows}
 
-U kunt AEM prestaties verbeteren door tijdelijke workflows in te schakelen voor de DAM Update Asset-workflow. Als u tijdelijke workflows inschakelt, neemt de verwerkingscapaciteit af die nodig is om elementen bij te werken wanneer deze worden gemaakt of gewijzigd in AEM.
+U kunt de AEM-prestaties verbeteren door tijdelijke workflows in te schakelen voor de DAM Update Asset-workflow. Als u tijdelijke workflows inschakelt, neemt de verwerkingscapaciteit af die nodig is om elementen bij te werken wanneer deze worden gemaakt of gewijzigd in AEM.
 
-1. Navigeer naar `/miscadmin` in de instantie Experience Manager (`https://[aem_server]:[port]/miscadmin`).
+1. Navigeer naar `/miscadmin` in de Experience Manager-instantie (`https://[aem_server]:[port]/miscadmin` ).
 1. Van de navigatieboom, breid **Hulpmiddelen** uit > **Werkschema** > **Modellen** > **Dam**.
 1. Dubbelklik **DAM de Activa van de Update**.
 1. Van het het drijven hulpmiddelpaneel, schakelaar aan het **lusje van de Pagina** en klik dan **Eigenschappen van de Pagina**.
@@ -137,31 +138,31 @@ U kunt AEM prestaties verbeteren door tijdelijke workflows in te schakelen voor 
 
 ### De wachtrij voor voorlopige Granite-werkstroom aanpassen {#adjust-granite-transient-workflow-queue}
 
-Een andere methode om AEM prestaties te verbeteren is de waarde van de maximumparallelle banen voor de Granite Transient baan van de Rij van het Werkschema te vormen. De aanbevolen waarde is ongeveer de helft van het aantal beschikbare CPU&#39;s bij de server. Voer de volgende stappen uit om de waarde aan te passen:
+Een andere methode om de prestaties van AEM te verbeteren is de waarde van de maximum parallelle banen voor de de baan van de Rij van de Rij van de Werkstroom van de Tijdelijke van Granite te te vormen. De aanbevolen waarde is ongeveer de helft van het aantal beschikbare CPU&#39;s bij de server. Voer de volgende stappen uit om de waarde aan te passen:
 
 1. Navigeer naar `/system/console/configMgr` in de instantie AEM die moet worden geconfigureerd (bijvoorbeeld `https://[aem_server]:[port]/system/console/configMgr` ).
-1. Onderzoek naar `QueueConfiguration`, en klik om elke baan te openen tot u van de **Granite 2&rbrace; baan van de Rij van de Rij van het Werkschema van de Overgang &lbrace;de plaats bepaalt, en** uitgeeft **klikt.**
+1. Onderzoek naar `QueueConfiguration`, en klik om elke baan te openen tot u van de **Granite 2} baan van de Rij van de Rij van het Werkschema van de Overgang {de plaats bepaalt, en** uitgeeft **klikt.**
 1. Verander de `Maximum Parallel Jobs` waarde, en klik **sparen**.
 
 ## AWS-configuratie {#aws-configuration}
 
-Vanwege de beperkingen van de netwerkbandbreedte kunnen de prestaties van WebDAV/SMB afnemen wanneer meerdere gebruikers gelijktijdig werken. Adobe raadt aan de AWS-instantie groter te maken voor een AEM die op AWS wordt uitgevoerd om de prestaties van WebDAV/SMB te verbeteren.
+Vanwege de beperkingen van de netwerkbandbreedte kunnen de prestaties van WebDAV/SMB afnemen wanneer meerdere gebruikers gelijktijdig werken. Adobe raadt aan de AWS-instantie groter te maken voor een AEM-doelinstantie die op AWS wordt uitgevoerd om de prestaties van WebDAV/SMB te verbeteren.
 
 Deze maatregel verhoogt specifiek de hoeveelheid netwerkbandbreedte beschikbaar aan de server. Hier volgen enkele details:
 
-* De hoeveelheid netwerkbandbreedte die aan een instantie van AWS wordt gewijd stijgt aangezien de grootte van de instantie stijgt. Voor informatie over hoeveel bandbreedte voor elke instantiegrootte beschikbaar is, ga naar de [&#x200B; documentatie van AWS &#x200B;](https://aws.amazon.com/ec2/instance-types/).
-* Wanneer het oplossen van problemen voor een grote cliënt, vormde de Adobe de grootte van zijn AEM instantie aan c4.8xlarge, hoofdzakelijk voor 4000 Mbps van specifieke bandbreedte die het verstrekt.
-* Als er een Dispatcher voor de AEM-instantie is, moet u ervoor zorgen dat deze de juiste grootte heeft. Als de AEM instantie 4000 Mbps verstrekt maar Dispatcher slechts 500 Mbps verstrekt, is de efficiënte bandbreedte slechts 500 Mbps. Dat komt omdat de Dispatcher een knelpunt in het netwerk maakt.
+* De hoeveelheid netwerkbandbreedte die aan een instantie van AWS wordt gewijd stijgt aangezien de grootte van de instantie stijgt. Voor informatie over hoeveel bandbreedte voor elke instantiegrootte beschikbaar is, ga naar de [ documentatie van AWS ](https://aws.amazon.com/ec2/instance-types/).
+* Bij het oplossen van problemen voor een grote cliënt, vormde Adobe de grootte van zijn instantie van AEM aan c4.8xlarge, hoofdzakelijk voor 4000 Mbps van specifieke bandbreedte die het verstrekt.
+* Als er een Dispatcher voor de instantie AEM is, zorg ervoor dat het van aangewezen grootte is. Als de instantie van AEM 4000 Mbps verstrekt maar Dispatcher slechts 500 Mbps verstrekt, is de efficiënte bandbreedte slechts 500 Mbps. Dat komt omdat de Dispatcher een knelpunt in het netwerk maakt.
 
 ## Beperkingen van uitgecheckte bestanden {#checked-out-file-limitations}
 
-Er zijn een paar bekende beperkingen in de manier dat u met uitgecheckte dossiers door Ontdekkingsreiziger/Vinder kunt in wisselwerking staan. Als een bestand is uitgecheckt, moet het alleen-lezen zijn voor iedereen behalve de gebruiker die het bestand heeft uitgecheckt. De implementatie van het WebDAV/SMB1 protocol in AEM dwingt deze regel af. Maar WebDAV/SMB-clients van het besturingssysteem communiceren vaak niet netjes met uitgecheckte bestanden. Enkele oddities worden hieronder beschreven.
+Er zijn een paar bekende beperkingen in de manier dat u met uitgecheckte dossiers door Ontdekkingsreiziger/Vinder kunt in wisselwerking staan. Als een bestand is uitgecheckt, moet het alleen-lezen zijn voor iedereen behalve de gebruiker die het bestand heeft uitgecheckt. De implementatie van het WebDAV/SMB1-protocol in AEM dwingt deze regel af. Maar WebDAV/SMB-clients van het besturingssysteem communiceren vaak niet netjes met uitgecheckte bestanden. Enkele oddities worden hieronder beschreven.
 
 ### Algemeen {#general}
 
-Bij het schrijven naar een uitgecheckt bestand wordt de vergrendeling alleen afgedwongen binnen de AEM WebDAV-implementatie. Daarom dwingen clients die WebDAV gebruiken, zoals een bureaubladtoepassing, alleen de vergrendeling in. Het slot wordt niet afgedwongen door de AEM webinterface. In de AEM-interface wordt alleen een vergrendelingspictogram weergegeven in de kaartweergave voor elementen die zijn uitgecheckt. Het pictogram is cosmetisch en heeft geen effect op het gedrag van AEM.
+Bij het schrijven naar een uitgecheckt bestand wordt de vergrendeling alleen afgedwongen in de AEM WebDAV-implementatie. Daarom dwingen clients die WebDAV gebruiken, zoals een bureaubladtoepassing, alleen de vergrendeling in. Het slot wordt niet afgedwongen via de AEM-webinterface. In de AEM-interface wordt alleen een vergrendelingspictogram weergegeven in de kaartweergave voor elementen die zijn uitgecheckt. Het pictogram is cosmetisch en heeft geen invloed op het gedrag van AEM.
 
-Over het algemeen gedragen de WebDAV-clients zich niet altijd zoals u had verwacht. Er kunnen nog andere problemen zijn. Het vernieuwen of controleren van het element in AEM is echter een goede manier om te controleren of een element niet wordt gewijzigd. Dit gedrag is typisch van de OS cliënten WebDAV, die niet onder controle van de Adobe is.
+Over het algemeen gedragen de WebDAV-clients zich niet altijd zoals u had verwacht. Er kunnen nog andere problemen zijn. Het vernieuwen of controleren van het element in AEM is echter een goede manier om te controleren of een element niet wordt gewijzigd. Dit gedrag is typisch voor de OS cliënten WebDAV, die niet onder de controle van Adobe is.
 
 ### Windows {#windows}
 
@@ -208,40 +209,40 @@ Nadat u de bureaubladtoepassing hebt geïnstalleerd, verschijnt het pictogram va
 
 1. Start het systeem opnieuw.
 
-AEM Desktop probeert om het even welk bepaald dossier drie keer te synchroniseren. Als het bestand na de derde poging niet kan worden gesynchroniseerd, beschouwt AEM Desktop het bestand als een conflict en brengt het u op de hoogte via het statusvenster voor uploaden op de achtergrond. Een conflictstatus geeft aan dat de meest recente wijzigingen nog steeds lokaal beschikbaar zijn, maar niet naar AEM worden gesynchroniseerd. De AEM-bureaubladtoepassing probeert niet meer te synchroniseren.
+AEM Desktop probeert een bestand drie keer te synchroniseren. Als het bestand na de derde poging niet kan worden gesynchroniseerd, beschouwt AEM Desktop het bestand als een conflict en wordt u via het statusvenster voor uploaden op de achtergrond op de hoogte gebracht. Een conflictstatus geeft aan dat de laatste wijzigingen nog steeds lokaal beschikbaar zijn, maar niet naar AEM worden gesynchroniseerd. De AEM-bureaubladtoepassing probeert niet meer te synchroniseren.
 
-U kunt deze situatie het eenvoudigst verhelpen door het conflicterende bestand te openen en opnieuw op te slaan. Het dwingt AEM Desktop om synchronisatie voor extra drie gelegenheden te proberen. Raadpleeg de onderstaande secties voor meer informatie als het bestand nog steeds niet kan worden gesynchroniseerd.
+U kunt deze situatie het eenvoudigst verhelpen door het conflicterende bestand te openen en opnieuw op te slaan. Het dwingt AEM Desktop om synchronisatie nog eens drie keer te proberen. Raadpleeg de onderstaande secties voor meer informatie als het bestand nog steeds niet kan worden gesynchroniseerd.
 
-## Cache van AEM bureaublad wissen {#clearing-aem-desktop-cache}
+## AEM Desktop cache wissen {#clearing-aem-desktop-cache}
 
-Het wissen van de cache van AEM Desktop is een voorlopige taak voor het oplossen van problemen die verschillende AEM desktopproblemen kan oplossen.
+Het wissen van het cachegeheugen van AEM Desktop is een voorlopige taak voor het oplossen van problemen die verschillende AEM Desktop-problemen kan oplossen.
 
 U kunt de cache wissen door de cachemap van de toepassing op de volgende locaties te verwijderen.
 In Windows: `%LocalAppData%\Adobe\AssetsCompanion\Cache\`
 
 In Mac: `~/Library/Group/Containers/group.com.adobe.aem.desktop/cache/`
 
-Nochtans, kan de plaats afhankelijk van AEM Desktop gevormd AEM eindpunt veranderen. De waarde is een gecodeerde versie van de beoogde URL. Als de toepassing bijvoorbeeld `http://localhost:4502` als doel instelt, is de mapnaam `http%3A%2F%2Flocalhost%3A4502%2F` .
+De locatie kan echter veranderen afhankelijk van het geconfigureerde AEM-eindpunt van AEM Desktop. De waarde is een gecodeerde versie van de beoogde URL. Als de toepassing bijvoorbeeld `http://localhost:4502` als doel instelt, is de mapnaam `http%3A%2F%2Flocalhost%3A4502%2F` .
 
 Als u de cache wilt wissen, verwijdert u de map &lt;Encoded AEM Endpoint>.
 
 >[!NOTE]
 >
->Als u AEM Desktopcache wist, gaan lokale bestandswijzigingen verloren als ze niet naar AEM worden gesynchroniseerd.
+>Als u de AEM Desktop-cache wist, gaan lokale bestandswijzigingen verloren als deze niet naar AEM worden gesynchroniseerd.
 
 >[!NOTE]
 >
->Vanaf versie 1.5 van de AEM-bureaubladtoepassing is er een optie in de gebruikersinterface om de cache te wissen.
+>Vanaf AEM desktop app versie 1.5 is er een optie in de gebruikersinterface om de cache te wissen.
 
-## De AEM desktopversie zoeken {#finding-the-aem-desktop-version}
+## AEM Desktop-versie zoeken {#finding-the-aem-desktop-version}
 
-De procedure om de versie van de AEM Desktop te controleren is het zelfde voor zowel Vensters als macOS.
+De procedure om de versie van AEM Desktop te controleren is hetzelfde voor zowel Windows als macOS.
 
-Klik het pictogram van de AEM Desktop, en kies dan **Ongeveer**. Het versienummer wordt op het scherm weergegeven.
+Klik het pictogram van de Desktop van AEM, en kies dan **Ongeveer**. Het versienummer wordt op het scherm weergegeven.
 
-## De AEM desktop app upgraden op macOS {#upgrading-aem-desktop-app-on-macos}
+## De AEM-bureaubladtoepassing op macOS upgraden {#upgrading-aem-desktop-app-on-macos}
 
-Soms kunnen er problemen optreden wanneer u de upgrade van de AEM bureaubladtoepassing op macOS uitvoert. Deze problemen worden veroorzaakt door verouderde systeemmappen voor de AEM-bureaubladtoepassing. Hiermee voorkomt u dat nieuwe versies van AEM bureaublad correct worden geladen. U kunt dit probleem verhelpen door de volgende mappen en bestanden handmatig te verwijderen.
+Soms kunnen er problemen optreden wanneer u de AEM-bureaubladtoepassing op macOS upgradet. Deze problemen worden veroorzaakt door verouderde systeemmappen voor de AEM-bureaubladtoepassing. Zo voorkomt u dat nieuwe versies van AEM Desktop correct worden geladen. U kunt dit probleem verhelpen door de volgende mappen en bestanden handmatig te verwijderen.
 
 Voordat u de onderstaande stappen uitvoert, sleept u de toepassing Adobe Experience Manager Desktop van de map macOS Applications naar de prullenmand. Open vervolgens de terminal en voer de volgende opdracht uit, waarbij u uw wachtwoord opgeeft wanneer hierom wordt gevraagd.
 
@@ -264,28 +265,28 @@ Het bestand blijft ongewijzigd wanneer u het incheckt, ongeacht het gedrag. Zelf
 
 ## Problemen met het verplaatsen van bestanden oplossen {#troubleshooting-problems-around-moving-files}
 
-De server-API vereist extra kopballen, x-Bestemming, x-Diepte, en x-Overschrijf, om worden overgegaan voor de beweging en exemplaarverrichtingen om te werken. De Dispatcher geeft deze headers standaard niet door, waardoor deze bewerkingen mislukken. Voor meer informatie, zie [&#x200B; Verbindend met AEM achter een Dispatcher &#x200B;](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
+De server-API vereist extra kopballen, x-Bestemming, x-Diepte, en x-Overschrijf, om worden overgegaan voor de beweging en exemplaarverrichtingen om te werken. De Dispatcher geeft deze headers standaard niet door, waardoor deze bewerkingen mislukken. Voor meer informatie, zie [ Verbindend met AEM Achter Dispatcher ](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
 
-## Problemen met AEM bureaubladverbinding oplossen {#troubleshooting-aem-desktop-connection-issues}
+## Problemen met de AEM Desktop-verbinding oplossen {#troubleshooting-aem-desktop-connection-issues}
 
 ### SAML-omleiding {#saml-redirect-issue}
 
-De gemeenschappelijkste reden voor kwesties met AEM Desktop die met uw SSO-Toegelaten (SAML) AEM instantie verbinden is dat het proces SAML niet terug naar de oorspronkelijk gevraagde weg opnieuw richt. De verbinding kan ook worden omgeleid naar een host die niet is geconfigureerd in de AEM-bureaubladtoepassing. Voer de volgende stappen uit om het aanmeldingsproces te verifiëren:
+De gemeenschappelijkste reden voor kwesties met de Desktop van AEM die met uw SSO-Toegelaten (SAML) AEM instantie verbinden is dat het proces SAML niet naar het oorspronkelijk gevraagde weg opnieuw richt. De verbinding kan ook worden omgeleid naar een host die niet is geconfigureerd in de AEM-bureaubladtoepassing. Voer de volgende stappen uit om het aanmeldingsproces te verifiëren:
 
 1. Open een webbrowser.
 1. Geef in de adresbalk de URL op `/content/dam.json` .
-1. Vervang de URL door de AEM instantie target, bijvoorbeeld `https://localhost:4502/content/dam.json` .
+1. Vervang de URL door de AEM-doelinstantie, bijvoorbeeld `https://localhost:4502/content/dam.json` .
 1. Meld u aan bij AEM.
 1. Controleer na het aanmelden het huidige adres van de browser in de adresbalk. Deze moet overeenkomen met de URL die u oorspronkelijk hebt ingevoerd.
-1. Controleer of alles voordat `/content/dam.json` overeenkomt met de AEM die in AEM Desktop zijn geconfigureerd.
+1. Controleer of alles voordat `/content/dam.json` overeenkomt met de AEM-doelwaarde die in AEM Desktop is geconfigureerd.
 
 ### Probleem met SSL-configuratie {#ssl-configuration-issue}
 
-De bibliotheken die de AEM-bureaubladtoepassing gebruikt voor HTTP-communicatie, maken gebruik van strikte SSL-handhaving. Soms kan een verbinding met een browser slagen, maar kan de AEM-bureaubladtoepassing niet worden gebruikt. Installeer het ontbrekende tussentijdse certificaat in Apache om SSL op de juiste wijze te configureren. Zie [&#x200B; hoe te om een Tussentijdse cert van CA in Apache &#x200B;](https://access.redhat.com/solutions/43575) te installeren.
+De bibliotheken die de AEM-bureaubladtoepassing gebruikt voor HTTP-communicatie, maken gebruik van strikte SSL-handhaving. Soms kan een verbinding met een browser slagen, maar kan de AEM-bureaubladtoepassing niet worden gebruikt. Installeer het ontbrekende tussentijdse certificaat in Apache om SSL op de juiste wijze te configureren. Zie [ hoe te om een Tussentijdse cert van CA in Apache ](https://access.redhat.com/solutions/43575) te installeren.
 
-## AEM desktop gebruiken met Dispatcher {#using-aem-desktop-with-dispatcher}
+## AEM Desktop gebruiken met Dispatcher {#using-aem-desktop-with-dispatcher}
 
-AEM Desktop werkt met AEM implementaties achter een Dispatcher. Dit is een standaard en aanbevolen configuratie voor AEM servers. AEM verzenders vóór AEM ontwerpomgevingen worden doorgaans geconfigureerd om het in cache plaatsen van DAM-middelen over te slaan. Daarom bieden de verzenders geen extra caching vanuit het standpunt van de AEM Desktop. Zorg ervoor dat de Dispatcher-configuratie is aangepast aan de werking van AEM Desktop. Voor extra details, zie [&#x200B; Verbindend met AEM met Dispatcher &#x200B;](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
+AEM Desktop werkt met AEM-implementaties achter een Dispatcher. Dit is een standaard en aanbevolen configuratie voor AEM-servers. AEM-verzenders vóór AEM-ontwerpomgevingen zijn doorgaans geconfigureerd om DAM-elementen in cache over te slaan. Daarom bieden verzenders geen extra caching vanuit het AEM Desktop-standpunt. Zorg ervoor dat de Dispatcher-configuratie is aangepast aan de AEM Desktop. Voor extra details, zie [ Verbindend met AEM met Dispatcher ](install-configure-app-v1.md#connect-to-an-aem-instance-behind-a-dispatcher).
 
 ## Controleren op logbestanden {#checking-for-log-files}
 

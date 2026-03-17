@@ -158,7 +158,7 @@ Gebruik **[!UICONTROL Toggle Check-out]** om het element te vergrendelen om conf
 * U hebt een middel bewerkt zonder het eerst uit te checken (bijvoorbeeld door het alleen te openen).
 * U bent van plan binnenkort met het bewerken van een element te beginnen en wilt niet dat anderen dit bewerken.
 
-Nadat u alle bewerkingen hebt uitgevoerd, geeft de app de **[!UICONTROL Edited Locally]** -status voor de gewijzigde elementen weer. Alle wijzigingen die in de elementen zijn opgeslagen, zijn alleen lokaal totdat u de wijzigingen in [!DNL Experience Manager] uploadt. Als u een individu of een paar elementen een voor een wilt uploaden, klikt u op **[!UICONTROL Upload Changes]** in de opties voor een element. Er wordt een versie van het element gemaakt in [!DNL Experience Manager] . Gebruikend de interface van het Web van [!DNL Assets], kunt u activageschiedenis in de [&#x200B; mening van de Chronologie &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/using/activity-stream) zien.
+Nadat u alle bewerkingen hebt uitgevoerd, geeft de app de **[!UICONTROL Edited Locally]** -status voor de gewijzigde elementen weer. Alle wijzigingen die in de elementen zijn opgeslagen, zijn alleen lokaal totdat u de wijzigingen in [!DNL Experience Manager] uploadt. Als u een individu of een paar elementen een voor een wilt uploaden, klikt u op **[!UICONTROL Upload Changes]** in de opties voor een element. Er wordt een versie van het element gemaakt in [!DNL Experience Manager] . Gebruikend de interface van het Web van [!DNL Assets], kunt u activageschiedenis in de [&#x200B; mening van de Chronologie &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/using/activity-stream) zien.
 
 ![&#x200B; uploadt veranderingsoptie in app &#x200B;](assets/upload_changes_single1_da2.png " uploadt veranderingsoptie in app ")
 
@@ -302,7 +302,7 @@ Na het uploaden, als de verwachte veranderingen niet in app worden weerspiegeld,
 
 >[!NOTE]
 >
->Gebruik geen uploadfunctionaliteit om elementen over twee [!DNL Experience Manager] -implementaties te migreren. In plaats daarvan, zie de [&#x200B; migratiegids &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
+>Gebruik geen uploadfunctionaliteit om elementen over twee [!DNL Experience Manager] -implementaties te migreren. In plaats daarvan, zie de [&#x200B; migratiegids &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-65/content/assets/administer/assets-migration-guide).
 
 ### Lijst van overgedragen elementen {#list-of-transferred-assets}
 

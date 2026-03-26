@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARCHIVED
 
-Deze reactie is gemigreerd naar <https://github.com/Adobe-Enterprise-Docs/experience-manager-desktop-app.en>
+Deze reactie is gemigreerd naar <https://github.com/Adobe-Enterprise-Docs/experience-manager-desktop-app.nl-NL>
